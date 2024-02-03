@@ -32,7 +32,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpUserXSignUIText]" Type="TG" RefString="Source[global].TextGroup[MpUserXSignUIText].Language[en]">
@@ -86,10 +86,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpUserXSignUIText]" Type="TG" RefString="Source[global].TextGroup[MpUserXSignUIText].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpUserXSignUIText]" Type="TG" RefString="Source[global].TextGroup[MpUserXSignUIText].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">4</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -108,31 +108,31 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">177091</UInt32>
-                <UInt32 Name="TextOffset">84</UInt32>
+                <UInt32 Name="TextOffset">54</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">177092</UInt32>
-                <UInt32 Name="TextOffset">102</UInt32>
+                <UInt32 Name="TextOffset">56</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">177093</UInt32>
-                <UInt32 Name="TextOffset">128</UInt32>
+                <UInt32 Name="TextOffset">58</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"Signatur Dialog"</String>
-              <String Name="Text" Encoding="Unicode">"Passwort"</String>
-              <String Name="Text" Encoding="Unicode">"Benutzername"</String>
-              <String Name="Text" Encoding="Unicode">"MpUserXSignatureUI Nachrichtenbox"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

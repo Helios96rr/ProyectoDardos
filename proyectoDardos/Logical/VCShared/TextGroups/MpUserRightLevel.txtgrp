@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpUserRightLevel">
   <Property Name="Description" Value="UserUI RightsLevel labels"/>
   <Property Name="Index" Value="1014"/>
@@ -11,11 +11,11 @@
     <Text ID="109737" Value="Full Access"/>
     <Text ID="109738" Value=""/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="109734" Value="Kein Zugriff"/>
-    <Text ID="109735" Value="Nur Lesen"/>
-    <Text ID="109736" Value="Nur Start / Stop"/>
-    <Text ID="109737" Value="Voller Zugang"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="109734" Value=""/>
+    <Text ID="109735" Value=""/>
+    <Text ID="109736" Value=""/>
+    <Text ID="109737" Value=""/>
     <Text ID="109738" Value=""/>
   </TextLayer>
   <IndexMap>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpEnergyForwardEnergy">
   <Property Name="Description" Value="Textgroup for converting energy numbers to string"/>
   <Property Name="Index" Value="2102"/>
@@ -267,27 +267,27 @@
     <Text ID="150513" Value="{FwEnergyIdx_18}"/>
     <Text ID="150514" Value="{FwEnergyIdx_19}"/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="150495" Value="{FwEnergyIdx_0}"/>
-    <Text ID="150496" Value="{FwEnergyIdx_1}"/>
-    <Text ID="150497" Value="{FwEnergyIdx_2}"/>
-    <Text ID="150498" Value="{FwEnergyIdx_3}"/>
-    <Text ID="150499" Value="{FwEnergyIdx_4}"/>
-    <Text ID="150500" Value="{FwEnergyIdx_5}"/>
-    <Text ID="150501" Value="{FwEnergyIdx_6}"/>
-    <Text ID="150502" Value="{FwEnergyIdx_7}"/>
-    <Text ID="150503" Value="{FwEnergyIdx_8}"/>
-    <Text ID="150504" Value="{FwEnergyIdx_9}"/>
-    <Text ID="150505" Value="{FwEnergyIdx_10}"/>
-    <Text ID="150506" Value="{FwEnergyIdx_11}"/>
-    <Text ID="150507" Value="{FwEnergyIdx_12}"/>
-    <Text ID="150508" Value="{FwEnergyIdx_13}"/>
-    <Text ID="150509" Value="{FwEnergyIdx_14}"/>
-    <Text ID="150510" Value="{FwEnergyIdx_15}"/>
-    <Text ID="150511" Value="{FwEnergyIdx_16}"/>
-    <Text ID="150512" Value="{FwEnergyIdx_17}"/>
-    <Text ID="150513" Value="{FwEnergyIdx_18}"/>
-    <Text ID="150514" Value="{FwEnergyIdx_19}"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="150495" Value=""/>
+    <Text ID="150496" Value=""/>
+    <Text ID="150497" Value=""/>
+    <Text ID="150498" Value=""/>
+    <Text ID="150499" Value=""/>
+    <Text ID="150500" Value=""/>
+    <Text ID="150501" Value=""/>
+    <Text ID="150502" Value=""/>
+    <Text ID="150503" Value=""/>
+    <Text ID="150504" Value=""/>
+    <Text ID="150505" Value=""/>
+    <Text ID="150506" Value=""/>
+    <Text ID="150507" Value=""/>
+    <Text ID="150508" Value=""/>
+    <Text ID="150509" Value=""/>
+    <Text ID="150510" Value=""/>
+    <Text ID="150511" Value=""/>
+    <Text ID="150512" Value=""/>
+    <Text ID="150513" Value=""/>
+    <Text ID="150514" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="150495" Value="0"/>

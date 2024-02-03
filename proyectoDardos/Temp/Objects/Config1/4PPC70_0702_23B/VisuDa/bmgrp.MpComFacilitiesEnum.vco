@@ -3,7 +3,7 @@
 <Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
   <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="19" Type="REF" RefString="Source[local].BitmapGroup[MpComFacilitiesEnum]" />
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="BitmapGroups">
         <Folder Name="POBJ">
           <Object Name="MpComFacilitiesEnum" ClsId="0x308" Version="1" TargetIndex="19" Type="BMPG" RefString="Source[local].BitmapGroup[MpComFacilitiesEnum_en]">
@@ -82,10 +82,10 @@
         </Folder>
       </Folder>
     </Folder>
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="BitmapGroups">
         <Folder Name="POBJ">
-          <Object Name="MpComFacilitiesEnum" ClsId="0x308" Version="1" TargetIndex="19" Type="BMPG" RefString="Source[local].BitmapGroup[MpComFacilitiesEnum_de]">
+          <Object Name="MpComFacilitiesEnum" ClsId="0x308" Version="1" TargetIndex="19" Type="BMPG" RefString="Source[local].BitmapGroup[MpComFacilitiesEnum_es-MX]">
             <UInt32 Name="Count">14</UInt32>
             <Group Name="MpFile_FOLDER">
               <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[MpFile_FOLDER]</Reference>

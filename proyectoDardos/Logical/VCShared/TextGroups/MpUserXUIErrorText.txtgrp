@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpUserXUIErrorText">
   <Property Name="Description" Value="Error text for UserUI"/>
   <Property Name="Index" Value="1010"/>
@@ -50,51 +50,51 @@
     <Text ID="185533" Value="The file being imported has an invalid format"/>
     <Text ID="190030" Value="Must contain special characters!"/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="109690" Value="Das eingegebene Passwort ist ungültig."/>
-    <Text ID="109691" Value="Der eingegebene Benutzer existiert nicht"/>
-    <Text ID="109692" Value="Der eingegebene Benutzername existiert bereits"/>
-    <Text ID="109693" Value="Der verwendete Login Token ist ungültig für den angegebenen Benutzer."/>
-    <Text ID="109694" Value="Benutzer hat keine Administratorrechte."/>
-    <Text ID="109695" Value="Passwortänderung erforderlich"/>
-    <Text ID="109696" Value="Dieser Benutzer ist gesperrt."/>
-    <Text ID="109697" Value="Gewähltes Passwort ist nicht sicher genug."/>
-    <Text ID="109698" Value="Die angegebene Rolle existiert nicht."/>
-    <Text ID="109699" Value="Benutzerrechte sind für die gewünschte Operation unzureichend."/>
-    <Text ID="109700" Value="Der gewählte Benutzer konnte nicht gelöscht werden. (Internen Fehler)"/>
-    <Text ID="109701" Value="Der gewählte Benutzername für diesen Token existiert bereits"/>
-    <Text ID="109702" Value="Das neue und das alte Passwort sind identisch."/>
-    <Text ID="109703" Value="Der Benutzer muss das Passwort ändern, davor sind weitere Funktionen nicht möglich."/>
-    <Text ID="109704" Value="Es wurde ein ungültiger Benutzername (NULL) übergeben."/>
-    <Text ID="109705" Value="Der Benutzer hat zu oft das falsche Passwort verwendet und wurde gesperrt."/>
-    <Text ID="109706" Value="Der Index für die gewählte Funktion übersteigt den maximalen Index, die Rechte können nicht abgefragt werden "/>
-    <Text ID="109707" Value="Der eingeloggte Benutzer hat keine Adminrechte. "/>
-    <Text ID="109708" Value="In dieser Gruppe existiert bereits ein Benutzermanagement."/>
-    <Text ID="109709" Value="Es ist kein Benutzer eingeloggt."/>
-    <Text ID="109710" Value="Es wurde ein ungültiger Rollenname (NULL) übergeben."/>
-    <Text ID="109711" Value="Der angegebene Benutzer ist bereits eingeloggt."/>
-    <Text ID="109712" Value="An &quot;UIConnect&quot; wurde NULL angehängt."/>
-    <Text ID="109713" Value="Es wurde kein Passwort eingegeben"/>
-    <Text ID="109714" Value="Der Funktionsblock MpUserXLogin fehlt oder ist falsch konfiguriert."/>
-    <Text ID="109715" Value="Das zur Bestätigung eingegebene Passwort stimmt nicht mit dem neuen Passwort überein."/>
-    <Text ID="133675" Value="Das angegebene Systemrecht wurde nicht gefunden "/>
-    <Text ID="133679" Value="Insufficient Length"/>
-    <Text ID="133680" Value="Must contain numbers and characters!"/>
-    <Text ID="133681" Value="Must contain upper- and lower-case letters!"/>
-    <Text ID="185518" Value="Import fehlgeschlagen"/>
-    <Text ID="185519" Value="Beim Laden der Importdatei ist ein Fehler aufgetreten. "/>
-    <Text ID="185520" Value="Beim Speichern der Exportdatei ist ein Fehler aufgetreten"/>
-    <Text ID="185521" Value="Der Name der eingegebenen Rolle ist zu lange"/>
-    <Text ID="185522" Value="Der Name des eingegebenen Benutzers ist zu lange "/>
-    <Text ID="185523" Value="Der Name des eingegebenen Passwortes ist zu lange "/>
-    <Text ID="185524" Value="MpUserXLgoin ist noch nicht aktiv"/>
-    <Text ID="185525" Value="Der eingegebene Benutzername ist zu kurz."/>
-    <Text ID="185526" Value="Die eingegebene Rolle existiert bereits"/>
-    <Text ID="185530" Value="Maximale Anzahl an Signatur-Versuchen überschritten"/>
-    <Text ID="185531" Value="Es wurde eine neue Signatur gestartet, bevor die letzte signierte Aktion ausgeführt wurde"/>
-    <Text ID="185532" Value="Das eingegebene Passwort wurde bereits verwendet und kann nicht nocheinmal angegeben werden"/>
-    <Text ID="185533" Value="Die Datei welche Importiert werden soll, besitzt ein ungültiges Format."/>
-    <Text ID="190030" Value="Must contain special characters!"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="109690" Value=""/>
+    <Text ID="109691" Value=""/>
+    <Text ID="109692" Value=""/>
+    <Text ID="109693" Value=""/>
+    <Text ID="109694" Value=""/>
+    <Text ID="109695" Value=""/>
+    <Text ID="109696" Value=""/>
+    <Text ID="109697" Value=""/>
+    <Text ID="109698" Value=""/>
+    <Text ID="109699" Value=""/>
+    <Text ID="109700" Value=""/>
+    <Text ID="109701" Value=""/>
+    <Text ID="109702" Value=""/>
+    <Text ID="109703" Value=""/>
+    <Text ID="109704" Value=""/>
+    <Text ID="109705" Value=""/>
+    <Text ID="109706" Value=""/>
+    <Text ID="109707" Value=""/>
+    <Text ID="109708" Value=""/>
+    <Text ID="109709" Value=""/>
+    <Text ID="109710" Value=""/>
+    <Text ID="109711" Value=""/>
+    <Text ID="109712" Value=""/>
+    <Text ID="109713" Value=""/>
+    <Text ID="109714" Value=""/>
+    <Text ID="109715" Value=""/>
+    <Text ID="133675" Value=""/>
+    <Text ID="133679" Value=""/>
+    <Text ID="133680" Value=""/>
+    <Text ID="133681" Value=""/>
+    <Text ID="185518" Value=""/>
+    <Text ID="185519" Value=""/>
+    <Text ID="185520" Value=""/>
+    <Text ID="185521" Value=""/>
+    <Text ID="185522" Value=""/>
+    <Text ID="185523" Value=""/>
+    <Text ID="185524" Value=""/>
+    <Text ID="185525" Value=""/>
+    <Text ID="185526" Value=""/>
+    <Text ID="185530" Value=""/>
+    <Text ID="185531" Value=""/>
+    <Text ID="185532" Value=""/>
+    <Text ID="185533" Value=""/>
+    <Text ID="190030" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="109690" Value="28672"/>

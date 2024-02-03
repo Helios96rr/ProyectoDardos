@@ -316,7 +316,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAlarmXListEventID]" Type="TG" RefString="Source[global].TextGroup[MpAlarmXListEventID].Language[en]">
@@ -378,10 +378,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAlarmXListEventID]" Type="TG" RefString="Source[global].TextGroup[MpAlarmXListEventID].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAlarmXListEventID]" Type="TG" RefString="Source[global].TextGroup[MpAlarmXListEventID].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">5</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -394,45 +394,45 @@
               <TableRow>
                 <UInt32 Name="TextIndex">183027</UInt32>
                 <UInt32 Name="TextOffset">64</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">183028</UInt32>
-                <UInt32 Name="TextOffset">88</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">66</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">183029</UInt32>
-                <UInt32 Name="TextOffset">112</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">68</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">183047</UInt32>
-                <UInt32 Name="TextOffset">136</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">70</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">183048</UInt32>
-                <UInt32 Name="TextOffset">160</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">72</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"&#x1;EventID_0&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;EventID_1&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;EventID_2&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;EventID_3&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;EventID_4&#x2;"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

@@ -48,7 +48,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpFileManagerUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpFileManagerUIMessageBox].Language[en]">
@@ -134,10 +134,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpFileManagerUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpFileManagerUIMessageBox].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpFileManagerUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpFileManagerUIMessageBox].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">8</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -163,42 +163,42 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">97157</UInt32>
-                <UInt32 Name="TextOffset">130</UInt32>
+                <UInt32 Name="TextOffset">104</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">97158</UInt32>
-                <UInt32 Name="TextOffset">170</UInt32>
+                <UInt32 Name="TextOffset">106</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">97160</UInt32>
-                <UInt32 Name="TextOffset">194</UInt32>
+                <UInt32 Name="TextOffset">108</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">97161</UInt32>
-                <UInt32 Name="TextOffset">304</UInt32>
+                <UInt32 Name="TextOffset">110</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">97162</UInt32>
-                <UInt32 Name="TextOffset">522</UInt32>
+                <UInt32 Name="TextOffset">112</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">112086</UInt32>
-                <UInt32 Name="TextOffset">618</UInt32>
+                <UInt32 Name="TextOffset">114</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
@@ -206,13 +206,13 @@
             </Table>
             <Group Name="Texts">
               <String Name="Text" Encoding="Unicode">""</String>
-              <String Name="Text" Encoding="Unicode">"Datei löschen"</String>
-              <String Name="Text" Encoding="Unicode">"Datei überschreiben"</String>
-              <String Name="Text" Encoding="Unicode">"Beschäftigt"</String>
-              <String Name="Text" Encoding="Unicode">"Sind Sie sicher, dass Sie diese Datei löschen möchten?"</String>
-              <String Name="Text" Encoding="Unicode">"Datei mit dem gleichen Namen existiert bereits. Sind Sie sicher, dass Sie diese Datei überschreiben möchten?"</String>
-              <String Name="Text" Encoding="Unicode">"UI ist mit einem vorherigen Befehl beschäftigt "</String>
-              <String Name="Text" Encoding="Unicode">"MpFileManagerUI Nachrichtenbox"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

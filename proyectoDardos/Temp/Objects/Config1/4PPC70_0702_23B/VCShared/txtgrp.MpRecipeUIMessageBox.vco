@@ -44,7 +44,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpRecipeUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpRecipeUIMessageBox].Language[en]">
@@ -122,10 +122,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpRecipeUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpRecipeUIMessageBox].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpRecipeUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpRecipeUIMessageBox].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">7</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -144,55 +144,55 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">110802</UInt32>
-                <UInt32 Name="TextOffset">142</UInt32>
+                <UInt32 Name="TextOffset">90</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">110803</UInt32>
-                <UInt32 Name="TextOffset">204</UInt32>
+                <UInt32 Name="TextOffset">92</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">110804</UInt32>
-                <UInt32 Name="TextOffset">262</UInt32>
+                <UInt32 Name="TextOffset">94</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">112087</UInt32>
-                <UInt32 Name="TextOffset">264</UInt32>
+                <UInt32 Name="TextOffset">96</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">140371</UInt32>
-                <UInt32 Name="TextOffset">316</UInt32>
+                <UInt32 Name="TextOffset">98</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">168873</UInt32>
-                <UInt32 Name="TextOffset">374</UInt32>
+                <UInt32 Name="TextOffset">100</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"Wollen Sie wirklich laden?"</String>
-              <String Name="Text" Encoding="Unicode">"Wollen Sie wirklich speichern?"</String>
-              <String Name="Text" Encoding="Unicode">"Wollen Sie wirklich anlegen?"</String>
               <String Name="Text" Encoding="Unicode">""</String>
-              <String Name="Text" Encoding="Unicode">"MpRecipeUI Nachrichtenbox"</String>
-              <String Name="Text" Encoding="Unicode">"Wollen Sie wirklich löschen?"</String>
-              <String Name="Text" Encoding="Unicode">"Wollen Sie wirklich umbenennen?"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

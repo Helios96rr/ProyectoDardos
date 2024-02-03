@@ -5,7 +5,7 @@
     Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Package.pkg"
     LogicalPath=""
     Type="Package.ParentUnknown"
-    LastWriteTime="133514523886640434" />
+    LastWriteTime="133514532705358186" />
   <Object
     Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Global.typ"
     LogicalPath="Global.typ"
@@ -216,7 +216,7 @@
     Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Visu\Package.pkg"
     LogicalPath="Visu"
     Type="Package"
-    LastWriteTime="133514524966561513" />
+    LastWriteTime="133514565140910510" />
   <Object
     Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Visu\VisuCtrl\IEC.prg"
     LogicalPath="Visu.VisuCtrl"
@@ -252,6 +252,17 @@
     LastWriteTime="133514524966596928"
     Private="false" />
   <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Doc\Package.pkg"
+    LogicalPath="Doc"
+    Type="Package"
+    LastWriteTime="133514532741300842" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Doc\Main.png"
+    LogicalPath="Doc.Main.png"
+    Type="File"
+    LastWriteTime="133514532741275180"
+    Private="false" />
+  <Object
     Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\Config.pkg"
     LogicalPath="Config1"
     Type="Configuration.ParentUnknown"
@@ -272,12 +283,12 @@
     Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\Cpu.pkg"
     LogicalPath="Config1.4PPC70_0702_23B"
     Type="Cpu"
-    LastWriteTime="133514529762201731" />
+    LastWriteTime="133514596147045139" />
   <Object
     Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\Cpu.sw"
     LogicalPath="Config1.4PPC70_0702_23B.Cpu.sw"
     Type="File"
-    LastWriteTime="133514530738502286"
+    LastWriteTime="133514565144552442"
     Private="false" />
   <Object
     Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\Cpu.per"

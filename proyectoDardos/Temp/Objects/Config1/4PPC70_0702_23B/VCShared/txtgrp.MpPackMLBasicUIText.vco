@@ -48,7 +48,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpPackMLBasicUIText]" Type="TG" RefString="Source[global].TextGroup[MpPackMLBasicUIText].Language[en]">
@@ -134,10 +134,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpPackMLBasicUIText]" Type="TG" RefString="Source[global].TextGroup[MpPackMLBasicUIText].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpPackMLBasicUIText]" Type="TG" RefString="Source[global].TextGroup[MpPackMLBasicUIText].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">8</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -156,59 +156,59 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">117719</UInt32>
-                <UInt32 Name="TextOffset">132</UInt32>
+                <UInt32 Name="TextOffset">102</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">117720</UInt32>
-                <UInt32 Name="TextOffset">162</UInt32>
+                <UInt32 Name="TextOffset">104</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">117721</UInt32>
-                <UInt32 Name="TextOffset">198</UInt32>
+                <UInt32 Name="TextOffset">106</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">117722</UInt32>
-                <UInt32 Name="TextOffset">242</UInt32>
+                <UInt32 Name="TextOffset">108</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">117723</UInt32>
-                <UInt32 Name="TextOffset">244</UInt32>
+                <UInt32 Name="TextOffset">110</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">117724</UInt32>
-                <UInt32 Name="TextOffset">246</UInt32>
+                <UInt32 Name="TextOffset">112</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">117725</UInt32>
-                <UInt32 Name="TextOffset">248</UInt32>
+                <UInt32 Name="TextOffset">114</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"MpPackMLBasicUI"</String>
-              <String Name="Text" Encoding="Unicode">"Aktueller Mode"</String>
-              <String Name="Text" Encoding="Unicode">"Aktueller Zustand"</String>
-              <String Name="Text" Encoding="Unicode">"MpPackML StatisticsUI"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
               <String Name="Text" Encoding="Unicode">""</String>
               <String Name="Text" Encoding="Unicode">""</String>
               <String Name="Text" Encoding="Unicode">""</String>

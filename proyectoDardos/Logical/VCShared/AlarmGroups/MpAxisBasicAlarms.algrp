@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpAxisBasicAlarms">
   <Property Name="AcknowledgeImage" Value="Source[global].Variable[DataSource.MpAxisBasicAlarmUIConnect.AcknowledgeImage]"/>
   <Property Name="ActiveBackColor" Value="4"/>
@@ -390,23 +390,23 @@
       <Text ID="2555" Value="Torque reached the configured limit {AddInfo15} "/>
       <Text ID="2068" Value=""/>
     </TextLayer>
-    <TextLayer LanguageId="de">
-      <Text ID="1059" Value="Eingabeparameter ungültig {AddInfo2}"/>
-      <Text ID="1060" Value="Motor Übertemperatur {AddInfo3}"/>
-      <Text ID="1061" Value="Schleppfehler {AddInfo4}"/>
-      <Text ID="1062" Value="Positiver oder negativer Endschalter erreicht {AddInfo5}"/>
-      <Text ID="1063" Value="Spannungseinbruch am Enable Eingang des Antriebs {AddInfo6}"/>
-      <Text ID="1064" Value="Geberfehler (Signalamplitude) {AddInfo7}"/>
-      <Text ID="1065" Value="Hauptspannungsfehler: Zwischenkreis Spannungseinbruch, Überspannung, Überstrom {AddInfo8}"/>
-      <Text ID="1066" Value="Fehler in der Sicherheitstechnik {AddInfo9}"/>
-      <Text ID="1067" Value="Haltebremse: Fehler {AddInfo10}"/>
-      <Text ID="1068" Value="Kommunikation (Powerlink) abgebrochen, Kabel nicht gesteckt oder defekt {AddInfo11}"/>
-      <Text ID="1069" Value="Überlast am Antrieb {AddInfo12}"/>
-      <Text ID="1070" Value="Überlast am Motor {AddInfo13}"/>
-      <Text ID="1071" Value="Genereller Antriebsfehler {AddInfo0}"/>
-      <Text ID="1072" Value="Fehler während der Initialisierungsphase {AddInfo1}"/>
-      <Text ID="2462" Value="Genereller Antriebswarnung {AddInfo14}"/>
-      <Text ID="2555" Value="Drehmoment hat den konfigurierten Grenzwert erreicht {AddInfo15}"/>
+    <TextLayer LanguageId="es-MX">
+      <Text ID="1059" Value=""/>
+      <Text ID="1060" Value=""/>
+      <Text ID="1061" Value=""/>
+      <Text ID="1062" Value=""/>
+      <Text ID="1063" Value=""/>
+      <Text ID="1064" Value=""/>
+      <Text ID="1065" Value=""/>
+      <Text ID="1066" Value=""/>
+      <Text ID="1067" Value=""/>
+      <Text ID="1068" Value=""/>
+      <Text ID="1069" Value=""/>
+      <Text ID="1070" Value=""/>
+      <Text ID="1071" Value=""/>
+      <Text ID="1072" Value=""/>
+      <Text ID="2462" Value=""/>
+      <Text ID="2555" Value=""/>
       <Text ID="2068" Value=""/>
     </TextLayer>
     <IndexMap>

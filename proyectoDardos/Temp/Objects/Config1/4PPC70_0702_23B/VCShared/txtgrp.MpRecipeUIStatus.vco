@@ -44,7 +44,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpRecipeUIStatus]" Type="TG" RefString="Source[global].TextGroup[MpRecipeUIStatus].Language[en]">
@@ -122,10 +122,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpRecipeUIStatus]" Type="TG" RefString="Source[global].TextGroup[MpRecipeUIStatus].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpRecipeUIStatus]" Type="TG" RefString="Source[global].TextGroup[MpRecipeUIStatus].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">7</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -144,55 +144,55 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">110777</UInt32>
-                <UInt32 Name="TextOffset">98</UInt32>
+                <UInt32 Name="TextOffset">90</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">110778</UInt32>
-                <UInt32 Name="TextOffset">110</UInt32>
+                <UInt32 Name="TextOffset">92</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">110779</UInt32>
-                <UInt32 Name="TextOffset">130</UInt32>
+                <UInt32 Name="TextOffset">94</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">110780</UInt32>
-                <UInt32 Name="TextOffset">146</UInt32>
+                <UInt32 Name="TextOffset">96</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">110781</UInt32>
-                <UInt32 Name="TextOffset">162</UInt32>
+                <UInt32 Name="TextOffset">98</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">110782</UInt32>
-                <UInt32 Name="TextOffset">194</UInt32>
+                <UInt32 Name="TextOffset">100</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"IDLE"</String>
-              <String Name="Text" Encoding="Unicode">"LADEN"</String>
-              <String Name="Text" Encoding="Unicode">"SPEICHERN"</String>
-              <String Name="Text" Encoding="Unicode">"ANLEGEN"</String>
-              <String Name="Text" Encoding="Unicode">"REFRESH"</String>
-              <String Name="Text" Encoding="Unicode">"BENACHRICHTIGEN"</String>
-              <String Name="Text" Encoding="Unicode">"FEHLER"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

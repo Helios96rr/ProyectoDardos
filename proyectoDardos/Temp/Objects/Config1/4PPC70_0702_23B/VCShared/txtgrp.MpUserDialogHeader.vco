@@ -40,7 +40,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpUserDialogHeader]" Type="TG" RefString="Source[global].TextGroup[MpUserDialogHeader].Language[en]">
@@ -110,10 +110,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpUserDialogHeader]" Type="TG" RefString="Source[global].TextGroup[MpUserDialogHeader].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpUserDialogHeader]" Type="TG" RefString="Source[global].TextGroup[MpUserDialogHeader].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">6</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -132,47 +132,47 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">109680</UInt32>
-                <UInt32 Name="TextOffset">90</UInt32>
+                <UInt32 Name="TextOffset">78</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">109681</UInt32>
-                <UInt32 Name="TextOffset">124</UInt32>
+                <UInt32 Name="TextOffset">80</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">109682</UInt32>
-                <UInt32 Name="TextOffset">158</UInt32>
+                <UInt32 Name="TextOffset">82</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">109683</UInt32>
-                <UInt32 Name="TextOffset">198</UInt32>
+                <UInt32 Name="TextOffset">84</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">166686</UInt32>
-                <UInt32 Name="TextOffset">200</UInt32>
+                <UInt32 Name="TextOffset">86</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"Fehler"</String>
-              <String Name="Text" Encoding="Unicode">"Anwender Löschen"</String>
-              <String Name="Text" Encoding="Unicode">"Anwender Sperren"</String>
-              <String Name="Text" Encoding="Unicode">"Anwender entsperren"</String>
               <String Name="Text" Encoding="Unicode">""</String>
-              <String Name="Text" Encoding="Unicode">"Gruppe Löschen"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

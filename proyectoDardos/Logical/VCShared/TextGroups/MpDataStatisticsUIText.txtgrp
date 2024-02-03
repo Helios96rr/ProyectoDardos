@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpDataStatisticsUIText">
   <Property Name="Description" Value="General page text for DataStatisticsUI"/>
   <Property Name="Index" Value="1194"/>
@@ -22,15 +22,15 @@
     <Text ID="165373" Value=""/>
     <Text ID="165374" Value=""/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="165359" Value="MpDataStatisticsUI"/>
-    <Text ID="165360" Value="Maximum"/>
-    <Text ID="165361" Value="Minimum"/>
-    <Text ID="165362" Value="Auswahl"/>
-    <Text ID="165363" Value="Mittel"/>
-    <Text ID="165364" Value="Status"/>
-    <Text ID="165365" Value="MpData StatisticsUI"/>
-    <Text ID="165366" Value="Standard Abweichung"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="165359" Value=""/>
+    <Text ID="165360" Value=""/>
+    <Text ID="165361" Value=""/>
+    <Text ID="165362" Value=""/>
+    <Text ID="165363" Value=""/>
+    <Text ID="165364" Value=""/>
+    <Text ID="165365" Value=""/>
+    <Text ID="165366" Value=""/>
     <Text ID="165367" Value=""/>
     <Text ID="165368" Value=""/>
     <Text ID="165369" Value=""/>

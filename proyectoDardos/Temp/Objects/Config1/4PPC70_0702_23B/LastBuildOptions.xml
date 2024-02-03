@@ -32,7 +32,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4ppc70_0702_23b\iomap.iom" LastWriteTime="2024-02-03 16:45:10" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4ppc70_0702_23b\pvmap.vvm" LastWriteTime="2024-02-03 16:45:10" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\hardware.hw" LastWriteTime="2024-02-03 16:56:48" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4ppc70_0702_23b\cpu.sw" LastWriteTime="2024-02-03 16:57:52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4ppc70_0702_23b\cpu.sw" LastWriteTime="2024-02-03 17:55:14" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_23b\channelconfiguration.xml" LastWriteTime="2024-02-03 16:50:52" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\4PPC70_0702_23B\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Config1\4PPC70_0702_23B\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PPC70_0702_23B\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PPC70_0702_23B\ChannelConfiguration.xml&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PPC70_0702_23B&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PPC70_0702_23B\iomap.br&quot; -T SG4 -B B4.92 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Config1.4PPC70_0702_23B&quot;" />
   </Rule>
@@ -160,7 +160,7 @@
     <CommandLine Parameter="&quot;Visu.VisuDardos&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PPC70_0702_23B\VisuDa.br&quot; -T SG4 -B B4.92 -c &quot;Config1&quot; -S &quot;4PPC70_0702_23B&quot; -P &quot;$(AS_PROJECT_PATH)&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot; -V &quot;V4.72.5&quot; -apj &quot;proyectoDardos&quot; -v V1.00.0 -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PPC70_0702_23B\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -L &quot;visapi: V*&quot; -w2 -sfas" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_23b\visuda.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_23b\visuda\visuda.mak" LastWriteTime="2024-02-03 16:58:12" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_23b\visuda\visuda.mak" LastWriteTime="2024-02-03 18:47:22" />
     <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\4PPC70_0702_23B\#cpu_vc.mak&quot; -k" />
   </Rule>
   <Rule ID="#cpu_tp.mak">
@@ -183,8 +183,8 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_23b\scorectrl.br" LastWriteTime="2024-02-03 16:58:08" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_23b\visapi.br" LastWriteTime="2021-03-18 20:19:00" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_23b\standard.br" LastWriteTime="2021-12-02 10:49:00" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_23b\visuda.br" LastWriteTime="2024-02-03 16:58:20" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4ppc70_0702_23b\cpu.sw" LastWriteTime="2024-02-03 16:57:52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\4ppc70_0702_23b\visuda.br" LastWriteTime="2024-02-03 18:38:06" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\4ppc70_0702_23b\cpu.sw" LastWriteTime="2024-02-03 17:55:14" />
     <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\proyectoDardos.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Config1&quot; -i &quot;C:\BrAutomation\AS411&quot; -S &quot;4PPC70_0702_23B&quot; -A &quot;PPC7x&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Config1\4PPC70_0702_23B\Cpu.sw&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -C &quot;/COMT=2500 /RT=1000 /AM=* /DAIP=127.0.0.1 /REPO=11160 /ANSL=1&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -M IA32 -T SG4" />
   </Rule>
 </RuleSetOptions>

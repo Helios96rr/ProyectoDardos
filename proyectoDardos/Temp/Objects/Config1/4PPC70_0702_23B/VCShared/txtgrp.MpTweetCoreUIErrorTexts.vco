@@ -36,7 +36,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpTweetCoreUIErrorTexts]" Type="TG" RefString="Source[global].TextGroup[MpTweetCoreUIErrorTexts].Language[en]">
@@ -98,10 +98,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpTweetCoreUIErrorTexts]" Type="TG" RefString="Source[global].TextGroup[MpTweetCoreUIErrorTexts].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpTweetCoreUIErrorTexts]" Type="TG" RefString="Source[global].TextGroup[MpTweetCoreUIErrorTexts].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">5</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -120,39 +120,39 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">195424</UInt32>
-                <UInt32 Name="TextOffset">134</UInt32>
+                <UInt32 Name="TextOffset">66</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">195425</UInt32>
-                <UInt32 Name="TextOffset">230</UInt32>
+                <UInt32 Name="TextOffset">68</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">195426</UInt32>
-                <UInt32 Name="TextOffset">332</UInt32>
+                <UInt32 Name="TextOffset">70</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">195427</UInt32>
-                <UInt32 Name="TextOffset">422</UInt32>
+                <UInt32 Name="TextOffset">72</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"Angegebener Empfänger ist ungültig"</String>
-              <String Name="Text" Encoding="Unicode">"Es ist eine ungültige Anfrage empfangen worden."</String>
-              <String Name="Text" Encoding="Unicode">"Es wird gerade die Verbindung zum Server aufgebaut"</String>
-              <String Name="Text" Encoding="Unicode">"Die Nachricht konnte nicht versendet werden."</String>
-              <String Name="Text" Encoding="Unicode">"Der Server hat nicht innerhalb des definierten Zeitlimits geantwortet."</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

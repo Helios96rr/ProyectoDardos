@@ -139,7 +139,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[Power_embedded]" Type="TG" RefString="Source[global].TextGroup[Power_embedded].Language[en]">
@@ -217,10 +217,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[Power_embedded]" Type="TG" RefString="Source[global].TextGroup[Power_embedded].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[Power_embedded]" Type="TG" RefString="Source[global].TextGroup[Power_embedded].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">7</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -239,55 +239,55 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">260</UInt32>
-                <UInt32 Name="TextOffset">98</UInt32>
+                <UInt32 Name="TextOffset">90</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">261</UInt32>
-                <UInt32 Name="TextOffset">102</UInt32>
+                <UInt32 Name="TextOffset">92</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">262</UInt32>
-                <UInt32 Name="TextOffset">120</UInt32>
+                <UInt32 Name="TextOffset">94</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">7583</UInt32>
-                <UInt32 Name="TextOffset">126</UInt32>
+                <UInt32 Name="TextOffset">96</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">7584</UInt32>
-                <UInt32 Name="TextOffset">128</UInt32>
+                <UInt32 Name="TextOffset">98</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">87034</UInt32>
-                <UInt32 Name="TextOffset">130</UInt32>
+                <UInt32 Name="TextOffset">100</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"Watt"</String>
-              <String Name="Text" Encoding="Unicode">"W"</String>
-              <String Name="Text" Encoding="Unicode">"Kilowatt"</String>
-              <String Name="Text" Encoding="Unicode">"kW"</String>
               <String Name="Text" Encoding="Unicode">""</String>
               <String Name="Text" Encoding="Unicode">""</String>
-              <String Name="Text" Encoding="Unicode">"Watt"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

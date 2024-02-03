@@ -4,7 +4,7 @@
   <Folder Name="BorderManager">
     <Folder Name="POBJ">
       <Object Name="BorderManager" ClsId="0x111" Version="1" Type="MGR" RefString="Source[local].BorderManager[default]">
-        <UInt32 Name="BorderCount">62</UInt32>
+        <UInt32 Name="BorderCount">63</UInt32>
         <Group Name="Mp_AttentionOff">
           <UInt32 Name="BorderType">12293</UInt32>
           <UInt16 Name="PaddingHorizontal">2</UInt16>
@@ -920,6 +920,18 @@
           <UInt32 Name="BorderBitmapGroup">4294967295</UInt32>
           <Reference Name="BorderBitmap" Type="">Source[local].Bitmap[MpLabelBorderDown_Orange]</Reference>
         </Group>
+        <Group Name="BorderGold">
+          <UInt32 Name="BorderType">12291</UInt32>
+          <UInt16 Name="PaddingHorizontal">2</UInt16>
+          <UInt16 Name="PaddingVertical">1</UInt16>
+          <UInt32 Name="LeftTopColor">47</UInt32>
+          <UInt32 Name="RightBottomColor">78</UInt32>
+          <UInt32 Name="Reserved">0</UInt32>
+          <UInt32 Name="Reserved">0</UInt32>
+          <UInt16 Name="BorderWidth">2</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <UInt32 Name="Reserved">0</UInt32>
+        </Group>
       </Object>
       <Folder Name="BorderObjects">
         <Object Name="Mp_AttentionOff" ClsId="0x0" Version="0" TargetIndex="0" Type="BRD" RefString="Source[local].Border[Mp_AttentionOff]" />
@@ -984,6 +996,7 @@
         <Object Name="Mp_Button_Safety_ACK_off" ClsId="0x0" Version="0" TargetIndex="59" Type="BRD" RefString="Source[local].Border[Mp_Button_Safety_ACK_off]" />
         <Object Name="Mp_Button_Safety_ACK_on" ClsId="0x0" Version="0" TargetIndex="60" Type="BRD" RefString="Source[local].Border[Mp_Button_Safety_ACK_on]" />
         <Object Name="Mp_LabelBorder_Orange" ClsId="0x0" Version="0" TargetIndex="61" Type="BRD" RefString="Source[local].Border[Mp_LabelBorder_Orange]" />
+        <Object Name="BorderGold" ClsId="0x0" Version="0" TargetIndex="62" Type="BRD" RefString="Source[local].Border[BorderGold]" />
       </Folder>
     </Folder>
   </Folder>

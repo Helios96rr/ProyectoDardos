@@ -28,7 +28,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditUIErrorText]" Type="TG" RefString="Source[global].TextGroup[MpAuditUIErrorText].Language[en]">
@@ -74,10 +74,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditUIErrorText]" Type="TG" RefString="Source[global].TextGroup[MpAuditUIErrorText].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditUIErrorText]" Type="TG" RefString="Source[global].TextGroup[MpAuditUIErrorText].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">3</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -96,23 +96,23 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">188286</UInt32>
-                <UInt32 Name="TextOffset">104</UInt32>
+                <UInt32 Name="TextOffset">42</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">188288</UInt32>
-                <UInt32 Name="TextOffset">220</UInt32>
+                <UInt32 Name="TextOffset">44</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"Textquelle wurde nicht gefunden"</String>
-              <String Name="Text" Encoding="Unicode">"Beim Schreiben der Exportdatei ist ein Fehler aufgetreten"</String>
-              <String Name="Text" Encoding="Unicode">"Fehler beim Lesen der Ereignisse"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

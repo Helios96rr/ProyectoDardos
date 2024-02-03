@@ -1216,7 +1216,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpEnergyForwardEnergy]" Type="TG" RefString="Source[global].TextGroup[MpEnergyForwardEnergy].Language[en]">
@@ -1398,10 +1398,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpEnergyForwardEnergy]" Type="TG" RefString="Source[global].TextGroup[MpEnergyForwardEnergy].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpEnergyForwardEnergy]" Type="TG" RefString="Source[global].TextGroup[MpEnergyForwardEnergy].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">20</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -1414,165 +1414,165 @@
               <TableRow>
                 <UInt32 Name="TextIndex">150495</UInt32>
                 <UInt32 Name="TextOffset">244</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150496</UInt32>
-                <UInt32 Name="TextOffset">276</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">246</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150497</UInt32>
-                <UInt32 Name="TextOffset">308</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">248</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150498</UInt32>
-                <UInt32 Name="TextOffset">340</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">250</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150499</UInt32>
-                <UInt32 Name="TextOffset">372</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">252</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150500</UInt32>
-                <UInt32 Name="TextOffset">404</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">254</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150501</UInt32>
-                <UInt32 Name="TextOffset">436</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">256</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150502</UInt32>
-                <UInt32 Name="TextOffset">468</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">258</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150503</UInt32>
-                <UInt32 Name="TextOffset">500</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">260</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150504</UInt32>
-                <UInt32 Name="TextOffset">532</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">262</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150505</UInt32>
-                <UInt32 Name="TextOffset">564</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">264</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150506</UInt32>
-                <UInt32 Name="TextOffset">598</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">266</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150507</UInt32>
-                <UInt32 Name="TextOffset">632</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">268</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150508</UInt32>
-                <UInt32 Name="TextOffset">666</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">270</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150509</UInt32>
-                <UInt32 Name="TextOffset">700</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">272</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150510</UInt32>
-                <UInt32 Name="TextOffset">734</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">274</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150511</UInt32>
-                <UInt32 Name="TextOffset">768</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">276</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150512</UInt32>
-                <UInt32 Name="TextOffset">802</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">278</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150513</UInt32>
-                <UInt32 Name="TextOffset">836</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">280</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">150514</UInt32>
-                <UInt32 Name="TextOffset">870</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <UInt32 Name="TextOffset">282</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_0&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_1&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_2&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_3&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_4&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_5&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_6&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_7&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_8&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_9&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_10&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_11&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_12&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_13&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_14&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_15&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_16&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_17&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_18&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;FwEnergyIdx_19&#x2;"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

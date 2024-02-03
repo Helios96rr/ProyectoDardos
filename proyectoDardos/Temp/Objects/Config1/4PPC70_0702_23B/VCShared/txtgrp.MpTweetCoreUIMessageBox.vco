@@ -78,7 +78,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpTweetCoreUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpTweetCoreUIMessageBox].Language[en]">
@@ -148,10 +148,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpTweetCoreUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpTweetCoreUIMessageBox].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpTweetCoreUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpTweetCoreUIMessageBox].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">6</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -171,34 +171,34 @@
               <TableRow>
                 <UInt32 Name="TextIndex">195429</UInt32>
                 <UInt32 Name="TextOffset">78</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">195430</UInt32>
-                <UInt32 Name="TextOffset">94</UInt32>
+                <UInt32 Name="TextOffset">80</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">195431</UInt32>
-                <UInt32 Name="TextOffset">152</UInt32>
+                <UInt32 Name="TextOffset">82</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">195432</UInt32>
-                <UInt32 Name="TextOffset">214</UInt32>
+                <UInt32 Name="TextOffset">84</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">197314</UInt32>
-                <UInt32 Name="TextOffset">278</UInt32>
+                <UInt32 Name="TextOffset">86</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
@@ -206,11 +206,11 @@
             </Table>
             <Group Name="Texts">
               <String Name="Text" Encoding="Unicode">""</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;Error&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"Wollen Sie wirklich löschen?"</String>
-              <String Name="Text" Encoding="Unicode">"Wollen Sie wirklich erstellen?"</String>
-              <String Name="Text" Encoding="Unicode">"Wollen Sie wirklich bearbeiten?"</String>
-              <String Name="Text" Encoding="Unicode">"MpTweetCoreUI Nachrichtenbox"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

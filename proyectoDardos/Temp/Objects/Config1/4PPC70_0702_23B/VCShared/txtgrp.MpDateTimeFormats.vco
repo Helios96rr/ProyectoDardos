@@ -17,22 +17,22 @@
           </TableRow>
           <TableRow>
             <UInt32 Name="UserIndex">1</UInt32>
-            <UInt32 Name="TextIndex">93939</UInt32>
+            <UInt32 Name="TextIndex">210086</UInt32>
           </TableRow>
           <TableRow>
             <UInt32 Name="UserIndex">2</UInt32>
-            <UInt32 Name="TextIndex">93940</UInt32>
+            <UInt32 Name="TextIndex">210087</UInt32>
           </TableRow>
           <TableRow>
             <UInt32 Name="UserIndex">3</UInt32>
-            <UInt32 Name="TextIndex">93941</UInt32>
+            <UInt32 Name="TextIndex">210088</UInt32>
           </TableRow>
         </Table>
       </Object>
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpDateTimeFormats]" Type="TG" RefString="Source[global].TextGroup[MpDateTimeFormats].Language[en]">
@@ -46,39 +46,39 @@
                 <Column Name="Reserved" />
               </TableHeader>
               <TableRow>
-                <UInt32 Name="TextIndex">93939</UInt32>
+                <UInt32 Name="TextIndex">122825</UInt32>
                 <UInt32 Name="TextOffset">52</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
-                <UInt32 Name="TextIndex">93940</UInt32>
-                <UInt32 Name="TextOffset">70</UInt32>
-                <Byte Name="SnippetCount">0</Byte>
-                <Byte Name="Reserved">0</Byte>
-                <UInt16 Name="Reserved">0</UInt16>
-              </TableRow>
-              <TableRow>
-                <UInt32 Name="TextIndex">93941</UInt32>
+                <UInt32 Name="TextIndex">210086</UInt32>
                 <UInt32 Name="TextOffset">88</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
-                <UInt32 Name="TextIndex">122825</UInt32>
-                <UInt32 Name="TextOffset">100</UInt32>
+                <UInt32 Name="TextIndex">210087</UInt32>
+                <UInt32 Name="TextOffset">106</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">210088</UInt32>
+                <UInt32 Name="TextOffset">124</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"%m/%d/%Y %H:%M:%S"</String>
               <String Name="Text" Encoding="Unicode">"%m/%d/%Y"</String>
               <String Name="Text" Encoding="Unicode">"%H:%M:%S"</String>
               <String Name="Text" Encoding="Unicode">"%H:%M"</String>
-              <String Name="Text" Encoding="Unicode">"%m/%d/%Y %H:%M:%S"</String>
             </Group>
           </Object>
         </Folder>
@@ -86,10 +86,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpDateTimeFormats]" Type="TG" RefString="Source[global].TextGroup[MpDateTimeFormats].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpDateTimeFormats]" Type="TG" RefString="Source[global].TextGroup[MpDateTimeFormats].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">4</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -100,39 +100,39 @@
                 <Column Name="Reserved" />
               </TableHeader>
               <TableRow>
-                <UInt32 Name="TextIndex">93939</UInt32>
+                <UInt32 Name="TextIndex">122825</UInt32>
                 <UInt32 Name="TextOffset">52</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
-                <UInt32 Name="TextIndex">93940</UInt32>
-                <UInt32 Name="TextOffset">70</UInt32>
+                <UInt32 Name="TextIndex">210086</UInt32>
+                <UInt32 Name="TextOffset">54</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
-                <UInt32 Name="TextIndex">93941</UInt32>
-                <UInt32 Name="TextOffset">88</UInt32>
+                <UInt32 Name="TextIndex">210087</UInt32>
+                <UInt32 Name="TextOffset">56</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
-                <UInt32 Name="TextIndex">122825</UInt32>
-                <UInt32 Name="TextOffset">100</UInt32>
+                <UInt32 Name="TextIndex">210088</UInt32>
+                <UInt32 Name="TextOffset">58</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"%d.%m.%Y"</String>
-              <String Name="Text" Encoding="Unicode">"%H:%M:%S"</String>
-              <String Name="Text" Encoding="Unicode">"%H:%M"</String>
-              <String Name="Text" Encoding="Unicode">"%d.%m.%Y %H:%M:%S"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

@@ -56,7 +56,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].TextGroup[ShiftGroup]" Type="TG" RefString="Source[local].TextGroup[ShiftGroup].Language[en]">
@@ -158,10 +158,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].TextGroup[ShiftGroup]" Type="TG" RefString="Source[local].TextGroup[ShiftGroup].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].TextGroup[ShiftGroup]" Type="TG" RefString="Source[local].TextGroup[ShiftGroup].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">10</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>

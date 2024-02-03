@@ -58,7 +58,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpUserXSignUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpUserXSignUIMessageBox].Language[en]">
@@ -88,10 +88,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpUserXSignUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpUserXSignUIMessageBox].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpUserXSignUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpUserXSignUIMessageBox].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">1</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -104,13 +104,13 @@
               <TableRow>
                 <UInt32 Name="TextIndex">177104</UInt32>
                 <UInt32 Name="TextOffset">16</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"&#x1;LoginError&#x2;"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

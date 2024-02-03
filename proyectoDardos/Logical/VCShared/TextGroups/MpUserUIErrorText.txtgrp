@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpUserUIErrorText">
   <Property Name="Description" Value="Error text for UserXUI"/>
   <Property Name="Index" Value="2111"/>
@@ -42,43 +42,43 @@
     <Text ID="177111" Value="Default user groups cannot be deleted"/>
     <Text ID="185534" Value="Invalid Import file"/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="169021" Value="Passwort nicht korrekt"/>
-    <Text ID="169022" Value="Benutzer existiert nicht"/>
-    <Text ID="169023" Value="Benutzer mit selbem Namen bereits registriert"/>
-    <Text ID="169024" Value="Benutzer-Identifikation nicht gültig"/>
-    <Text ID="169025" Value="Sie sind nicht angemeldet"/>
-    <Text ID="169026" Value="Passwort-Änderung erforderlich"/>
-    <Text ID="169027" Value="Der angegebene Benutzer gesperrt (Entsperren durch Administrator notwendig)"/>
-    <Text ID="169028" Value="Password hat nicht die erforderlich Sicherheit \n(minimum Laenge 5 Zeichen &amp; Alpha-Numerisch)"/>
-    <Text ID="169029" Value="Angegebenen Benutzer-Gruppe nicht vorhanden"/>
-    <Text ID="169030" Value="Unzureichende Benutzerrechte"/>
-    <Text ID="169031" Value="Benutzer konnte nicht gelöscht werden (interner Fehler)"/>
-    <Text ID="169032" Value="Anmelde-ID mit dem gleichen Namen oder ID ist bereits vorhanden"/>
-    <Text ID="169033" Value="Neues Passwort ist identisch mit dem alten - abgelehnt"/>
-    <Text ID="169034" Value="Passwort-Änderung erforderlich bevor weiter Aktionen möglich sind"/>
-    <Text ID="169035" Value="Passwortbestätigung nicht korrekt"/>
-    <Text ID="169036" Value="Zu viele Benutzer angemeldet - keine weiteren Logins möglich"/>
-    <Text ID="169037" Value="Maximale verfügbarer Benutzerrechte Index  überschritten"/>
-    <Text ID="169038" Value="Angegebener Administrator hat keine  Administrator-Rechte"/>
-    <Text ID="169039" Value="Die angegebene Benutzer ist bereits angemeldet (keine neue Anmeldung!)"/>
-    <Text ID="169040" Value="Benutzer nicht eingeloggt"/>
-    <Text ID="169041" Value="Benutzer bereits angemeldet"/>
-    <Text ID="169042" Value="Kein User-Ident gegeben"/>
-    <Text ID="169043" Value="Kein Kennwort angegeben"/>
-    <Text ID="169044" Value="Beim Importieren der Daten ist ein Fehler aufgetreten"/>
-    <Text ID="169045" Value="Importdatei konnte nicht geöffnet werden"/>
-    <Text ID="169046" Value="Export-Datei konnte nicht gespeichert werden"/>
-    <Text ID="169047" Value="Angegebener Gruppenindex ist nicht korrekt"/>
-    <Text ID="169048" Value="Benutzername zu kurz"/>
-    <Text ID="169049" Value="Insufficient Length"/>
-    <Text ID="169050" Value="Must contain numbers and characters!"/>
-    <Text ID="169051" Value="Must contain upper- and lower-case letters!"/>
-    <Text ID="177108" Value="Max. Anzahl an fehlgeschlagenen Signaturen erreicht. Signatur wird abgebrochen"/>
-    <Text ID="177109" Value="Die letzte Aktion wurde noch nicht geprüft. Keine neue Signatur möglich"/>
-    <Text ID="177110" Value="Password wurde bereits verwendet und kann nicht nochmal verwendet werden"/>
-    <Text ID="177111" Value="Default Benutzergruppen können nicht gelöscht werden"/>
-    <Text ID="185534" Value="Ungültige Import Datei"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="169021" Value=""/>
+    <Text ID="169022" Value=""/>
+    <Text ID="169023" Value=""/>
+    <Text ID="169024" Value=""/>
+    <Text ID="169025" Value=""/>
+    <Text ID="169026" Value=""/>
+    <Text ID="169027" Value=""/>
+    <Text ID="169028" Value=""/>
+    <Text ID="169029" Value=""/>
+    <Text ID="169030" Value=""/>
+    <Text ID="169031" Value=""/>
+    <Text ID="169032" Value=""/>
+    <Text ID="169033" Value=""/>
+    <Text ID="169034" Value=""/>
+    <Text ID="169035" Value=""/>
+    <Text ID="169036" Value=""/>
+    <Text ID="169037" Value=""/>
+    <Text ID="169038" Value=""/>
+    <Text ID="169039" Value=""/>
+    <Text ID="169040" Value=""/>
+    <Text ID="169041" Value=""/>
+    <Text ID="169042" Value=""/>
+    <Text ID="169043" Value=""/>
+    <Text ID="169044" Value=""/>
+    <Text ID="169045" Value=""/>
+    <Text ID="169046" Value=""/>
+    <Text ID="169047" Value=""/>
+    <Text ID="169048" Value=""/>
+    <Text ID="169049" Value=""/>
+    <Text ID="169050" Value=""/>
+    <Text ID="169051" Value=""/>
+    <Text ID="177108" Value=""/>
+    <Text ID="177109" Value=""/>
+    <Text ID="177110" Value=""/>
+    <Text ID="177111" Value=""/>
+    <Text ID="185534" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="169021" Value="24576"/>

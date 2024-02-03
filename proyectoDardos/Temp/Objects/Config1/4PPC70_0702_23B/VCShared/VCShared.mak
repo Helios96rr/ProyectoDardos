@@ -51,7 +51,12 @@ VCRS_SOURCE=$(AS_PROJECT_PATH)/Logical/VCShared/Package.vcp
 # All Shared Source Objects
 VCR_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr 
 
-TXTGRP_SHARED_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/MpAlarmAcknowledgeState.txtgrp \
+TXTGRP_SHARED_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/AlarmAcknowledgeState.txtgrp \
+	$(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/AlarmBypassState.txtgrp \
+	$(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/AlarmEvent.txtgrp \
+	$(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/AlarmState.txtgrp \
+	$(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/DateTimeFormats.txtgrp \
+	$(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/MpAlarmAcknowledgeState.txtgrp \
 	$(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/MpAlarmBypassState.txtgrp \
 	$(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/MpAlarmEvent.txtgrp \
 	$(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/MpAlarmState.txtgrp \
@@ -289,6 +294,26 @@ $(AS_CPU_PATH)/VCShared/alcfg.AlarmSystem.vco: $(AS_PROJECT_PATH)/Logical/VCShar
 
 # Text Groups
 TXTGRP_SHARED_OBJECTS_VisuDa = $(addprefix $(AS_CPU_PATH)/VCShared/txtgrp., $(notdir $(TXTGRP_SHARED_SOURCES_VisuDa:.txtgrp=.vco)))
+
+$(AS_CPU_PATH)/VCShared/txtgrp.AlarmAcknowledgeState.vco: $(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/AlarmAcknowledgeState.txtgrp $(VC_LANGUAGES_VisuDa)
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(AS_CPU_PATH)/VCShared/txtgrp.AlarmBypassState.vco: $(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/AlarmBypassState.txtgrp $(VC_LANGUAGES_VisuDa)
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(AS_CPU_PATH)/VCShared/txtgrp.AlarmEvent.vco: $(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/AlarmEvent.txtgrp $(VC_LANGUAGES_VisuDa)
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(AS_CPU_PATH)/VCShared/txtgrp.AlarmState.vco: $(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/AlarmState.txtgrp $(VC_LANGUAGES_VisuDa)
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(AS_CPU_PATH)/VCShared/txtgrp.DateTimeFormats.vco: $(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/DateTimeFormats.txtgrp $(VC_LANGUAGES_VisuDa)
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
 
 $(AS_CPU_PATH)/VCShared/txtgrp.MpAlarmAcknowledgeState.vco: $(AS_PROJECT_PATH)/Logical/VCShared/TextGroups/MpAlarmAcknowledgeState.txtgrp $(VC_LANGUAGES_VisuDa)
 	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas

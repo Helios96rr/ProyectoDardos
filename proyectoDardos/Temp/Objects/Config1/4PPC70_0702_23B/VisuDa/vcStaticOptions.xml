@@ -303,5 +303,9 @@
     <Bitmap>Source[local].Bitmap[MpAudit_RecipeEvents]</Bitmap>
     <Bitmap>Source[local].Bitmap[MpAudit_TweetEvent]</Bitmap>
     <Bitmap>Source[local].Bitmap[mappSERVICES_logo]</Bitmap>
+    <Bitmap>Source[local].Bitmap[frame_header]</Bitmap>
+    <Bitmap>Source[local].Bitmap[BackgroundWVGA_NoLogo]</Bitmap>
+    <Bitmap>Source[local].Bitmap[BackgroundSilverGold]</Bitmap>
+    <Bitmap>Source[local].Bitmap[dcVSmarvel800x480]</Bitmap>
   </Bitmap32bit>
 </Options>

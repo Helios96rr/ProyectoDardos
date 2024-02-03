@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpOeeListUIText">
   <Property Name="Description" Value="General page text for OeeListUI"/>
   <Property Name="Index" Value="1180"/>
@@ -23,24 +23,24 @@
     <Text ID="125507" Value="StartTime"/>
     <Text ID="125512" Value="Good"/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="121797" Value="MpOeeListUI"/>
-    <Text ID="121798" Value="OEE"/>
-    <Text ID="121799" Value="Perf"/>
-    <Text ID="121800" Value="Quali"/>
-    <Text ID="121801" Value="Verfüg"/>
-    <Text ID="121802" Value="Schicht ID"/>
-    <Text ID="121803" Value="Ziel"/>
-    <Text ID="121804" Value="Total"/>
-    <Text ID="125488" Value="Von"/>
-    <Text ID="125489" Value="Bis"/>
-    <Text ID="125490" Value="Anpassen"/>
-    <Text ID="125491" Value="-"/>
-    <Text ID="125492" Value=":"/>
-    <Text ID="125493" Value="Filtereinstellungen"/>
-    <Text ID="125506" Value="Zeitende"/>
-    <Text ID="125507" Value="Anfangszeit"/>
-    <Text ID="125512" Value="Gut"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="121797" Value=""/>
+    <Text ID="121798" Value=""/>
+    <Text ID="121799" Value=""/>
+    <Text ID="121800" Value=""/>
+    <Text ID="121801" Value=""/>
+    <Text ID="121802" Value=""/>
+    <Text ID="121803" Value=""/>
+    <Text ID="121804" Value=""/>
+    <Text ID="125488" Value=""/>
+    <Text ID="125489" Value=""/>
+    <Text ID="125490" Value=""/>
+    <Text ID="125491" Value=""/>
+    <Text ID="125492" Value=""/>
+    <Text ID="125493" Value=""/>
+    <Text ID="125506" Value=""/>
+    <Text ID="125507" Value=""/>
+    <Text ID="125512" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="121797" Value="0"/>

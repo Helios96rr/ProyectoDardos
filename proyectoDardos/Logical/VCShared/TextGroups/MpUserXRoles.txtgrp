@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpUserXRoles">
   <Property Name="Description" Value="Role Text for MpUserX"/>
   <Property Name="Index" Value="2113"/>
@@ -15,16 +15,16 @@
     <Text ID="175563" Value="Role 8"/>
     <Text ID="175564" Value="Role 9"/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="175556" Value="Rolle 1"/>
-    <Text ID="175557" Value="Rolle 2"/>
-    <Text ID="175558" Value="Rolle 3"/>
-    <Text ID="175559" Value="Rolle 4"/>
-    <Text ID="175560" Value="Rolle 5"/>
-    <Text ID="175561" Value="Rolle 6"/>
-    <Text ID="175562" Value="Rolle 7"/>
-    <Text ID="175563" Value="Rolle 8"/>
-    <Text ID="175564" Value="Rolle 9"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="175556" Value=""/>
+    <Text ID="175557" Value=""/>
+    <Text ID="175558" Value=""/>
+    <Text ID="175559" Value=""/>
+    <Text ID="175560" Value=""/>
+    <Text ID="175561" Value=""/>
+    <Text ID="175562" Value=""/>
+    <Text ID="175563" Value=""/>
+    <Text ID="175564" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="175556" Value="0"/>

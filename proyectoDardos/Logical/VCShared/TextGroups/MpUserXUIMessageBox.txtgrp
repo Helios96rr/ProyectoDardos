@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpUserXUIMessageBox">
   <Property Name="Description" Value="Message box text for UserXUI"/>
   <Property Name="Index" Value="2112"/>
@@ -51,15 +51,15 @@
     <Text ID="169058" Value=""/>
     <Text ID="169059" Value="Do you really want to delete group {SelectedGroup}?"/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="169052" Value="{ErrorText}"/>
-    <Text ID="169053" Value="Möchten sie wirklich den Benutzer {SelectedUser} löschen?"/>
-    <Text ID="169054" Value="Wollen Sie wirklich den Benutzer {SelectedUser} sperren? Der Benutzer wird nicht mehr gestattet sich anzumelden!"/>
-    <Text ID="169055" Value="Wollen Sie wirklich den Benutzer {SelectedUser} entsperren? Der Benutzer wird es wieder gestattet sich anzumelden!"/>
-    <Text ID="169056" Value="{LoginError}"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="169052" Value=""/>
+    <Text ID="169053" Value=""/>
+    <Text ID="169054" Value=""/>
+    <Text ID="169055" Value=""/>
+    <Text ID="169056" Value=""/>
     <Text ID="169057" Value=""/>
     <Text ID="169058" Value=""/>
-    <Text ID="169059" Value="Möchten sie wirklich die Gruppe {SelectedGroup} löschen?"/>
+    <Text ID="169059" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="169052" Value="1"/>

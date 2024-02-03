@@ -1,7 +1,7 @@
 SHELL := cmd.exe
 CYGWIN=nontsec
 export PATH := C:\Program Files (x86)\Rockwell Software\RSCommon;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NAiS MEWNET;C:\DeltaTau\PowerPMACSim\opt\ppmac\MinGW\bin;C:\Program Files (x86)\Schneider Electric\Vijeo-Designer 6.2\Vijeo-Runtime\public\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\Common Files\Rockwell\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\Domum Automation\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Domum Automation\AppData\Local\Programs\Python\Python38-32\;C:\Users\Domum Automation\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\Domum Automation\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\Domum Automation\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Domum Automation\AppData\Local\Programs\Python\Python38-32\;C:\Users\Domum Automation\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\Domum Automation\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\BrAutomation\AS411\Bin-en\4.11;C:\BrAutomation\AS411\Bin-en\4.10;C:\BrAutomation\AS411\Bin-en\4.9;C:\BrAutomation\AS411\Bin-en\4.8;C:\BrAutomation\AS411\Bin-en\4.7;C:\BrAutomation\AS411\Bin-en\4.6;C:\BrAutomation\AS411\Bin-en\4.5;C:\BrAutomation\AS411\Bin-en\4.4;C:\BrAutomation\AS411\Bin-en\4.3;C:\BrAutomation\AS411\Bin-en\4.2;C:\BrAutomation\AS411\Bin-en\4.1;C:\BrAutomation\AS411\Bin-en\4.0;C:\BrAutomation\AS411\Bin-en
-export AS_BUILD_MODE := Build
+export AS_BUILD_MODE := BuildAndTransfer
 export AS_VERSION := 4.11.2.75
 export AS_WORKINGVERSION := 4.11
 export AS_COMPANY_NAME :=  
@@ -35,5 +35,5 @@ export WIN32_AS_INSTALL_PATH := "C:\BrAutomation\AS411"
 
 ProjectMakeFile:
 
-	@'$(AS_BIN_PATH)/4.9/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/proyectoDardos.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'Build'   
+	@'$(AS_BIN_PATH)/4.9/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/proyectoDardos.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'BuildAndTransfer'   
 

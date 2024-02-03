@@ -9,11 +9,11 @@
       <Byte Name="DefaultKeyLevelString">0</Byte>
       <Int32 Name="KeyRepeatDelay">300</Int32>
       <Int32 Name="KeyRepeatRate">50</Int32>
-      <Reference Name="DefaultPage" Type="PAGE">Source[local].Page[mapp1StartPage]</Reference>
+      <Reference Name="DefaultPage" Type="PAGE">Source[local].Page[P00_Home]</Reference>
       <Reference Name="ConnectionErrorPage" Type="ConnectionErrorPage">None</Reference>
       <UInt32 Name="ServicePage">4294967295</UInt32>
-      <Reference Name="DefaultLanguage" Type="LOC">Source[local].Localizer[en]</Reference>
-      <Reference Name="DefaultStyleSheet" Type="SS">Source[local].StyleSheet[mapp]</Reference>
+      <Reference Name="DefaultLanguage" Type="LOC">Source[local].Localizer[es-MX]</Reference>
+      <Reference Name="DefaultStyleSheet" Type="SS">Source[local].StyleSheet[Color]</Reference>
       <Reference Name="KeyLevelChangeDP" Type="DP">None</Reference>
       <Reference Name="KeyLevelCurrentDP" Type="DP">None</Reference>
       <Reference Name="LanguageChangeDP" Type="DP">None</Reference>
@@ -22,8 +22,8 @@
       <Reference Name="LEDMatrixDP" Type="DP">None</Reference>
       <Reference Name="PageChangeDP" Type="DP">None</Reference>
       <Reference Name="PageCurrentDP" Type="DP">None</Reference>
-      <Reference Name="ScreensaverPage" Type="PAGE">None</Reference>
-      <UInt32 Name="ScreensaverTimeout">0</UInt32>
+      <Reference Name="ScreensaverPage" Type="PAGE">Source[local].Page[P100_screenSaver]</Reference>
+      <UInt32 Name="ScreensaverTimeout">10</UInt32>
       <Reference Name="ScreensaverDP" Type="DP">None</Reference>
       <Reference Name="ScreenSaverTimeDatapoint" Type="DP">None</Reference>
       <Byte Name="Backlight">0</Byte>

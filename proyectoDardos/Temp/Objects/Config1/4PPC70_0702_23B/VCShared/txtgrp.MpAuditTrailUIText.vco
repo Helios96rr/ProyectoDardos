@@ -64,7 +64,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditTrailUIText]" Type="TG" RefString="Source[global].TextGroup[MpAuditTrailUIText].Language[en]">
@@ -182,10 +182,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditTrailUIText]" Type="TG" RefString="Source[global].TextGroup[MpAuditTrailUIText].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditTrailUIText]" Type="TG" RefString="Source[global].TextGroup[MpAuditTrailUIText].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">12</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -204,95 +204,95 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">115855</UInt32>
-                <UInt32 Name="TextOffset">178</UInt32>
+                <UInt32 Name="TextOffset">150</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">115856</UInt32>
-                <UInt32 Name="TextOffset">186</UInt32>
+                <UInt32 Name="TextOffset">152</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">115857</UInt32>
-                <UInt32 Name="TextOffset">194</UInt32>
+                <UInt32 Name="TextOffset">154</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">115858</UInt32>
-                <UInt32 Name="TextOffset">212</UInt32>
+                <UInt32 Name="TextOffset">156</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">115859</UInt32>
-                <UInt32 Name="TextOffset">230</UInt32>
+                <UInt32 Name="TextOffset">158</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">115860</UInt32>
-                <UInt32 Name="TextOffset">248</UInt32>
+                <UInt32 Name="TextOffset">160</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">115861</UInt32>
-                <UInt32 Name="TextOffset">272</UInt32>
+                <UInt32 Name="TextOffset">162</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">115862</UInt32>
-                <UInt32 Name="TextOffset">286</UInt32>
+                <UInt32 Name="TextOffset">164</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">115863</UInt32>
-                <UInt32 Name="TextOffset">306</UInt32>
+                <UInt32 Name="TextOffset">166</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">183001</UInt32>
-                <UInt32 Name="TextOffset">346</UInt32>
+                <UInt32 Name="TextOffset">168</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">183002</UInt32>
-                <UInt32 Name="TextOffset">360</UInt32>
+                <UInt32 Name="TextOffset">170</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"MpAuditTrailUI"</String>
-              <String Name="Text" Encoding="Unicode">"Von"</String>
-              <String Name="Text" Encoding="Unicode">"Bis"</String>
-              <String Name="Text" Encoding="Unicode">"Anwender"</String>
-              <String Name="Text" Encoding="Unicode">"Ereignis"</String>
-              <String Name="Text" Encoding="Unicode">"Anpassen"</String>
-              <String Name="Text" Encoding="Unicode">"Exportieren"</String>
-              <String Name="Text" Encoding="Unicode">"Zeigen"</String>
-              <String Name="Text" Encoding="Unicode">"Verbergen"</String>
-              <String Name="Text" Encoding="Unicode">"Filtereinstellungen"</String>
-              <String Name="Text" Encoding="Unicode">"Muster"</String>
-              <String Name="Text" Encoding="Unicode">"Batch"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

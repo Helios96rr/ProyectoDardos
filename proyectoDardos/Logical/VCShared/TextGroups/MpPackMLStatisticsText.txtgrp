@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpPackMLStatisticsText">
   <Property Name="Description" Value="TextSnippets for PackMLStatisticUI"/>
   <Property Name="Index" Value="1174"/>
@@ -1536,60 +1536,60 @@
     <Text ID="119705" Value="Cumulative Time: {ModeHrs0}h {ModeMin0}m {ModeSec0}s"/>
     <Text ID="119707" Value="{ModePer}%"/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="118577" Value="Gesamtzeit: {IdleHrs0}h {IdleMin0}m {IdleSec0}s"/>
-    <Text ID="118578" Value="Aktuelle Zeit:      {IdleHrs1}h {IdleMin1}m {IdleSec1}s"/>
-    <Text ID="118607" Value="{IdlePer}%"/>
-    <Text ID="118826" Value="Gesamtzeit: {ClearingHrs0}h {ClearingMin0}m {ClearingSec0}s"/>
-    <Text ID="118827" Value="Aktuelle Zeit:      {ClearingHrs1}h {ClearingMin1}m {ClearingSec1}s"/>
-    <Text ID="118828" Value="{ClearingPer}%"/>
-    <Text ID="118829" Value="Gesamtzeit: {StoppedHrs0}h {StoppedMin0}m {StoppedSec0}s"/>
-    <Text ID="118830" Value="Aktuelle Zeit:      {StoppedHrs1}h {StoppedMin1}m {StoppedSec1}s"/>
-    <Text ID="118831" Value="{StoppedPer}%"/>
-    <Text ID="118832" Value="Gesamtzeit: {StartingHrs0}h {StartingMin0}m {StartingSec0}s"/>
-    <Text ID="118833" Value="Aktuelle Zeit:      {StartingHrs1}h {StartingMin1}m {StartingSec1}s"/>
-    <Text ID="118834" Value="{StartingPer}%"/>
-    <Text ID="118835" Value="Gesamtzeit: {SuspendedHrs0}h {SuspendedMin0}m {SuspendedSec0}s"/>
-    <Text ID="118836" Value="Aktuelle Zeit:      {SuspendedHrs1}h {SuspendedMin1}m {SuspendedSec1}s"/>
-    <Text ID="118837" Value="{SuspendedPer}%"/>
-    <Text ID="118838" Value="Gesamtzeit: {ExecuteHrs0}h {ExecuteMin0}m {ExecuteSec0}s"/>
-    <Text ID="118839" Value="Aktuelle Zeit:      {ExecuteHrs1}h {ExecuteMin1}m {ExecuteSec1}s"/>
-    <Text ID="118840" Value="{ExecutePer}%"/>
-    <Text ID="118841" Value="Gesamtzeit: {StoppingHrs0}h {StoppingMin0}m {StoppingSec0}s"/>
-    <Text ID="118842" Value="Aktuelle Zeit:      {StoppingHrs1}h {StoppingMin1}m {StoppingSec1}s"/>
-    <Text ID="118843" Value="{StoppingPer}%"/>
-    <Text ID="118844" Value="Gesamtzeit: {AbortingHrs0}h {AbortingMin0}m {AbortingSec0}s"/>
-    <Text ID="118845" Value="Aktuelle Zeit:      {AbortingHrs1}h {AbortingMin1}m {AbortingSec1}s"/>
-    <Text ID="118846" Value="{AbortingPer}%"/>
-    <Text ID="118847" Value="Gesamtzeit: {AbortedHrs0}h {AbortedMin0}m {AbortedSec0}s"/>
-    <Text ID="118848" Value="Aktuelle Zeit:      {AbortedHrs1}h {AbortedMin1}m {AbortedSec1}s"/>
-    <Text ID="118849" Value="{AbortedPer}%"/>
-    <Text ID="118850" Value="Gesamtzeit: {HoldingHrs0}h {HoldingMin0}m {HoldingSec0}s"/>
-    <Text ID="118851" Value="Aktuelle Zeit:      {HoldingHrs1}h {HoldingMin1}m {HoldingSec1}s"/>
-    <Text ID="118852" Value="{HoldingPer}%"/>
-    <Text ID="118853" Value="Gesamtzeit: {HeldHrs0}h {HeldMin0}m {HeldSec0}s"/>
-    <Text ID="118854" Value="Aktuelle Zeit:      {HeldHrs1}h {HeldMin1}m {HeldSec1}s"/>
-    <Text ID="118855" Value="{HeldPer}%"/>
-    <Text ID="118856" Value="Gesamtzeit: {UnholdingHrs0}h {UnholdingMin0}m {UnholdingSec0}s"/>
-    <Text ID="118857" Value="Aktuelle Zeit:      {UnholdingHrs1}h {UnholdingMin1}m {UnholdingSec1}s"/>
-    <Text ID="118858" Value="{UnholdingPer}%"/>
-    <Text ID="118859" Value="Gesamtzeit: {SuspendingHrs0}h {SuspendingMin0}m {SuspendingSec0}s"/>
-    <Text ID="118860" Value="Aktuelle Zeit:      {SuspendingHrs1}h {SuspendingMin1}m {SuspendingSec1}s"/>
-    <Text ID="118861" Value="{SuspendingPer}%"/>
-    <Text ID="118862" Value="Gesamtzeit: {UnsuspendingHrs0}h {UnsuspendingMin0}m {UnsuspendingSec0}s"/>
-    <Text ID="118863" Value="Aktuelle Zeit:      {UnsuspendingHrs1}h {UnsuspendingMin1}m {UnsuspendingSec1}s"/>
-    <Text ID="118864" Value="{UnsuspendingPer}%"/>
-    <Text ID="118865" Value="Gesamtzeit: {ResettingHrs0}h {ResettingMin0}m {ResettingSec0}s"/>
-    <Text ID="118866" Value="Aktuelle Zeit:      {ResettingHrs1}h {ResettingMin1}m {ResettingSec1}s"/>
-    <Text ID="118867" Value="{ResettingPer}%"/>
-    <Text ID="118868" Value="Gesamtzeit: {CompletingHrs0}h {CompletingMin0}m {CompletingSec0}s"/>
-    <Text ID="118869" Value="Aktuelle Zeit:      {CompletingHrs1}h {CompletingMin1}m {CompletingSec1}s"/>
-    <Text ID="118870" Value="{CompletingPer}%"/>
-    <Text ID="118871" Value="Gesamtzeit: {CompleteHrs0}h {CompleteMin0}m {CompleteSec0}s"/>
-    <Text ID="118872" Value="Aktuelle Zeit:      {CompleteHrs1}h {CompleteMin1}m {CompleteSec1}s"/>
-    <Text ID="118873" Value="{CompletePer}%"/>
-    <Text ID="119705" Value="Gesamtzeit: {ModeHrs0}h {ModeMin0}m {ModeSec0}s"/>
-    <Text ID="119707" Value="{ModePer}%"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="118577" Value=""/>
+    <Text ID="118578" Value=""/>
+    <Text ID="118607" Value=""/>
+    <Text ID="118826" Value=""/>
+    <Text ID="118827" Value=""/>
+    <Text ID="118828" Value=""/>
+    <Text ID="118829" Value=""/>
+    <Text ID="118830" Value=""/>
+    <Text ID="118831" Value=""/>
+    <Text ID="118832" Value=""/>
+    <Text ID="118833" Value=""/>
+    <Text ID="118834" Value=""/>
+    <Text ID="118835" Value=""/>
+    <Text ID="118836" Value=""/>
+    <Text ID="118837" Value=""/>
+    <Text ID="118838" Value=""/>
+    <Text ID="118839" Value=""/>
+    <Text ID="118840" Value=""/>
+    <Text ID="118841" Value=""/>
+    <Text ID="118842" Value=""/>
+    <Text ID="118843" Value=""/>
+    <Text ID="118844" Value=""/>
+    <Text ID="118845" Value=""/>
+    <Text ID="118846" Value=""/>
+    <Text ID="118847" Value=""/>
+    <Text ID="118848" Value=""/>
+    <Text ID="118849" Value=""/>
+    <Text ID="118850" Value=""/>
+    <Text ID="118851" Value=""/>
+    <Text ID="118852" Value=""/>
+    <Text ID="118853" Value=""/>
+    <Text ID="118854" Value=""/>
+    <Text ID="118855" Value=""/>
+    <Text ID="118856" Value=""/>
+    <Text ID="118857" Value=""/>
+    <Text ID="118858" Value=""/>
+    <Text ID="118859" Value=""/>
+    <Text ID="118860" Value=""/>
+    <Text ID="118861" Value=""/>
+    <Text ID="118862" Value=""/>
+    <Text ID="118863" Value=""/>
+    <Text ID="118864" Value=""/>
+    <Text ID="118865" Value=""/>
+    <Text ID="118866" Value=""/>
+    <Text ID="118867" Value=""/>
+    <Text ID="118868" Value=""/>
+    <Text ID="118869" Value=""/>
+    <Text ID="118870" Value=""/>
+    <Text ID="118871" Value=""/>
+    <Text ID="118872" Value=""/>
+    <Text ID="118873" Value=""/>
+    <Text ID="119705" Value=""/>
+    <Text ID="119707" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="118577" Value="40"/>

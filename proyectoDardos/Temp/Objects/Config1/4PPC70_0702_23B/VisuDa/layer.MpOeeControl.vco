@@ -501,7 +501,7 @@
               <UInt16 Name="Reserved">0</UInt16>
               <UInt32 Name="LockingDatapoint">4294967295</UInt32>
               <UInt32 Name="LockingLevel">0</UInt32>
-              <Reference Name="Page" Type="PAGE">Source[local].Page[MpOeeListUI]</Reference>
+              <UInt32 Name="Page">4294967295</UInt32>
               <UInt16 Name="Target">2</UInt16>
               <UInt16 Name="Reserved">0</UInt16>
             </Group>
@@ -522,7 +522,7 @@
               <UInt16 Name="Reserved">0</UInt16>
               <UInt32 Name="LockingDatapoint">4294967295</UInt32>
               <UInt32 Name="LockingLevel">0</UInt32>
-              <Reference Name="Page" Type="PAGE">Source[local].Page[MpOeeTimelineUI]</Reference>
+              <UInt32 Name="Page">4294967295</UInt32>
               <UInt16 Name="Target">2</UInt16>
               <UInt16 Name="Reserved">0</UInt16>
             </Group>
@@ -543,7 +543,7 @@
               <UInt16 Name="Reserved">0</UInt16>
               <UInt32 Name="LockingDatapoint">4294967295</UInt32>
               <UInt32 Name="LockingLevel">0</UInt32>
-              <Reference Name="Page" Type="PAGE">Source[local].Page[MpOeeTrendUI]</Reference>
+              <UInt32 Name="Page">4294967295</UInt32>
               <UInt16 Name="Target">2</UInt16>
               <UInt16 Name="Reserved">0</UInt16>
             </Group>
@@ -564,7 +564,7 @@
               <UInt16 Name="Reserved">0</UInt16>
               <UInt32 Name="LockingDatapoint">4294967295</UInt32>
               <UInt32 Name="LockingLevel">0</UInt32>
-              <Reference Name="Page" Type="PAGE">Source[local].Page[MpOeeCoreUI]</Reference>
+              <UInt32 Name="Page">4294967295</UInt32>
               <UInt16 Name="Target">2</UInt16>
               <UInt16 Name="Reserved">0</UInt16>
             </Group>

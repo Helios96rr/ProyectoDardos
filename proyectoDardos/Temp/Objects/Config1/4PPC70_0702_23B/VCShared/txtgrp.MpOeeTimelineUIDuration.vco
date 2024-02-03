@@ -1048,7 +1048,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpOeeTimelineUIDuration]" Type="TG" RefString="Source[global].TextGroup[MpOeeTimelineUIDuration].Language[en]">
@@ -1118,10 +1118,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpOeeTimelineUIDuration]" Type="TG" RefString="Source[global].TextGroup[MpOeeTimelineUIDuration].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpOeeTimelineUIDuration]" Type="TG" RefString="Source[global].TextGroup[MpOeeTimelineUIDuration].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">6</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -1134,53 +1134,53 @@
               <TableRow>
                 <UInt32 Name="TextIndex">121500</UInt32>
                 <UInt32 Name="TextOffset">76</UInt32>
-                <Byte Name="SnippetCount">3</Byte>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">121501</UInt32>
-                <UInt32 Name="TextOffset">180</UInt32>
-                <Byte Name="SnippetCount">3</Byte>
+                <UInt32 Name="TextOffset">78</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">121502</UInt32>
-                <UInt32 Name="TextOffset">284</UInt32>
-                <Byte Name="SnippetCount">3</Byte>
+                <UInt32 Name="TextOffset">80</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">121503</UInt32>
-                <UInt32 Name="TextOffset">388</UInt32>
-                <Byte Name="SnippetCount">3</Byte>
+                <UInt32 Name="TextOffset">82</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">121504</UInt32>
-                <UInt32 Name="TextOffset">492</UInt32>
-                <Byte Name="SnippetCount">3</Byte>
+                <UInt32 Name="TextOffset">84</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">122888</UInt32>
-                <UInt32 Name="TextOffset">596</UInt32>
-                <Byte Name="SnippetCount">3</Byte>
+                <UInt32 Name="TextOffset">86</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"&#x1;TimelineHour1&#x2;:&#x1;TimelineMinute1&#x2;:&#x1;TimelineSecond1&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;TimelineHour2&#x2;:&#x1;TimelineMinute2&#x2;:&#x1;TimelineSecond2&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;TimelineHour3&#x2;:&#x1;TimelineMinute3&#x2;:&#x1;TimelineSecond3&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;TimelineHour4&#x2;:&#x1;TimelineMinute4&#x2;:&#x1;TimelineSecond4&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;TimelineHour5&#x2;:&#x1;TimelineMinute5&#x2;:&#x1;TimelineSecond5&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;TimelineHour6&#x2;:&#x1;TimelineMinute6&#x2;:&#x1;TimelineSecond6&#x2;"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

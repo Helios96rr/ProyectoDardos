@@ -32,7 +32,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditSignatureEvent]" Type="TG" RefString="Source[global].TextGroup[MpAuditSignatureEvent].Language[en]">
@@ -86,10 +86,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditSignatureEvent]" Type="TG" RefString="Source[global].TextGroup[MpAuditSignatureEvent].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditSignatureEvent]" Type="TG" RefString="Source[global].TextGroup[MpAuditSignatureEvent].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">4</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -108,31 +108,31 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">206690</UInt32>
-                <UInt32 Name="TextOffset">160</UInt32>
+                <UInt32 Name="TextOffset">54</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">206691</UInt32>
-                <UInt32 Name="TextOffset">356</UInt32>
+                <UInt32 Name="TextOffset">56</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">206692</UInt32>
-                <UInt32 Name="TextOffset">464</UInt32>
+                <UInt32 Name="TextOffset">58</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"Elektronische Signatur wurde erfolgreich durchgeführt"</String>
-              <String Name="Text" Encoding="Unicode">"Elektronische Signatur wurde beendet aufgrund einer falschen Eingabe (Benutzername oder Passwort)"</String>
-              <String Name="Text" Encoding="Unicode">"Elektronische Signatur wurde vom Benutzer abgebrochen"</String>
-              <String Name="Text" Encoding="Unicode">"Elektronische Signatur wurde beendet, da das Limit für falsche Eingaben (siehe Konfiguration des Benutzermanagements) überschritten wurde"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

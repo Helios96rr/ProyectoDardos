@@ -62,7 +62,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpAuditUIMessageBox].Language[en]">
@@ -100,10 +100,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpAuditUIMessageBox].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpAuditUIMessageBox]" Type="TG" RefString="Source[global].TextGroup[MpAuditUIMessageBox].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">2</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -116,21 +116,21 @@
               <TableRow>
                 <UInt32 Name="TextIndex">182990</UInt32>
                 <UInt32 Name="TextOffset">28</UInt32>
-                <Byte Name="SnippetCount">1</Byte>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">182998</UInt32>
-                <UInt32 Name="TextOffset">44</UInt32>
+                <UInt32 Name="TextOffset">30</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"&#x1;Error&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"Fehler"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

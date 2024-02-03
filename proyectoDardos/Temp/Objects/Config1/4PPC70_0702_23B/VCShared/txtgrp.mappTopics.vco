@@ -112,7 +112,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[mappTopics]" Type="TG" RefString="Source[global].TextGroup[mappTopics].Language[en]">
@@ -327,10 +327,10 @@ This component is compatible with all other mapp components and therefore acts a
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[mappTopics]" Type="TG" RefString="Source[global].TextGroup[mappTopics].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[mappTopics]" Type="TG" RefString="Source[global].TextGroup[mappTopics].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">24</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>

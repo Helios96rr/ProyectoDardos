@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpFileManagerUIText">
   <Property Name="Description" Value="Text for FileManagerUI"/>
   <Property Name="Index" Value="1017"/>
@@ -68,28 +68,28 @@
     <Text ID="112053" Value="Date"/>
     <Text ID="112054" Value="Size"/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="110276" Value="Löschen"/>
-    <Text ID="110277" Value="Ausschn."/>
-    <Text ID="110278" Value="Kopieren"/>
-    <Text ID="110279" Value="Einfügen"/>
-    <Text ID="110280" Value="Refresh"/>
-    <Text ID="110281" Value="Pfad:{DevName}{DirName}"/>
-    <Text ID="110282" Value="Ausgewählt:"/>
-    <Text ID="110283" Value="Mehrfach auswahl"/>
-    <Text ID="110284" Value="Dateien {FileCount} / Ordner {FolderCount}"/>
-    <Text ID="110285" Value="Akt. Pfad"/>
-    <Text ID="110286" Value="MpFileManagerUI"/>
-    <Text ID="110287" Value="Nein"/>
-    <Text ID="110288" Value="Suche"/>
-    <Text ID="110289" Value="Ordner erstellen"/>
-    <Text ID="110290" Value="Um benennen"/>
-    <Text ID="110291" Value="Neuer Name"/>
-    <Text ID="111459" Value="Sortieren"/>
-    <Text ID="111460" Value="Status"/>
-    <Text ID="112052" Value="Name"/>
-    <Text ID="112053" Value="Datum"/>
-    <Text ID="112054" Value="Größe"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="110276" Value=""/>
+    <Text ID="110277" Value=""/>
+    <Text ID="110278" Value=""/>
+    <Text ID="110279" Value=""/>
+    <Text ID="110280" Value=""/>
+    <Text ID="110281" Value=""/>
+    <Text ID="110282" Value=""/>
+    <Text ID="110283" Value=""/>
+    <Text ID="110284" Value=""/>
+    <Text ID="110285" Value=""/>
+    <Text ID="110286" Value=""/>
+    <Text ID="110287" Value=""/>
+    <Text ID="110288" Value=""/>
+    <Text ID="110289" Value=""/>
+    <Text ID="110290" Value=""/>
+    <Text ID="110291" Value=""/>
+    <Text ID="111459" Value=""/>
+    <Text ID="111460" Value=""/>
+    <Text ID="112052" Value=""/>
+    <Text ID="112053" Value=""/>
+    <Text ID="112054" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="110276" Value="0"/>

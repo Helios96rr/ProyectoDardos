@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <KeyMapping xmlns="http://br-automation.co.at/AS/VC/Project">
   <VirtualKey Name="TP_ALPHA_0">
     <Property Name="Description" Value=""/>
@@ -8,8 +8,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="0"/>
         <Property Name="UnicodeValue['en']" Value="0"/>
+        <Property Name="UnicodeValue['es-MX']" Value="0"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -20,8 +20,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="1"/>
         <Property Name="UnicodeValue['en']" Value="1"/>
+        <Property Name="UnicodeValue['es-MX']" Value="1"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -32,8 +32,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="2"/>
         <Property Name="UnicodeValue['en']" Value="2"/>
+        <Property Name="UnicodeValue['es-MX']" Value="2"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -44,8 +44,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="3"/>
         <Property Name="UnicodeValue['en']" Value="3"/>
+        <Property Name="UnicodeValue['es-MX']" Value="3"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -56,8 +56,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="4"/>
         <Property Name="UnicodeValue['en']" Value="4"/>
+        <Property Name="UnicodeValue['es-MX']" Value="4"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -68,8 +68,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="5"/>
         <Property Name="UnicodeValue['en']" Value="5"/>
+        <Property Name="UnicodeValue['es-MX']" Value="5"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -80,8 +80,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="6"/>
         <Property Name="UnicodeValue['en']" Value="6"/>
+        <Property Name="UnicodeValue['es-MX']" Value="6"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -92,8 +92,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="7"/>
         <Property Name="UnicodeValue['en']" Value="7"/>
+        <Property Name="UnicodeValue['es-MX']" Value="7"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -104,8 +104,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="8"/>
         <Property Name="UnicodeValue['en']" Value="8"/>
+        <Property Name="UnicodeValue['es-MX']" Value="8"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -116,8 +116,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="9"/>
         <Property Name="UnicodeValue['en']" Value="9"/>
+        <Property Name="UnicodeValue['es-MX']" Value="9"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -128,8 +128,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="A"/>
         <Property Name="UnicodeValue['en']" Value="A"/>
+        <Property Name="UnicodeValue['es-MX']" Value="A"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -140,8 +140,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="&quot;"/>
         <Property Name="UnicodeValue['en']" Value="&quot;"/>
+        <Property Name="UnicodeValue['es-MX']" Value="&quot;"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -152,8 +152,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="'"/>
         <Property Name="UnicodeValue['en']" Value="'"/>
+        <Property Name="UnicodeValue['es-MX']" Value="'"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -164,8 +164,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="*"/>
         <Property Name="UnicodeValue['en']" Value="*"/>
+        <Property Name="UnicodeValue['es-MX']" Value="*"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -176,8 +176,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="@"/>
         <Property Name="UnicodeValue['en']" Value="@"/>
+        <Property Name="UnicodeValue['es-MX']" Value="@"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -188,8 +188,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="B"/>
         <Property Name="UnicodeValue['en']" Value="B"/>
+        <Property Name="UnicodeValue['es-MX']" Value="B"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -200,8 +200,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="\"/>
         <Property Name="UnicodeValue['en']" Value="\"/>
+        <Property Name="UnicodeValue['es-MX']" Value="\"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -212,8 +212,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="&gt;"/>
         <Property Name="UnicodeValue['en']" Value="&gt;"/>
+        <Property Name="UnicodeValue['es-MX']" Value="&gt;"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -224,8 +224,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="C"/>
         <Property Name="UnicodeValue['en']" Value="C"/>
+        <Property Name="UnicodeValue['es-MX']" Value="C"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -236,8 +236,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="^"/>
         <Property Name="UnicodeValue['en']" Value="^"/>
+        <Property Name="UnicodeValue['es-MX']" Value="^"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -248,8 +248,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="}"/>
         <Property Name="UnicodeValue['en']" Value="}"/>
+        <Property Name="UnicodeValue['es-MX']" Value="}"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -260,8 +260,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="]"/>
         <Property Name="UnicodeValue['en']" Value="]"/>
+        <Property Name="UnicodeValue['es-MX']" Value="]"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -272,8 +272,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value=")"/>
         <Property Name="UnicodeValue['en']" Value=")"/>
+        <Property Name="UnicodeValue['es-MX']" Value=")"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -284,8 +284,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value=":"/>
         <Property Name="UnicodeValue['en']" Value=":"/>
+        <Property Name="UnicodeValue['es-MX']" Value=":"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -296,8 +296,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value=","/>
         <Property Name="UnicodeValue['en']" Value=","/>
+        <Property Name="UnicodeValue['es-MX']" Value=","/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -308,8 +308,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="."/>
         <Property Name="UnicodeValue['en']" Value="."/>
+        <Property Name="UnicodeValue['es-MX']" Value="."/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -320,8 +320,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="D"/>
         <Property Name="UnicodeValue['en']" Value="D"/>
+        <Property Name="UnicodeValue['es-MX']" Value="D"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -332,8 +332,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="$"/>
         <Property Name="UnicodeValue['en']" Value="$"/>
+        <Property Name="UnicodeValue['es-MX']" Value="$"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -344,8 +344,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="E"/>
         <Property Name="UnicodeValue['en']" Value="E"/>
+        <Property Name="UnicodeValue['es-MX']" Value="E"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -356,8 +356,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="="/>
         <Property Name="UnicodeValue['en']" Value="="/>
+        <Property Name="UnicodeValue['es-MX']" Value="="/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -368,8 +368,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="€"/>
         <Property Name="UnicodeValue['en']" Value="€"/>
+        <Property Name="UnicodeValue['es-MX']" Value="€"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -380,8 +380,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="!"/>
         <Property Name="UnicodeValue['en']" Value="!"/>
+        <Property Name="UnicodeValue['es-MX']" Value="!"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -392,8 +392,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="F"/>
         <Property Name="UnicodeValue['en']" Value="F"/>
+        <Property Name="UnicodeValue['es-MX']" Value="F"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -404,8 +404,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="G"/>
         <Property Name="UnicodeValue['en']" Value="G"/>
+        <Property Name="UnicodeValue['es-MX']" Value="G"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -416,8 +416,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="H"/>
         <Property Name="UnicodeValue['en']" Value="H"/>
+        <Property Name="UnicodeValue['es-MX']" Value="H"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -428,8 +428,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="#"/>
         <Property Name="UnicodeValue['en']" Value="#"/>
+        <Property Name="UnicodeValue['es-MX']" Value="#"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -440,8 +440,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="I"/>
         <Property Name="UnicodeValue['en']" Value="I"/>
+        <Property Name="UnicodeValue['es-MX']" Value="I"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -452,8 +452,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="J"/>
         <Property Name="UnicodeValue['en']" Value="J"/>
+        <Property Name="UnicodeValue['es-MX']" Value="J"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -464,8 +464,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="K"/>
         <Property Name="UnicodeValue['en']" Value="K"/>
+        <Property Name="UnicodeValue['es-MX']" Value="K"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -476,8 +476,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="L"/>
         <Property Name="UnicodeValue['en']" Value="L"/>
+        <Property Name="UnicodeValue['es-MX']" Value="L"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -488,8 +488,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="M"/>
         <Property Name="UnicodeValue['en']" Value="M"/>
+        <Property Name="UnicodeValue['es-MX']" Value="M"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -500,8 +500,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="N"/>
         <Property Name="UnicodeValue['en']" Value="N"/>
+        <Property Name="UnicodeValue['es-MX']" Value="N"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -512,8 +512,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="O"/>
         <Property Name="UnicodeValue['en']" Value="O"/>
+        <Property Name="UnicodeValue['es-MX']" Value="O"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -524,8 +524,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="{"/>
         <Property Name="UnicodeValue['en']" Value="{"/>
+        <Property Name="UnicodeValue['es-MX']" Value="{"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -536,8 +536,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="["/>
         <Property Name="UnicodeValue['en']" Value="["/>
+        <Property Name="UnicodeValue['es-MX']" Value="["/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -548,8 +548,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="("/>
         <Property Name="UnicodeValue['en']" Value="("/>
+        <Property Name="UnicodeValue['es-MX']" Value="("/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -560,8 +560,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="P"/>
         <Property Name="UnicodeValue['en']" Value="P"/>
+        <Property Name="UnicodeValue['es-MX']" Value="P"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -572,8 +572,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="%"/>
         <Property Name="UnicodeValue['en']" Value="%"/>
+        <Property Name="UnicodeValue['es-MX']" Value="%"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -584,8 +584,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="+"/>
         <Property Name="UnicodeValue['en']" Value="+"/>
+        <Property Name="UnicodeValue['es-MX']" Value="+"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -596,8 +596,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="£"/>
         <Property Name="UnicodeValue['en']" Value="£"/>
+        <Property Name="UnicodeValue['es-MX']" Value="£"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -608,8 +608,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="Q"/>
         <Property Name="UnicodeValue['en']" Value="Q"/>
+        <Property Name="UnicodeValue['es-MX']" Value="Q"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -620,8 +620,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="?"/>
         <Property Name="UnicodeValue['en']" Value="?"/>
+        <Property Name="UnicodeValue['es-MX']" Value="?"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -632,8 +632,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="R"/>
         <Property Name="UnicodeValue['en']" Value="R"/>
+        <Property Name="UnicodeValue['es-MX']" Value="R"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -644,8 +644,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="S"/>
         <Property Name="UnicodeValue['en']" Value="S"/>
+        <Property Name="UnicodeValue['es-MX']" Value="S"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -656,8 +656,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value=";"/>
         <Property Name="UnicodeValue['en']" Value=";"/>
+        <Property Name="UnicodeValue['es-MX']" Value=";"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -668,8 +668,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="/"/>
         <Property Name="UnicodeValue['en']" Value="/"/>
+        <Property Name="UnicodeValue['es-MX']" Value="/"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -680,8 +680,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="&lt;"/>
         <Property Name="UnicodeValue['en']" Value="&lt;"/>
+        <Property Name="UnicodeValue['es-MX']" Value="&lt;"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -692,8 +692,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value=" "/>
         <Property Name="UnicodeValue['en']" Value=" "/>
+        <Property Name="UnicodeValue['es-MX']" Value=" "/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -704,8 +704,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="T"/>
         <Property Name="UnicodeValue['en']" Value="T"/>
+        <Property Name="UnicodeValue['es-MX']" Value="T"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -716,8 +716,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="~"/>
         <Property Name="UnicodeValue['en']" Value="~"/>
+        <Property Name="UnicodeValue['es-MX']" Value="~"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -728,8 +728,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="U"/>
         <Property Name="UnicodeValue['en']" Value="U"/>
+        <Property Name="UnicodeValue['es-MX']" Value="U"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -740,8 +740,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="_"/>
         <Property Name="UnicodeValue['en']" Value="_"/>
+        <Property Name="UnicodeValue['es-MX']" Value="_"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -752,8 +752,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="|"/>
         <Property Name="UnicodeValue['en']" Value="|"/>
+        <Property Name="UnicodeValue['es-MX']" Value="|"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -764,8 +764,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="V"/>
         <Property Name="UnicodeValue['en']" Value="V"/>
+        <Property Name="UnicodeValue['es-MX']" Value="V"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -776,8 +776,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="W"/>
         <Property Name="UnicodeValue['en']" Value="W"/>
+        <Property Name="UnicodeValue['es-MX']" Value="W"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -788,8 +788,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="X"/>
         <Property Name="UnicodeValue['en']" Value="X"/>
+        <Property Name="UnicodeValue['es-MX']" Value="X"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -800,8 +800,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="Y"/>
         <Property Name="UnicodeValue['en']" Value="Y"/>
+        <Property Name="UnicodeValue['es-MX']" Value="Y"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -812,8 +812,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="¥"/>
         <Property Name="UnicodeValue['en']" Value="¥"/>
+        <Property Name="UnicodeValue['es-MX']" Value="¥"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -824,8 +824,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="Z"/>
         <Property Name="UnicodeValue['en']" Value="Z"/>
+        <Property Name="UnicodeValue['es-MX']" Value="Z"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -836,8 +836,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="a"/>
         <Property Name="UnicodeValue['en']" Value="a"/>
+        <Property Name="UnicodeValue['es-MX']" Value="a"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -848,8 +848,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="b"/>
         <Property Name="UnicodeValue['en']" Value="b"/>
+        <Property Name="UnicodeValue['es-MX']" Value="b"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -860,8 +860,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="c"/>
         <Property Name="UnicodeValue['en']" Value="c"/>
+        <Property Name="UnicodeValue['es-MX']" Value="c"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -872,8 +872,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="d"/>
         <Property Name="UnicodeValue['en']" Value="d"/>
+        <Property Name="UnicodeValue['es-MX']" Value="d"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -884,8 +884,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="e"/>
         <Property Name="UnicodeValue['en']" Value="e"/>
+        <Property Name="UnicodeValue['es-MX']" Value="e"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -896,8 +896,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="f"/>
         <Property Name="UnicodeValue['en']" Value="f"/>
+        <Property Name="UnicodeValue['es-MX']" Value="f"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -908,8 +908,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="g"/>
         <Property Name="UnicodeValue['en']" Value="g"/>
+        <Property Name="UnicodeValue['es-MX']" Value="g"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -920,8 +920,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="h"/>
         <Property Name="UnicodeValue['en']" Value="h"/>
+        <Property Name="UnicodeValue['es-MX']" Value="h"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -932,8 +932,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="i"/>
         <Property Name="UnicodeValue['en']" Value="i"/>
+        <Property Name="UnicodeValue['es-MX']" Value="i"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -944,8 +944,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="j"/>
         <Property Name="UnicodeValue['en']" Value="j"/>
+        <Property Name="UnicodeValue['es-MX']" Value="j"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -956,8 +956,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="k"/>
         <Property Name="UnicodeValue['en']" Value="k"/>
+        <Property Name="UnicodeValue['es-MX']" Value="k"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -968,8 +968,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="l"/>
         <Property Name="UnicodeValue['en']" Value="l"/>
+        <Property Name="UnicodeValue['es-MX']" Value="l"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -980,8 +980,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="m"/>
         <Property Name="UnicodeValue['en']" Value="m"/>
+        <Property Name="UnicodeValue['es-MX']" Value="m"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -992,8 +992,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="n"/>
         <Property Name="UnicodeValue['en']" Value="n"/>
+        <Property Name="UnicodeValue['es-MX']" Value="n"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1004,8 +1004,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="o"/>
         <Property Name="UnicodeValue['en']" Value="o"/>
+        <Property Name="UnicodeValue['es-MX']" Value="o"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1016,8 +1016,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="p"/>
         <Property Name="UnicodeValue['en']" Value="p"/>
+        <Property Name="UnicodeValue['es-MX']" Value="p"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1028,8 +1028,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="q"/>
         <Property Name="UnicodeValue['en']" Value="q"/>
+        <Property Name="UnicodeValue['es-MX']" Value="q"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1040,8 +1040,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="r"/>
         <Property Name="UnicodeValue['en']" Value="r"/>
+        <Property Name="UnicodeValue['es-MX']" Value="r"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1052,8 +1052,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="s"/>
         <Property Name="UnicodeValue['en']" Value="s"/>
+        <Property Name="UnicodeValue['es-MX']" Value="s"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1064,8 +1064,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="t"/>
         <Property Name="UnicodeValue['en']" Value="t"/>
+        <Property Name="UnicodeValue['es-MX']" Value="t"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1076,8 +1076,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="u"/>
         <Property Name="UnicodeValue['en']" Value="u"/>
+        <Property Name="UnicodeValue['es-MX']" Value="u"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1088,8 +1088,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="v"/>
         <Property Name="UnicodeValue['en']" Value="v"/>
+        <Property Name="UnicodeValue['es-MX']" Value="v"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1100,8 +1100,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="w"/>
         <Property Name="UnicodeValue['en']" Value="w"/>
+        <Property Name="UnicodeValue['es-MX']" Value="w"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1112,8 +1112,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="x"/>
         <Property Name="UnicodeValue['en']" Value="x"/>
+        <Property Name="UnicodeValue['es-MX']" Value="x"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1124,8 +1124,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="y"/>
         <Property Name="UnicodeValue['en']" Value="y"/>
+        <Property Name="UnicodeValue['es-MX']" Value="y"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1136,8 +1136,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="z"/>
         <Property Name="UnicodeValue['en']" Value="z"/>
+        <Property Name="UnicodeValue['es-MX']" Value="z"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1148,8 +1148,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="&amp;"/>
         <Property Name="UnicodeValue['en']" Value="&amp;"/>
+        <Property Name="UnicodeValue['es-MX']" Value="&amp;"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -1330,267 +1330,11 @@
     <Property Name="Description" Value=""/>
     <Property Name="VirtualKey_LED" Value="False"/>
   </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_3">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_2_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_49">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_61">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_65">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_66">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_34">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_35">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_67">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_74">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_84">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
   <VirtualKey Name="%embVirtualKey_4_1">
     <Property Name="Description" Value=""/>
     <Property Name="VirtualKey_LED" Value="False"/>
   </VirtualKey>
   <VirtualKey Name="%embVirtualKey_5_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_4">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_29">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_30">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_31">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_14_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_32">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_37">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_38">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_39">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_35_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_6_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_7_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_11">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_12">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_13">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_40">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_41">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_42">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_43">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_49_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_59">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_60">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_62">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_63">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_64">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_73">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_85">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_92">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_93">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_74_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_61_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_94">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_95">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_90">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_91">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_5">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_8">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_6_3">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_7_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_15">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_16">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_17">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_58">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_59_9">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_60_9">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_61_9">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_62_9">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_62_10">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_61_10">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_60_10">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_59_10">
     <Property Name="Description" Value=""/>
     <Property Name="VirtualKey_LED" Value="False"/>
   </VirtualKey>
@@ -1607,190 +1351,6 @@
     <Property Name="VirtualKey_LED" Value="False"/>
   </VirtualKey>
   <VirtualKey Name="%embVirtualKey_26">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_10_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_11_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_1_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_8_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_9_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_12_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_2_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_3_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_4_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_5_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_6_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_27">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_28">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_33">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_36">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_44">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_45">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_46">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_47">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_48">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_50">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_51">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_52">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_53">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_54">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_55">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_56">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_57">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_98">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_100">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_102">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_105">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_109">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_132">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_133">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_13_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_14_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_15_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_16_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_18_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_19_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_28_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_29_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_30_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_31_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_36_1">
     <Property Name="Description" Value=""/>
     <Property Name="VirtualKey_LED" Value="False"/>
   </VirtualKey>
@@ -1822,174 +1382,6 @@
     <Property Name="Description" Value=""/>
     <Property Name="VirtualKey_LED" Value="False"/>
   </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_111">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_112">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_113">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_114">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_115">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_116">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_117">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_118">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_119">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_120">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_121">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_122">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_15_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_16_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_13_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_14_3">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_125">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_127">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_108_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_110_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_123_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_126_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_130">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_131_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_134_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_135_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_136_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_137_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_138_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_139">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_140">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_141">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_156">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_157">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_158">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_159">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_160">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_161">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_162">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_163">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_164">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_165">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
   <VirtualKey Name="TP_ALPHA_Dash">
     <Property Name="Description" Value=""/>
     <Property Name="VirtualKey_LED" Value="False"/>
@@ -1997,8 +1389,8 @@
       <KeyAction ClassId="0x00000165">
         <Property Name="Description" Value=""/>
         <Property Name="LanguageDependent" Value="False"/>
-        <Property Name="UnicodeValue['de']" Value="-"/>
         <Property Name="UnicodeValue['en']" Value="-"/>
+        <Property Name="UnicodeValue['es-MX']" Value="-"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -2018,90 +1410,6 @@
     <Property Name="Description" Value=""/>
     <Property Name="VirtualKey_LED" Value="False"/>
   </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_106">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_108">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_135_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_136_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_137_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_138_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_45_8">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_44_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_18">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_45_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_45_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_44_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_33_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_28_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_27_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_26_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_25_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_20_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_19_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_104">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_28_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
   <VirtualKey Name="%embVirtualKey_172">
     <Property Name="Description" Value=""/>
     <Property Name="VirtualKey_LED" Value="False"/>
@@ -2115,614 +1423,6 @@
     <Property Name="VirtualKey_LED" Value="False"/>
   </VirtualKey>
   <VirtualKey Name="%embVirtualKey_175">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_101_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_103_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_107_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_10_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_10_1_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_11_1_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_124_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_128_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_129_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_12_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_12_2_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_12_3_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_13_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_142_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_143_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_144_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_145_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_146_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_147_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_148_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_149_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_14_5">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_14_1_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_14_4">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_150_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_151_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_152_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_153_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_154_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_155_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_15_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_166_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_167_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_168_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_169_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_170_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_176">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_177_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_178_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_179_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_180_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_181_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_186_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_187_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_188_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_189_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_190_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_191">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_192_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_193_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_194_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_195_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_196">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_197">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_198">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_199">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_19_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_200">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_201">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_202">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_203">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_204">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_205">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_206">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_207_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_208_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_209_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_20_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_210_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_211_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_212">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_213">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_214">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_215">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_216">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_217">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_218">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_219">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_21_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_220">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_22_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_27_1_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_34_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_3_1_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_46_0_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_46_0_0_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_65_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_66_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_67_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_68_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_69_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_6_4">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_6_1_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_6_1_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_70_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_71_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_72_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_75_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_76_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_77_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_78_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_79_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_7_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_7_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_80_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_81_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_82_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_83_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_84_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_85_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_86_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_87_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_88_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_89_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_8_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_8_0_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_8_0_2">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_92_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_93_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_94_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_95_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_95_0_1_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_96_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_96_0_0_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_96_0_1_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_97_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_99_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_9_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_9_1_0">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_221">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_222">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_228">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_229">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_237">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_238">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_239">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_240">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_241">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_242">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_243">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_244">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_245">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_246">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_247">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_248">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_249">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_15_0_0_1">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_45_11">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_223">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_224">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_225">
-    <Property Name="Description" Value=""/>
-    <Property Name="VirtualKey_LED" Value="False"/>
-  </VirtualKey>
-  <VirtualKey Name="%embVirtualKey_226">
     <Property Name="Description" Value=""/>
     <Property Name="VirtualKey_LED" Value="False"/>
   </VirtualKey>

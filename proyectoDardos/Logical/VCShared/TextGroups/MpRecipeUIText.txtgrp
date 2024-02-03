@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpRecipeUIText">
   <Property Name="Description" Value="General page text for RecipeUI"/>
   <Property Name="Index" Value="1022"/>
@@ -68,28 +68,28 @@
     <Text ID="128968" Value=""/>
     <Text ID="128972" Value="Rename selected file"/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="111535" Value="Laden"/>
-    <Text ID="111536" Value="Speichern"/>
-    <Text ID="111537" Value="Kopieren"/>
-    <Text ID="111538" Value="Erstellen"/>
-    <Text ID="111539" Value="Refresh"/>
-    <Text ID="111546" Value="Nein"/>
-    <Text ID="111547" Value="Suche"/>
-    <Text ID="111551" Value="Sortieren"/>
-    <Text ID="111552" Value="Status"/>
-    <Text ID="112046" Value="Rezeptauswahl"/>
-    <Text ID="112047" Value="MpRecipeUI"/>
-    <Text ID="112048" Value="Neue Datei erstellen"/>
-    <Text ID="112049" Value="Name"/>
-    <Text ID="112050" Value="Datum"/>
-    <Text ID="112051" Value="Größe"/>
-    <Text ID="128964" Value="Löschen"/>
-    <Text ID="128965" Value="Um benennen"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="111535" Value=""/>
+    <Text ID="111536" Value=""/>
+    <Text ID="111537" Value=""/>
+    <Text ID="111538" Value=""/>
+    <Text ID="111539" Value=""/>
+    <Text ID="111546" Value=""/>
+    <Text ID="111547" Value=""/>
+    <Text ID="111551" Value=""/>
+    <Text ID="111552" Value=""/>
+    <Text ID="112046" Value=""/>
+    <Text ID="112047" Value=""/>
+    <Text ID="112048" Value=""/>
+    <Text ID="112049" Value=""/>
+    <Text ID="112050" Value=""/>
+    <Text ID="112051" Value=""/>
+    <Text ID="128964" Value=""/>
+    <Text ID="128965" Value=""/>
     <Text ID="128966" Value=""/>
     <Text ID="128967" Value=""/>
     <Text ID="128968" Value=""/>
-    <Text ID="128972" Value="Ausgewählte Datei umbennen"/>
+    <Text ID="128972" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="111535" Value="0"/>

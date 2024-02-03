@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpOeeTimelineUIDuration">
   <Property Name="Description" Value="TextSnippets for OeeTimeLineUI duration"/>
   <Property Name="Index" Value="1185"/>
@@ -229,13 +229,13 @@
     <Text ID="121504" Value="{TimelineHour5}:{TimelineMinute5}:{TimelineSecond5}"/>
     <Text ID="122888" Value="{TimelineHour6}:{TimelineMinute6}:{TimelineSecond6}"/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="121500" Value="{TimelineHour1}:{TimelineMinute1}:{TimelineSecond1}"/>
-    <Text ID="121501" Value="{TimelineHour2}:{TimelineMinute2}:{TimelineSecond2}"/>
-    <Text ID="121502" Value="{TimelineHour3}:{TimelineMinute3}:{TimelineSecond3}"/>
-    <Text ID="121503" Value="{TimelineHour4}:{TimelineMinute4}:{TimelineSecond4}"/>
-    <Text ID="121504" Value="{TimelineHour5}:{TimelineMinute5}:{TimelineSecond5}"/>
-    <Text ID="122888" Value="{TimelineHour6}:{TimelineMinute6}:{TimelineSecond6}"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="121500" Value=""/>
+    <Text ID="121501" Value=""/>
+    <Text ID="121502" Value=""/>
+    <Text ID="121503" Value=""/>
+    <Text ID="121504" Value=""/>
+    <Text ID="122888" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="121500" Value="0"/>

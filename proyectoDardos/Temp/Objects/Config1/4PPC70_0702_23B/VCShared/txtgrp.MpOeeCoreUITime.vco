@@ -760,7 +760,7 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
           <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpOeeCoreUITime]" Type="TG" RefString="Source[global].TextGroup[MpOeeCoreUITime].Language[en]">
@@ -814,10 +814,10 @@
     </Folder>
   </Folder>
   <Folder Name="Language">
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="TextGroups">
         <Folder Name="POBJ">
-          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpOeeCoreUITime]" Type="TG" RefString="Source[global].TextGroup[MpOeeCoreUITime].Language[de]">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[global].TextGroup[MpOeeCoreUITime]" Type="TG" RefString="Source[global].TextGroup[MpOeeCoreUITime].Language[es-MX]">
             <UInt32 Name="NumberOfTexts">4</UInt32>
             <Table Name="TextOffsets" Cols="5">
               <TableHeader>
@@ -830,37 +830,37 @@
               <TableRow>
                 <UInt32 Name="TextIndex">156658</UInt32>
                 <UInt32 Name="TextOffset">52</UInt32>
-                <Byte Name="SnippetCount">3</Byte>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">156659</UInt32>
-                <UInt32 Name="TextOffset">216</UInt32>
-                <Byte Name="SnippetCount">3</Byte>
+                <UInt32 Name="TextOffset">54</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">156660</UInt32>
-                <UInt32 Name="TextOffset">332</UInt32>
-                <Byte Name="SnippetCount">3</Byte>
+                <UInt32 Name="TextOffset">56</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">156661</UInt32>
-                <UInt32 Name="TextOffset">508</UInt32>
-                <Byte Name="SnippetCount">3</Byte>
+                <UInt32 Name="TextOffset">58</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"&#x1;ScheduledDowntime_Hours&#x2;:&#x1;ScheduledDowntime_Minutes&#x2;:&#x1;ScheduledDowntime_Seconds&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;TotalTime_Hours&#x2;:&#x1;TotalTime_Minutes&#x2;:&#x1;TotalTime_Seconds&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;UnscheduledDowntime_Hours&#x2;:&#x1;UnscheduledDowntime_Minutes&#x2;:&#x1;UnscheduledDowntime_Seconds&#x2;"</String>
-              <String Name="Text" Encoding="Unicode">"&#x1;Uptime_Hours&#x2;:&#x1;Uptime_Minutes&#x2;:&#x1;Uptime_Seconds&#x2;"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>

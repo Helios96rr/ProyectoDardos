@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpPageControl">
   <Property Name="BackColor" Value="249"/>
   <Property Name="Description" Value="Background for all pages"/>
@@ -10,7 +10,7 @@
   <Property Name="Width" Value="800"/>
   <TextGroup>
     <TextLayer LanguageId="en"/>
-    <TextLayer LanguageId="de"/>
+    <TextLayer LanguageId="es-MX"/>
     <IndexMap/>
   </TextGroup>
   <Controls>
@@ -128,7 +128,7 @@
           <Property Name="Description" Value=""/>
           <Property Name="Locking" Value="Never"/>
           <Property Name="Name" Value="Action_0"/>
-          <Property Name="Page" Value="Source[local].Page[MpSystemDiagnostics]"/>
+          <Property Name="Page" Value="Source[local].Page[P20_SDM]"/>
           <Property Name="Target" Value="Page"/>
         </KeyAction>
       </KeyActions>
@@ -141,7 +141,7 @@
           <Property Name="Description" Value=""/>
           <Property Name="Locking" Value="Never"/>
           <Property Name="Name" Value="Action_0"/>
-          <Property Name="Page" Value="Source[local].Page[MpSetup]"/>
+          <Property Name="Page" Value="Source[local].Page[P10_Setup]"/>
           <Property Name="Target" Value="Page"/>
         </KeyAction>
       </KeyActions>
@@ -154,7 +154,7 @@
           <Property Name="Description" Value=""/>
           <Property Name="Locking" Value="Never"/>
           <Property Name="Name" Value="Action_0"/>
-          <Property Name="Page" Value="Source[local].Page[mapp1StartPage]"/>
+          <Property Name="Page" Value="None"/>
           <Property Name="Target" Value="Page"/>
         </KeyAction>
       </KeyActions>

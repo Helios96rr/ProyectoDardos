@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpUserUITexts">
   <Property Name="Description" Value="General page text for UserLoginUI"/>
   <Property Name="Index" Value="1015"/>
@@ -93,56 +93,56 @@
     <Text ID="133659" Value=""/>
     <Text ID="133660" Value=""/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="109739" Value="Anwendername"/>
-    <Text ID="109740" Value="Benutzer"/>
-    <Text ID="109741" Value="Passwort"/>
-    <Text ID="109742" Value="Anmeldung"/>
-    <Text ID="109743" Value="Neues Passwort"/>
-    <Text ID="109744" Value="Password wiederholen"/>
-    <Text ID="109745" Value="Gruppe / Rolle"/>
-    <Text ID="109746" Value="Voller Name"/>
-    <Text ID="109747" Value="Sprache"/>
-    <Text ID="109748" Value="Einheit"/>
-    <Text ID="109749" Value="Vorlieben"/>
-    <Text ID="109750" Value="{Language} / {Unit}"/>
-    <Text ID="109751" Value="Anwender Level"/>
-    <Text ID="109752" Value="Administrator"/>
-    <Text ID="109753" Value="Editiere Gruppe {EditGroup}"/>
-    <Text ID="109754" Value="Eingeloggter Anwender"/>
-    <Text ID="109755" Value="Aktueller Anwender"/>
-    <Text ID="109756" Value="Gewählter Anwender"/>
-    <Text ID="109757" Value="MpUserManagerUI"/>
-    <Text ID="109758" Value="Abmelden"/>
-    <Text ID="112059" Value="Statistics"/>
-    <Text ID="112060" Value="Anmelde-Tags"/>
-    <Text ID="112061" Value="Import"/>
-    <Text ID="112062" Value="Export"/>
-    <Text ID="112063" Value="MpUserManagerUI Anwender"/>
-    <Text ID="112064" Value="MpUserManagerUI Gruppen"/>
-    <Text ID="112065" Value="Erstellt"/>
-    <Text ID="112066" Value="Erste Anmeldung"/>
-    <Text ID="112067" Value="Letzte Anmeldung"/>
-    <Text ID="112068" Value="Verbleibende Login-Versuche"/>
-    <Text ID="112069" Value="#1"/>
-    <Text ID="112070" Value="#2"/>
-    <Text ID="112071" Value="#3"/>
-    <Text ID="112072" Value="Gewählte Gruppe"/>
-    <Text ID="112073" Value="Gruppen Information"/>
-    <Text ID="112074" Value="Anwender Rechte"/>
-    <Text ID="112075" Value="Gruppe editieren"/>
-    <Text ID="112076" Value="Anwender editieren"/>
-    <Text ID="112077" Value="Anwender anlegen"/>
-    <Text ID="112078" Value="User / Grupped-Daten exportieren"/>
-    <Text ID="112079" Value="Dateiname"/>
-    <Text ID="112080" Value="User / Grupped-Daten importieren"/>
-    <Text ID="112081" Value="Dateiliste"/>
-    <Text ID="112082" Value="Gruppen importieren"/>
-    <Text ID="112083" Value="Anwenderkonten importieren"/>
-    <Text ID="112084" Value="MpUserLoginUI"/>
-    <Text ID="112085" Value="Passwort ändern"/>
-    <Text ID="133656" Value="Gruppe anlegen"/>
-    <Text ID="133657" Value="Passwordhinweis"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="109739" Value=""/>
+    <Text ID="109740" Value=""/>
+    <Text ID="109741" Value=""/>
+    <Text ID="109742" Value=""/>
+    <Text ID="109743" Value=""/>
+    <Text ID="109744" Value=""/>
+    <Text ID="109745" Value=""/>
+    <Text ID="109746" Value=""/>
+    <Text ID="109747" Value=""/>
+    <Text ID="109748" Value=""/>
+    <Text ID="109749" Value=""/>
+    <Text ID="109750" Value=""/>
+    <Text ID="109751" Value=""/>
+    <Text ID="109752" Value=""/>
+    <Text ID="109753" Value=""/>
+    <Text ID="109754" Value=""/>
+    <Text ID="109755" Value=""/>
+    <Text ID="109756" Value=""/>
+    <Text ID="109757" Value=""/>
+    <Text ID="109758" Value=""/>
+    <Text ID="112059" Value=""/>
+    <Text ID="112060" Value=""/>
+    <Text ID="112061" Value=""/>
+    <Text ID="112062" Value=""/>
+    <Text ID="112063" Value=""/>
+    <Text ID="112064" Value=""/>
+    <Text ID="112065" Value=""/>
+    <Text ID="112066" Value=""/>
+    <Text ID="112067" Value=""/>
+    <Text ID="112068" Value=""/>
+    <Text ID="112069" Value=""/>
+    <Text ID="112070" Value=""/>
+    <Text ID="112071" Value=""/>
+    <Text ID="112072" Value=""/>
+    <Text ID="112073" Value=""/>
+    <Text ID="112074" Value=""/>
+    <Text ID="112075" Value=""/>
+    <Text ID="112076" Value=""/>
+    <Text ID="112077" Value=""/>
+    <Text ID="112078" Value=""/>
+    <Text ID="112079" Value=""/>
+    <Text ID="112080" Value=""/>
+    <Text ID="112081" Value=""/>
+    <Text ID="112082" Value=""/>
+    <Text ID="112083" Value=""/>
+    <Text ID="112084" Value=""/>
+    <Text ID="112085" Value=""/>
+    <Text ID="133656" Value=""/>
+    <Text ID="133657" Value=""/>
     <Text ID="133658" Value=""/>
     <Text ID="133659" Value=""/>
     <Text ID="133660" Value=""/>

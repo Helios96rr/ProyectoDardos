@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <AlarmGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpSpindleAlarms">
   <Property Name="AcknowledgeImage" Value="Source[global].Variable[DataSource.MpSpindleAlarmUIConnect.AcknowledgeImage]"/>
   <Property Name="ActiveBackColor" Value="4"/>
@@ -456,26 +456,26 @@
       <Text ID="2841" Value="Maximum torque exceeded {AddInfo18} "/>
       <Text ID="2770" Value=""/>
     </TextLayer>
-    <TextLayer LanguageId="de">
-      <Text ID="2771" Value="Eingabeparameter ungültig {AddInfo2}"/>
-      <Text ID="2772" Value="Motor Übertemperatur {AddInfo3}"/>
-      <Text ID="2773" Value="Schleppfehler {AddInfo4}"/>
-      <Text ID="2774" Value="Positiver oder negativer Endschalter erreicht {AddInfo5}"/>
-      <Text ID="2775" Value="Spannungseinbruch am Enable Eingang des Antriebs {AddInfo6}"/>
-      <Text ID="2776" Value="Geberfehler (Signalamplitude) {AddInfo7}"/>
-      <Text ID="2777" Value="Hauptspannungsfehler: Zwischenkreis Spannungseinbruch, Überspannung, Überstrom {AddInfo8}"/>
-      <Text ID="2778" Value="Fehler in der Sicherheitstechnik {AddInfo9}"/>
-      <Text ID="2779" Value="Haltebremse: Fehler {AddInfo10}"/>
-      <Text ID="2780" Value="Kommunikation (Powerlink) abgebrochen, Kabel nicht gesteckt oder defekt {AddInfo11}"/>
-      <Text ID="2781" Value="Überlast am Antrieb {AddInfo12}"/>
-      <Text ID="2782" Value="Überlast am Motor {AddInfo13}"/>
-      <Text ID="2783" Value="Genereller Antriebsfehler {AddInfo0}"/>
-      <Text ID="2784" Value="Fehler während der Initialisierungsphase {AddInfo1}"/>
-      <Text ID="2785" Value="Genereller Antriebswarnung {AddInfo14}"/>
-      <Text ID="2786" Value="Spindel vom CNC-Programm gestartet {AddInfo15}"/>
-      <Text ID="2839" Value="Spindel vom CNC-Programm angehalten {AddInfo16}"/>
-      <Text ID="2840" Value="Spindel dreht zu langsam {AddInfo17}"/>
-      <Text ID="2841" Value="Das maximale Drehmoment wurde überschritten {AddInfo18}"/>
+    <TextLayer LanguageId="es-MX">
+      <Text ID="2771" Value=""/>
+      <Text ID="2772" Value=""/>
+      <Text ID="2773" Value=""/>
+      <Text ID="2774" Value=""/>
+      <Text ID="2775" Value=""/>
+      <Text ID="2776" Value=""/>
+      <Text ID="2777" Value=""/>
+      <Text ID="2778" Value=""/>
+      <Text ID="2779" Value=""/>
+      <Text ID="2780" Value=""/>
+      <Text ID="2781" Value=""/>
+      <Text ID="2782" Value=""/>
+      <Text ID="2783" Value=""/>
+      <Text ID="2784" Value=""/>
+      <Text ID="2785" Value=""/>
+      <Text ID="2786" Value=""/>
+      <Text ID="2839" Value=""/>
+      <Text ID="2840" Value=""/>
+      <Text ID="2841" Value=""/>
       <Text ID="2770" Value=""/>
     </TextLayer>
     <IndexMap>

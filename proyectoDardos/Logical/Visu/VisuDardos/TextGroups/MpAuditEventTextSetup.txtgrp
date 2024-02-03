@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.2.5.388"?>
+<?AutomationStudio Version="4.11.2.75"?>
 <TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MpAuditEventTextSetup">
   <Property Name="Description" Value=""/>
   <Property Name="Index" Value="0"/>
@@ -20,21 +20,21 @@
     <Text ID="208514" Value="Tweet: [%act$[TEXT=g2131]]"/>
     <Text ID="208515" Value="[%op] - Buffer was reset"/>
   </TextLayer>
-  <TextLayer LanguageId="de">
-    <Text ID="208502" Value="[%[TIME=%u%T]] [%ev$[TEXT=0]]"/>
-    <Text ID="208503" Value="Anwender Aktion [%act$[TEXT=g1163]] ([%usr])"/>
-    <Text ID="208504" Value="Signatur ID [%act]: [%typ$[TEXT=g2130]] ([%typt])"/>
-    <Text ID="208505" Value="Geänderter DP:[%dpid$[TEXT=g1161]] [%old$[TEXT=%sel]] to [%new$[TEXT=%sel]]"/>
-    <Text ID="208506" Value="Geänderter VCDP:[%dpid$[TEXT=g1161]] [%old$[TEXT=%sel]] to [%new$[TEXT=%sel]]"/>
-    <Text ID="208507" Value="[%typ$[TEXT=4]]"/>
-    <Text ID="208508" Value="OPC-UA: [%op] - Wert [%dpid] änderte sich von [%old] zu [%new]"/>
-    <Text ID="208509" Value="Benutzer [%op] startet Batch [%id], vorheriger Batch [%prev] beendet"/>
-    <Text ID="208510" Value="Alarm: [%name], alter Zustand: [%stold], neuer Zustand:[%stnew]"/>
-    <Text ID="208511" Value="[%act$[TEXT=g2129]]"/>
-    <Text ID="208512" Value="PackML Modus: Alt: [%old] Neu: [%new]"/>
-    <Text ID="208513" Value="PackML Zustand: Alt: [%old] Neu: [%new]"/>
-    <Text ID="208514" Value="Tweet: [%act$[TEXT=g2131]]"/>
-    <Text ID="208515" Value="[%op] - Buffer wurde zurückgesetzt"/>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="208502" Value=""/>
+    <Text ID="208503" Value=""/>
+    <Text ID="208504" Value=""/>
+    <Text ID="208505" Value=""/>
+    <Text ID="208506" Value=""/>
+    <Text ID="208507" Value=""/>
+    <Text ID="208508" Value=""/>
+    <Text ID="208509" Value=""/>
+    <Text ID="208510" Value=""/>
+    <Text ID="208511" Value=""/>
+    <Text ID="208512" Value=""/>
+    <Text ID="208513" Value=""/>
+    <Text ID="208514" Value=""/>
+    <Text ID="208515" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="208502" Value="0"/>

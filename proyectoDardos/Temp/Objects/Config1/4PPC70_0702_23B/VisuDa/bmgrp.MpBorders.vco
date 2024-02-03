@@ -3,7 +3,7 @@
 <Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
   <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="1003" Type="REF" RefString="Source[local].BitmapGroup[MpBorders]" />
   <Folder Name="Language">
-    <Folder Name="en" TargetIndex="0">
+    <Folder Name="en" TargetIndex="1">
       <Folder Name="BitmapGroups">
         <Folder Name="POBJ">
           <Object Name="MpBorders" ClsId="0x308" Version="1" TargetIndex="1003" Type="BMPG" RefString="Source[local].BitmapGroup[MpBorders_en]">
@@ -362,10 +362,10 @@
         </Folder>
       </Folder>
     </Folder>
-    <Folder Name="de" TargetIndex="1">
+    <Folder Name="es-MX" TargetIndex="0">
       <Folder Name="BitmapGroups">
         <Folder Name="POBJ">
-          <Object Name="MpBorders" ClsId="0x308" Version="1" TargetIndex="1003" Type="BMPG" RefString="Source[local].BitmapGroup[MpBorders_de]">
+          <Object Name="MpBorders" ClsId="0x308" Version="1" TargetIndex="1003" Type="BMPG" RefString="Source[local].BitmapGroup[MpBorders_es-MX]">
             <UInt32 Name="Count">70</UInt32>
             <Group Name="MpButton_default">
               <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[MpButton_default]</Reference>
