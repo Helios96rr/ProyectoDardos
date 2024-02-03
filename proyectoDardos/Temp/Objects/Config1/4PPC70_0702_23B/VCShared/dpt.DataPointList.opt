@@ -1,0 +1,11 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="C:/Git/CursoBR2023/ProyectosFinales/proyectoDardos/Physical/Config1/4PPC70_0702_23B/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="VisuCtrl" Source="Visu.VisuCtrl.prg" />
+      <Task Name="PlayersCtr" Source="Source.PlayersCtrl.prg" />
+      <Task Name="ScoreCtrl" Source="Source.ScoreCtrl.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.11.2.75"?>
+<Objects>
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133514523886640434" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133514523088133595"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133514523088153622"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133514530737855031" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="133514523093181264" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="133514523093086332"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="133514523093086332"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="133514523093086332"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="133514523097775854" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="133514523097669015"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="133514523097765783"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="133514523097775854"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\astime\binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="133514523102946449" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="133514523102896112"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="133514523102896112"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="133514523102946449"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="133514523107461225" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="133514523107401159"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="133514523107401159"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="133514523107461225"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\visapi\Binary.lby"
+    LogicalPath="Libraries.visapi"
+    Type="Library"
+    LastWriteTime="133514523598299595" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\visapi\Visapi.typ"
+    LogicalPath="Libraries.visapi.Visapi.typ"
+    Type="File"
+    LastWriteTime="133514523598234051"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\visapi\Visapi.fun"
+    LogicalPath="Libraries.visapi.Visapi.fun"
+    Type="File"
+    LastWriteTime="133514523598259171"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\visapi\Visapi.var"
+    LogicalPath="Libraries.visapi.Visapi.var"
+    Type="File"
+    LastWriteTime="133514523598289603"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="133514530737098741" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="133514530737028674"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="133514530737048943"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="133514530737088742"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\Package.pkg"
+    LogicalPath="Source"
+    Type="Package"
+    LastWriteTime="133514524797443983" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\PlayersCtrl\IEC.prg"
+    LogicalPath="Source.PlayersCtrl"
+    Type="Program"
+    LastWriteTime="133514524120778031" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\PlayersCtrl\Main.st"
+    LogicalPath="Source.PlayersCtrl.Main.st"
+    Type="File"
+    LastWriteTime="133514524120650174"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\PlayersCtrl\Types.typ"
+    LogicalPath="Source.PlayersCtrl.Types.typ"
+    Type="File"
+    LastWriteTime="133514524120717366"
+    Private="true" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\PlayersCtrl\Variables.var"
+    LogicalPath="Source.PlayersCtrl.Variables.var"
+    Type="File"
+    LastWriteTime="133514524120752943"
+    Private="true" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\ScoreCtrl\IEC.prg"
+    LogicalPath="Source.ScoreCtrl"
+    Type="Program"
+    LastWriteTime="133514524164726641" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\ScoreCtrl\Main.st"
+    LogicalPath="Source.ScoreCtrl.Main.st"
+    Type="File"
+    LastWriteTime="133514524164656341"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\ScoreCtrl\Types.typ"
+    LogicalPath="Source.ScoreCtrl.Types.typ"
+    Type="File"
+    LastWriteTime="133514524164656341"
+    Private="true" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\ScoreCtrl\Variables.var"
+    LogicalPath="Source.ScoreCtrl.Variables.var"
+    Type="File"
+    LastWriteTime="133514524164726641"
+    Private="true" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Visu\Package.pkg"
+    LogicalPath="Visu"
+    Type="Package"
+    LastWriteTime="133514524966561513" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Visu\VisuCtrl\IEC.prg"
+    LogicalPath="Visu.VisuCtrl"
+    Type="Program"
+    LastWriteTime="133514523977576918" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Visu\VisuCtrl\Main.st"
+    LogicalPath="Visu.VisuCtrl.Main.st"
+    Type="File"
+    LastWriteTime="133514523977512658"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Visu\VisuCtrl\Types.typ"
+    LogicalPath="Visu.VisuCtrl.Types.typ"
+    Type="File"
+    LastWriteTime="133514523977532661"
+    Private="true" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Visu\VisuCtrl\Variables.var"
+    LogicalPath="Visu.VisuCtrl.Variables.var"
+    Type="File"
+    LastWriteTime="133514523977562668"
+    Private="true" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Visu\VisuDardos\Vc.dob"
+    LogicalPath="Visu.VisuDardos"
+    Type="DataObject"
+    LastWriteTime="133514524797847745" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Visu\VisuDardos\VCObject.vc"
+    LogicalPath="Visu.VisuDardos.VCObject.vc"
+    Type="File"
+    LastWriteTime="133514524966596928"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133514523165365776" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="133514530089724463"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133514524476597792"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\Cpu.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B"
+    Type="Cpu"
+    LastWriteTime="133514529762201731" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\Cpu.sw"
+    LogicalPath="Config1.4PPC70_0702_23B.Cpu.sw"
+    Type="File"
+    LastWriteTime="133514530738502286"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\Cpu.per"
+    LogicalPath="Config1.4PPC70_0702_23B.Cpu.per"
+    Type="File"
+    LastWriteTime="133514523109225881"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\IoMap.iom"
+    LogicalPath="Config1.4PPC70_0702_23B.IoMap.iom"
+    Type="File"
+    LastWriteTime="133514523109295952"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\PvMap.vvm"
+    LogicalPath="Config1.4PPC70_0702_23B.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133514523109295952"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\Connectivity\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.Connectivity"
+    Type="Package"
+    LastWriteTime="133514523109628148" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="133514523109628148" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\TextSystem\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.TextSystem"
+    Type="Package"
+    LastWriteTime="133514523109828961" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\UnitSystem\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.UnitSystem"
+    Type="Package"
+    LastWriteTime="133514523109999940" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="133514523110683600" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="133514523110231132" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="133514523110199314"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="133514523110231132"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="133514523110575208" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="133514523110394363" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="133514523110342531" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="133514523110384371" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="133514523110485511" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="133514523110475464" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="133514523110526134" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="133514523110560143" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="133514523110609334" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="133514523110668526" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.4PPC70_0702_23B.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="133514523110668526"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\mappControl\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.mappControl"
+    Type="Package"
+    LastWriteTime="133514523110728820" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\mappMotion\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.mappMotion"
+    Type="Package"
+    LastWriteTime="133514523110926075" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\mappServices\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.mappServices"
+    Type="Package"
+    LastWriteTime="133514523110967061" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\mappSafety\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.mappSafety"
+    Type="Package"
+    LastWriteTime="133514523111192269" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\mappSafety\SafeApplication\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.mappSafety.SafeApplication"
+    Type="Package"
+    LastWriteTime="133514523111146893" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\mappSafety\SafeCommissioning\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.mappSafety.SafeCommissioning"
+    Type="Package"
+    LastWriteTime="133514523111182085" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\mappView\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.mappView"
+    Type="Package"
+    LastWriteTime="133514523111332794" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\mappVision\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.mappVision"
+    Type="Package"
+    LastWriteTime="133514523111561384" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\mappCockpit\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.mappCockpit"
+    Type="Package"
+    LastWriteTime="133514523111718287" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\VC\Package.pkg"
+    LogicalPath="Config1.4PPC70_0702_23B.VC"
+    Type="Package"
+    LastWriteTime="133514526411387470" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\VC\4PPC70_0702_23B.dis"
+    LogicalPath="Config1.4PPC70_0702_23B.VC.4PPC70_0702_23B.dis"
+    Type="File"
+    LastWriteTime="133514523158789570"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\4PPC70_0702_23B\VC\PS2-Keyboard.dis"
+    LogicalPath="Config1.4PPC70_0702_23B.VC.PS2-Keyboard.dis"
+    Type="File"
+    LastWriteTime="133514526411630545"
+    Private="false" />
+  <Object
+    Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Physical\Config1\Hardware.jpg"
+    LogicalPath="Config1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133514524477158948"
+    Private="false" />
+</Objects>
