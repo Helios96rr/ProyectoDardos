@@ -5,12 +5,12 @@
   <Property Name="Index" Value="997"/>
   <TextSnippets/>
   <TextLayer LanguageId="en">
-    <Text ID="109759" Value="German"/>
+    <Text ID="109759" Value="Spanish"/>
     <Text ID="109760" Value="English"/>
   </TextLayer>
   <TextLayer LanguageId="es-MX">
-    <Text ID="109759" Value=""/>
-    <Text ID="109760" Value=""/>
+    <Text ID="109759" Value="Español"/>
+    <Text ID="109760" Value="Inglés"/>
   </TextLayer>
   <IndexMap>
     <Index ID="109759" Value="1"/>

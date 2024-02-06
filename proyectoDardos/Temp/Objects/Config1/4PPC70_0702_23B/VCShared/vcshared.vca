@@ -51,6 +51,11 @@
   <Symbol Name="\AlarmSystems\AS1\AlarmGroups\POBJ" Index="1002" Type="AG" RefString="Source[global].AlarmGroup[AS1.MpUserAlarms]" />
   <Symbol Name="\AlarmSystems\AS1\AlarmGroups\POBJ" Index="2003" Type="AG" RefString="Source[global].AlarmGroup[AS1.MpTeachPointsUIAlarms]" />
   <Symbol Name="\AlarmSystems\AS1\AlarmGroups\POBJ" Index="2004" Type="AG" RefString="Source[global].AlarmGroup[AS1.MpSpindleAlarms]" />
+  <Symbol Name="\TextGroupBase\AlarmAcknowledgeState" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState]" />
+  <Symbol Name="\TextGroupBase\AlarmBypassState" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState]" />
+  <Symbol Name="\TextGroupBase\AlarmEvent" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent]" />
+  <Symbol Name="\TextGroupBase\AlarmState" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState]" />
+  <Symbol Name="\TextGroupBase\DateTimeFormats" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats]" />
   <Symbol Name="\TextGroupBase\MpAlarmAcknowledgeState" Index="2147484800" Type="TG" RefString="Source[global].TextGroup[MpAlarmAcknowledgeState]" />
   <Symbol Name="\TextGroupBase\MpAlarmBypassState" Index="2147484801" Type="TG" RefString="Source[global].TextGroup[MpAlarmBypassState]" />
   <Symbol Name="\TextGroupBase\MpAlarmEvent" Index="2147484799" Type="TG" RefString="Source[global].TextGroup[MpAlarmEvent]" />
@@ -945,11 +950,6 @@
   <Symbol Name="\DPV\POBJ" Index="800" Type="DP" RefString="Source[global].Variable[Internal.Memory.LargestFreeBlock]" />
   <Symbol Name="\DPV\POBJ" Index="801" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalFree]" />
   <Symbol Name="\DPV\POBJ" Index="802" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalInstalled]" />
-  <Symbol Name="\TextGroupBase\AlarmAcknowledgeState" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState]" />
-  <Symbol Name="\TextGroupBase\AlarmBypassState" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState]" />
-  <Symbol Name="\TextGroupBase\AlarmEvent" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent]" />
-  <Symbol Name="\TextGroupBase\AlarmState" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState]" />
-  <Symbol Name="\TextGroupBase\DateTimeFormats" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats]" />
   <Symbol Name="Source[global].UnitGroup[Length]" Index="3221225472" Type="UG" RefString="Source[global].UnitGroup[Length]" />
   <Symbol Name="Source[global].UnitGroup[Length].Unit[$OneToOne]" Index="3221225480" Type="UNIT" RefString="Source[global].UnitGroup[Length].Unit[$OneToOne]" />
   <Symbol Name="Source[global].UnitGroup[Mass]" Index="3221225473" Type="UG" RefString="Source[global].UnitGroup[Mass]" />
@@ -1489,6 +1489,11 @@
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="3221225490" Type="TG" RefString="Source[global].TextGroup[AG.MpUserAlarms.AS1].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="3221225491" Type="TG" RefString="Source[global].TextGroup[AG.MpTeachPointsUIAlarms.AS1].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="3221225492" Type="TG" RefString="Source[global].TextGroup[AG.MpSpindleAlarms.AS1].Language[en]" />
+  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState].Language[en]" />
+  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState].Language[en]" />
+  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent].Language[en]" />
+  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState].Language[en]" />
+  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147484800" Type="TG" RefString="Source[global].TextGroup[MpAlarmAcknowledgeState].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147484801" Type="TG" RefString="Source[global].TextGroup[MpAlarmBypassState].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147484799" Type="TG" RefString="Source[global].TextGroup[MpAlarmEvent].Language[en]" />
@@ -1580,11 +1585,6 @@
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147485777" Type="TG" RefString="Source[global].TextGroup[MpRecipeAuditText].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147485778" Type="TG" RefString="Source[global].TextGroup[MpAuditSignatureEvent].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147485779" Type="TG" RefString="Source[global].TextGroup[MpAuditTweetEvent].Language[en]" />
-  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState].Language[en]" />
-  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState].Language[en]" />
-  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent].Language[en]" />
-  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState].Language[en]" />
-  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats].Language[en]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225472" Type="TG" RefString="Source[global].TextGroup[Length_embedded].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225473" Type="TG" RefString="Source[global].TextGroup[Mass_embedded].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225474" Type="TG" RefString="Source[global].TextGroup[Volume_embedded].Language[es-MX]" />
@@ -1606,6 +1606,11 @@
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225490" Type="TG" RefString="Source[global].TextGroup[AG.MpUserAlarms.AS1].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225491" Type="TG" RefString="Source[global].TextGroup[AG.MpTeachPointsUIAlarms.AS1].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225492" Type="TG" RefString="Source[global].TextGroup[AG.MpSpindleAlarms.AS1].Language[es-MX]" />
+  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState].Language[es-MX]" />
+  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState].Language[es-MX]" />
+  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent].Language[es-MX]" />
+  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState].Language[es-MX]" />
+  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147484800" Type="TG" RefString="Source[global].TextGroup[MpAlarmAcknowledgeState].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147484801" Type="TG" RefString="Source[global].TextGroup[MpAlarmBypassState].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147484799" Type="TG" RefString="Source[global].TextGroup[MpAlarmEvent].Language[es-MX]" />
@@ -1697,9 +1702,4 @@
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147485777" Type="TG" RefString="Source[global].TextGroup[MpRecipeAuditText].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147485778" Type="TG" RefString="Source[global].TextGroup[MpAuditSignatureEvent].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147485779" Type="TG" RefString="Source[global].TextGroup[MpAuditTweetEvent].Language[es-MX]" />
-  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState].Language[es-MX]" />
-  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState].Language[es-MX]" />
-  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent].Language[es-MX]" />
-  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState].Language[es-MX]" />
-  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats].Language[es-MX]" />
 </SymbolTable>

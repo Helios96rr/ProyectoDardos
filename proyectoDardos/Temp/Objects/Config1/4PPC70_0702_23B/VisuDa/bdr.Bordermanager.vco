@@ -4,7 +4,7 @@
   <Folder Name="BorderManager">
     <Folder Name="POBJ">
       <Object Name="BorderManager" ClsId="0x111" Version="1" Type="MGR" RefString="Source[local].BorderManager[default]">
-        <UInt32 Name="BorderCount">63</UInt32>
+        <UInt32 Name="BorderCount">71</UInt32>
         <Group Name="Mp_AttentionOff">
           <UInt32 Name="BorderType">12293</UInt32>
           <UInt16 Name="PaddingHorizontal">2</UInt16>
@@ -932,6 +932,126 @@
           <UInt16 Name="Reserved">0</UInt16>
           <UInt32 Name="Reserved">0</UInt32>
         </Group>
+        <Group Name="Border_Home">
+          <UInt32 Name="BorderType">12293</UInt32>
+          <UInt16 Name="PaddingHorizontal">2</UInt16>
+          <UInt16 Name="PaddingVertical">1</UInt16>
+          <UInt32 Name="ReplaceColor">4294967295</UInt32>
+          <UInt16 Name="SplitLeft">0</UInt16>
+          <UInt16 Name="SplitRight">40</UInt16>
+          <UInt16 Name="SplitTop">0</UInt16>
+          <UInt16 Name="SplitBottom">40</UInt16>
+          <Byte Name="BorderBitmapSource">0</Byte>
+          <Byte Name="ReplaceColorSet">0</Byte>
+          <UInt16 Name="BorderBitmapGroupIndex">65535</UInt16>
+          <UInt32 Name="BorderBitmapGroup">4294967295</UInt32>
+          <Reference Name="BorderBitmap" Type="">Source[local].Bitmap[casa40x40]</Reference>
+        </Group>
+        <Group Name="Border_Dardos">
+          <UInt32 Name="BorderType">12293</UInt32>
+          <UInt16 Name="PaddingHorizontal">2</UInt16>
+          <UInt16 Name="PaddingVertical">1</UInt16>
+          <UInt32 Name="ReplaceColor">4294967295</UInt32>
+          <UInt16 Name="SplitLeft">1</UInt16>
+          <UInt16 Name="SplitRight">50</UInt16>
+          <UInt16 Name="SplitTop">1</UInt16>
+          <UInt16 Name="SplitBottom">50</UInt16>
+          <Byte Name="BorderBitmapSource">0</Byte>
+          <Byte Name="ReplaceColorSet">0</Byte>
+          <UInt16 Name="BorderBitmapGroupIndex">65535</UInt16>
+          <UInt32 Name="BorderBitmapGroup">4294967295</UInt32>
+          <Reference Name="BorderBitmap" Type="">Source[local].Bitmap[dardos50x50]</Reference>
+        </Group>
+        <Group Name="Border_Mundo">
+          <UInt32 Name="BorderType">12293</UInt32>
+          <UInt16 Name="PaddingHorizontal">2</UInt16>
+          <UInt16 Name="PaddingVertical">1</UInt16>
+          <UInt32 Name="ReplaceColor">4294967295</UInt32>
+          <UInt16 Name="SplitLeft">1</UInt16>
+          <UInt16 Name="SplitRight">50</UInt16>
+          <UInt16 Name="SplitTop">1</UInt16>
+          <UInt16 Name="SplitBottom">50</UInt16>
+          <Byte Name="BorderBitmapSource">0</Byte>
+          <Byte Name="ReplaceColorSet">0</Byte>
+          <UInt16 Name="BorderBitmapGroupIndex">65535</UInt16>
+          <UInt32 Name="BorderBitmapGroup">4294967295</UInt32>
+          <Reference Name="BorderBitmap" Type="">Source[local].Bitmap[mundo50x50]</Reference>
+        </Group>
+        <Group Name="Border_Equis">
+          <UInt32 Name="BorderType">12293</UInt32>
+          <UInt16 Name="PaddingHorizontal">2</UInt16>
+          <UInt16 Name="PaddingVertical">1</UInt16>
+          <UInt32 Name="ReplaceColor">15</UInt32>
+          <UInt16 Name="SplitLeft">1</UInt16>
+          <UInt16 Name="SplitRight">16</UInt16>
+          <UInt16 Name="SplitTop">1</UInt16>
+          <UInt16 Name="SplitBottom">16</UInt16>
+          <Byte Name="BorderBitmapSource">0</Byte>
+          <Byte Name="ReplaceColorSet">1</Byte>
+          <UInt16 Name="BorderBitmapGroupIndex">65535</UInt16>
+          <UInt32 Name="BorderBitmapGroup">4294967295</UInt32>
+          <Reference Name="BorderBitmap" Type="">Source[local].Bitmap[Delete]</Reference>
+        </Group>
+        <Group Name="Border_Trofeo">
+          <UInt32 Name="BorderType">12293</UInt32>
+          <UInt16 Name="PaddingHorizontal">2</UInt16>
+          <UInt16 Name="PaddingVertical">1</UInt16>
+          <UInt32 Name="ReplaceColor">4294967295</UInt32>
+          <UInt16 Name="SplitLeft">1</UInt16>
+          <UInt16 Name="SplitRight">50</UInt16>
+          <UInt16 Name="SplitTop">1</UInt16>
+          <UInt16 Name="SplitBottom">50</UInt16>
+          <Byte Name="BorderBitmapSource">0</Byte>
+          <Byte Name="ReplaceColorSet">0</Byte>
+          <UInt16 Name="BorderBitmapGroupIndex">65535</UInt16>
+          <UInt32 Name="BorderBitmapGroup">4294967295</UInt32>
+          <Reference Name="BorderBitmap" Type="">Source[local].Bitmap[trofeo50x50]</Reference>
+        </Group>
+        <Group Name="Border_Reparar">
+          <UInt32 Name="BorderType">12293</UInt32>
+          <UInt16 Name="PaddingHorizontal">2</UInt16>
+          <UInt16 Name="PaddingVertical">1</UInt16>
+          <UInt32 Name="ReplaceColor">4294967295</UInt32>
+          <UInt16 Name="SplitLeft">1</UInt16>
+          <UInt16 Name="SplitRight">50</UInt16>
+          <UInt16 Name="SplitTop">1</UInt16>
+          <UInt16 Name="SplitBottom">50</UInt16>
+          <Byte Name="BorderBitmapSource">0</Byte>
+          <Byte Name="ReplaceColorSet">0</Byte>
+          <UInt16 Name="BorderBitmapGroupIndex">65535</UInt16>
+          <UInt32 Name="BorderBitmapGroup">4294967295</UInt32>
+          <Reference Name="BorderBitmap" Type="">Source[local].Bitmap[reparar50x50]</Reference>
+        </Group>
+        <Group Name="Border_Background">
+          <UInt32 Name="BorderType">12293</UInt32>
+          <UInt16 Name="PaddingHorizontal">18</UInt16>
+          <UInt16 Name="PaddingVertical">54</UInt16>
+          <UInt32 Name="ReplaceColor">4294967295</UInt32>
+          <UInt16 Name="SplitLeft">7</UInt16>
+          <UInt16 Name="SplitRight">793</UInt16>
+          <UInt16 Name="SplitTop">44</UInt16>
+          <UInt16 Name="SplitBottom">437</UInt16>
+          <Byte Name="BorderBitmapSource">0</Byte>
+          <Byte Name="ReplaceColorSet">0</Byte>
+          <UInt16 Name="BorderBitmapGroupIndex">65535</UInt16>
+          <UInt32 Name="BorderBitmapGroup">4294967295</UInt32>
+          <Reference Name="BorderBitmap" Type="">Source[local].Bitmap[BackgroundSilverGold]</Reference>
+        </Group>
+        <Group Name="Border_Frame">
+          <UInt32 Name="BorderType">12293</UInt32>
+          <UInt16 Name="PaddingHorizontal">2</UInt16>
+          <UInt16 Name="PaddingVertical">1</UInt16>
+          <UInt32 Name="ReplaceColor">4294967295</UInt32>
+          <UInt16 Name="SplitLeft">5</UInt16>
+          <UInt16 Name="SplitRight">82</UInt16>
+          <UInt16 Name="SplitTop">16</UInt16>
+          <UInt16 Name="SplitBottom">18</UInt16>
+          <Byte Name="BorderBitmapSource">0</Byte>
+          <Byte Name="ReplaceColorSet">0</Byte>
+          <UInt16 Name="BorderBitmapGroupIndex">65535</UInt16>
+          <UInt32 Name="BorderBitmapGroup">4294967295</UInt32>
+          <Reference Name="BorderBitmap" Type="">Source[local].Bitmap[frame_header]</Reference>
+        </Group>
       </Object>
       <Folder Name="BorderObjects">
         <Object Name="Mp_AttentionOff" ClsId="0x0" Version="0" TargetIndex="0" Type="BRD" RefString="Source[local].Border[Mp_AttentionOff]" />
@@ -997,6 +1117,14 @@
         <Object Name="Mp_Button_Safety_ACK_on" ClsId="0x0" Version="0" TargetIndex="60" Type="BRD" RefString="Source[local].Border[Mp_Button_Safety_ACK_on]" />
         <Object Name="Mp_LabelBorder_Orange" ClsId="0x0" Version="0" TargetIndex="61" Type="BRD" RefString="Source[local].Border[Mp_LabelBorder_Orange]" />
         <Object Name="BorderGold" ClsId="0x0" Version="0" TargetIndex="62" Type="BRD" RefString="Source[local].Border[BorderGold]" />
+        <Object Name="Border_Home" ClsId="0x0" Version="0" TargetIndex="63" Type="BRD" RefString="Source[local].Border[Border_Home]" />
+        <Object Name="Border_Dardos" ClsId="0x0" Version="0" TargetIndex="64" Type="BRD" RefString="Source[local].Border[Border_Dardos]" />
+        <Object Name="Border_Mundo" ClsId="0x0" Version="0" TargetIndex="65" Type="BRD" RefString="Source[local].Border[Border_Mundo]" />
+        <Object Name="Border_Equis" ClsId="0x0" Version="0" TargetIndex="66" Type="BRD" RefString="Source[local].Border[Border_Equis]" />
+        <Object Name="Border_Trofeo" ClsId="0x0" Version="0" TargetIndex="67" Type="BRD" RefString="Source[local].Border[Border_Trofeo]" />
+        <Object Name="Border_Reparar" ClsId="0x0" Version="0" TargetIndex="68" Type="BRD" RefString="Source[local].Border[Border_Reparar]" />
+        <Object Name="Border_Background" ClsId="0x0" Version="0" TargetIndex="69" Type="BRD" RefString="Source[local].Border[Border_Background]" />
+        <Object Name="Border_Frame" ClsId="0x0" Version="0" TargetIndex="70" Type="BRD" RefString="Source[local].Border[Border_Frame]" />
       </Folder>
     </Folder>
   </Folder>

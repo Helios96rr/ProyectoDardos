@@ -4,5 +4,6 @@
   <Objects>
     <Object Type="Program" Language="IEC">PlayersCtrl</Object>
     <Object Type="Program" Language="IEC">ScoreCtrl</Object>
+    <Object Type="Program" Language="IEC">VisapiCtrl</Object>
   </Objects>
 </Package>

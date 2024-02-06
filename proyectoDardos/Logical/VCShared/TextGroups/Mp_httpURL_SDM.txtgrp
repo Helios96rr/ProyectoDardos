@@ -5,12 +5,12 @@
   <Property Name="Index" Value="999"/>
   <TextSnippets/>
   <TextLayer LanguageId="en">
-    <Text ID="94284" Value="http://localhost/sdm-vga/vga.cgi"/>
+    <Text ID="214471" Value="http://localhost/sdm-vga/vga.cgi"/>
   </TextLayer>
   <TextLayer LanguageId="es-MX">
-    <Text ID="94284" Value=""/>
+    <Text ID="214471" Value="http://localhost/sdm-vga/vga.cgi"/>
   </TextLayer>
   <IndexMap>
-    <Index ID="94284" Value="1"/>
+    <Index ID="214471" Value="1"/>
   </IndexMap>
 </TextGroup>

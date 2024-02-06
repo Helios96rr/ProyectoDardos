@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.11.2.75"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="GameConfiguration">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="2"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="211534" Value="RADIUS CONFIGURATION"/>
+    <Text ID="211535" Value="SCORE CONFIGURATION"/>
+    <Text ID="211536" Value="SEGMENT"/>
+    <Text ID="211537" Value="VALUE"/>
+    <Text ID="211538" Value="SCORE POINT"/>
+  </TextLayer>
+  <TextLayer LanguageId="es-MX">
+    <Text ID="211534" Value="CONFIGURACIÓN DE RADIOS"/>
+    <Text ID="211535" Value="CONFIGURACIÓN DE PUNTAJE"/>
+    <Text ID="211536" Value="SEGMENTO"/>
+    <Text ID="211537" Value="VALOR"/>
+    <Text ID="211538" Value="PUNTUACIÓN"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="211534" Value="0"/>
+    <Index ID="211535" Value="1"/>
+    <Index ID="211536" Value="2"/>
+    <Index ID="211537" Value="3"/>
+    <Index ID="211538" Value="4"/>
+  </IndexMap>
+</TextGroup>

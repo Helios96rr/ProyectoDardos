@@ -14,8 +14,8 @@
             <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
             <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
             <UInt32 Name="DefaultWidth">0</UInt32>
-            <UInt32 Name="DefaultHeight">8</UInt32>
-            <UInt32 Name="FontSize">14</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">18</UInt32>
             <UInt32 Name="Index">1104</UInt32>
             <UInt32 Name="AntiAliasing">0</UInt32>
           </Symbol>
@@ -23,8 +23,8 @@
             <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
             <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
             <UInt32 Name="DefaultWidth">0</UInt32>
-            <UInt32 Name="DefaultHeight">10</UInt32>
-            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">19</UInt32>
             <UInt32 Name="Index">1103</UInt32>
             <UInt32 Name="AntiAliasing">0</UInt32>
           </Symbol>
@@ -32,8 +32,8 @@
             <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
             <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
             <UInt32 Name="DefaultWidth">0</UInt32>
-            <UInt32 Name="DefaultHeight">10</UInt32>
-            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">19</UInt32>
             <UInt32 Name="Index">1102</UInt32>
             <UInt32 Name="AntiAliasing">0</UInt32>
           </Symbol>
@@ -41,8 +41,8 @@
             <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
             <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
             <UInt32 Name="DefaultWidth">0</UInt32>
-            <UInt32 Name="DefaultHeight">9</UInt32>
-            <UInt32 Name="FontSize">15</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">19</UInt32>
             <UInt32 Name="Index">1101</UInt32>
             <UInt32 Name="AntiAliasing">0</UInt32>
           </Symbol>
@@ -50,8 +50,8 @@
             <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
             <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
             <UInt32 Name="DefaultWidth">0</UInt32>
-            <UInt32 Name="DefaultHeight">9</UInt32>
-            <UInt32 Name="FontSize">15</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">18</UInt32>
             <UInt32 Name="Index">1000</UInt32>
             <UInt32 Name="AntiAliasing">0</UInt32>
           </Symbol>
@@ -59,8 +59,8 @@
             <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
             <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
             <UInt32 Name="DefaultWidth">0</UInt32>
-            <UInt32 Name="DefaultHeight">7</UInt32>
-            <UInt32 Name="FontSize">11</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">19</UInt32>
             <UInt32 Name="Index">1109</UInt32>
             <UInt32 Name="AntiAliasing">0</UInt32>
           </Symbol>
@@ -77,8 +77,8 @@
             <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
             <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
             <UInt32 Name="DefaultWidth">0</UInt32>
-            <UInt32 Name="DefaultHeight">7</UInt32>
-            <UInt32 Name="FontSize">12</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">18</UInt32>
             <UInt32 Name="Index">1107</UInt32>
             <UInt32 Name="AntiAliasing">0</UInt32>
           </Symbol>
@@ -86,8 +86,8 @@
             <String Name="PhysicalFontName" Encoding="ASCII">arialbd</String>
             <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAA==</Binary>
             <UInt32 Name="DefaultWidth">0</UInt32>
-            <UInt32 Name="DefaultHeight">10</UInt32>
-            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="DefaultHeight">12</UInt32>
+            <UInt32 Name="FontSize">19</UInt32>
             <UInt32 Name="Index">1106</UInt32>
             <UInt32 Name="AntiAliasing">0</UInt32>
           </Symbol>
@@ -95,8 +95,8 @@
             <String Name="PhysicalFontName" Encoding="ASCII">arial</String>
             <Binary Name="FillData" Encoding="Base64">AAAAAAAAAAAAAAAAAAAAAAAA</Binary>
             <UInt32 Name="DefaultWidth">0</UInt32>
-            <UInt32 Name="DefaultHeight">10</UInt32>
-            <UInt32 Name="FontSize">16</UInt32>
+            <UInt32 Name="DefaultHeight">7</UInt32>
+            <UInt32 Name="FontSize">12</UInt32>
             <UInt32 Name="Index">1105</UInt32>
             <UInt32 Name="AntiAliasing">0</UInt32>
           </Symbol>

@@ -307,5 +307,11 @@
     <Bitmap>Source[local].Bitmap[BackgroundWVGA_NoLogo]</Bitmap>
     <Bitmap>Source[local].Bitmap[BackgroundSilverGold]</Bitmap>
     <Bitmap>Source[local].Bitmap[dcVSmarvel800x480]</Bitmap>
+    <Bitmap>Source[local].Bitmap[reparar50x50]</Bitmap>
+    <Bitmap>Source[local].Bitmap[trofeo50x50]</Bitmap>
+    <Bitmap>Source[local].Bitmap[dardos50x50]</Bitmap>
+    <Bitmap>Source[local].Bitmap[mundo50x50]</Bitmap>
+    <Bitmap>Source[local].Bitmap[casa50x50]</Bitmap>
+    <Bitmap>Source[local].Bitmap[casa40x40]</Bitmap>
   </Bitmap32bit>
 </Options>

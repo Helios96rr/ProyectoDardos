@@ -8,6 +8,7 @@
     <Task Name="VisuCtrl" Source="Visu.VisuCtrl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="PlayersCtr" Source="Source.PlayersCtrl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="ScoreCtrl" Source="Source.ScoreCtrl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="VisapiCtrl" Source="Source.VisapiCtrl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <VcDataObjects>
     <VcDataObject Name="VisuDa" Source="Visu.VisuDardos.dob" Memory="UserROM" Language="Vc" WarningLevel="2" />

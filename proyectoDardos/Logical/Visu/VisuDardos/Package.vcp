@@ -33,7 +33,7 @@
   <Property Name="ScreenSaver" Value="Source[local].Page[P100_screenSaver]"/>
   <Property Name="ScreenSaverDatapoint" Value="None"/>
   <Property Name="ScreenSaverTimeDatapoint" Value="None"/>
-  <Property Name="ScreenSaverTimeout" Value="10"/>
+  <Property Name="ScreenSaverTimeout" Value="30"/>
   <Property Name="ScreenSaver_Activate" Value="True"/>
   <Property Name="TargetResourceRoot" Value=""/>
   <Property Name="TextLengthOverrunBackColor" Value="None"/>
@@ -48,6 +48,7 @@
     <Source File="TextGroups\ShiftGroup.txtgrp"/>
     <Source File="TextGroups\MpAuditEventTextSetup.txtgrp"/>
     <Source File="TextGroups\MpAuditUserDefinedEvent.txtgrp"/>
+    <Source File="TextGroups\GameConfiguration.txtgrp"/>
     <Source File="Fonts\MpButton.fninfo"/>
     <Source File="Fonts\MpDefault.fninfo"/>
     <Source File="Fonts\MpHeader2.fninfo"/>
@@ -364,6 +365,15 @@
     <Source File="Bitmaps\BackgroundWVGA_NoLogo.bminfo"/>
     <Source File="Bitmaps\BackgroundSilverGold.bminfo"/>
     <Source File="Bitmaps\dcVSmarvel800x480.bminfo"/>
+    <Source File="Bitmaps\reparar50x50.bminfo"/>
+    <Source File="Bitmaps\trofeo50x50.bminfo"/>
+    <Source File="Bitmaps\dardos50x50.bminfo"/>
+    <Source File="Bitmaps\mundo50x50.bminfo"/>
+    <Source File="Bitmaps\casa50x50.bminfo"/>
+    <Source File="Bitmaps\AutomationHelp.bminfo"/>
+    <Source File="Bitmaps\Delete.bminfo"/>
+    <Source File="Bitmaps\TpuFunctionBlockMode.bminfo"/>
+    <Source File="Bitmaps\casa40x40.bminfo"/>
     <Source File="BitmapGroups\MpAlarmAcknowledgeState.bmgrp"/>
     <Source File="BitmapGroups\MpAuditEventsID.bmgrp"/>
     <Source File="BitmapGroups\MpFileIcons.bmgrp"/>
@@ -458,6 +468,14 @@
     <Source File="Borders\Mp_Button_Safety_ACK_on.bdr"/>
     <Source File="Borders\Mp_LabelBorder_Orange.bdr"/>
     <Source File="Borders\BorderGold.bdr"/>
+    <Source File="Borders\Border_Home.bdr"/>
+    <Source File="Borders\Border_Dardos.bdr"/>
+    <Source File="Borders\Border_Mundo.bdr"/>
+    <Source File="Borders\Border_Equis.bdr"/>
+    <Source File="Borders\Border_Trofeo.bdr"/>
+    <Source File="Borders\Border_Reparar.bdr"/>
+    <Source File="Borders\Border_Background.bdr"/>
+    <Source File="Borders\Border_Frame.bdr"/>
     <Source File="TouchPads\MpNavigationPad_ver.tpr"/>
     <Source File="TouchPads\MpNumPad.tpr"/>
     <Source File="TouchPads\MpAlphaPad.tpr"/>
@@ -469,6 +487,7 @@
     <Source File="Trends\MpOeeTrendUI.tre"/>
     <Source File="ColorMaps\MpPMLStateColors.clm"/>
     <Source File="ColorMaps\MpEnergyChartData.clm"/>
+    <Source File="Processes\Process_1.prc"/>
     <Source File="VirtualKeys.vcvk"/>
     <Source File="Palette.vcr"/>
   </SourceFiles>

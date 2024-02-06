@@ -1,21 +1,18 @@
-Sat Feb  3 12:48:05 2024
+Mon Feb  5 20:00:15 2024
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Sat Feb  3 12:48:05 2024
+Mon Feb  5 20:00:15 2024
 No ARsim registration found!
 
-Sat Feb  3 12:48:05 2024
-InstanceName: 000002786e5baeff
+Mon Feb  5 20:00:15 2024
+InstanceName: 00000010f9273f8b
 
-Sat Feb  3 12:48:05 2024
-WorkingDirectory: C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Temp\Simulation\Config1\4PPC70_0702_23B\
+Mon Feb  5 20:00:15 2024
+WorkingDirectory: C:\Proyectos\ProyectosBR\proyectoDardos\Temp\Simulation\Config1\4PPC70_0702_23B\
 
-Sat Feb  3 12:48:05 2024
+Mon Feb  5 20:00:16 2024
 COMMAND_COLDSTART
 
-Sat Feb  3 12:48:07 2024
+Mon Feb  5 20:00:18 2024
 Version: B4.92
-
-Sat Feb  3 12:48:08 2024
-COMMAND_TERMINATE
 

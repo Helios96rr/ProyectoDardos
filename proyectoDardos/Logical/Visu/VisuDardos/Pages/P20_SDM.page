@@ -8,6 +8,19 @@
   <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
   <Property Name="Width" Value="800"/>
   <Layers>
+    <LayerRef Source="Source[local].Layer[CommonLayer]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="CommonLayer"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
     <Layer Name="Default">
       <Property Name="BackColor" Value="9"/>
       <Property Name="Description" Value=""/>
@@ -22,7 +35,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="800"/>
-      <Property Name="Z-Order" Value="0"/>
+      <Property Name="Z-Order" Value="1"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="es-MX"/>
@@ -30,7 +43,8 @@
       </TextGroup>
       <Controls>
         <Control ClassId="0x00001014" Name="htmlSDM">
-          <Property Name="AllowAutoRefresh" Value="No"/>
+          <Property Name="AllowAutoRefresh" Value="Yes"/>
+          <Property Name="Border" Value="Source[local].Border[BorderGold]"/>
           <Property Name="ChangeURLDatapoint" Value="None"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="CurrentTitleDatapoint" Value="None"/>
@@ -38,15 +52,49 @@
           <Property Name="DefaultURLs" Value="Source[global].TextGroup[Mp_httpURL_SDM]"/>
           <Property Name="Description" Value=""/>
           <Property Name="HTMLStream" Value="None"/>
-          <Property Name="Height" Value="339"/>
-          <Property Name="Left" Value="90"/>
+          <Property Name="Height" Value="341"/>
+          <Property Name="Left" Value="86"/>
           <Property Name="RenderEngine" Value="Automatic"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpHTML_SDM]"/>
-          <Property Name="Top" Value="68"/>
-          <Property Name="Width" Value="620"/>
+          <Property Name="Top" Value="67"/>
+          <Property Name="Width" Value="628"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="Button_1">
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Mp_Button_Control]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_8]"/>
+          <Property Name="Height" Value="33"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="20"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpButtonUp]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="360"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_8]"/>
+          <Property Name="Width" Value="52"/>
         </Control>
       </Controls>
-      <KeyMapping/>
+      <KeyMapping>
+        <VirtualKey Name="%embVirtualKey_8">
+          <Property Name="Description" Value=""/>
+          <Property Name="VirtualKey_LED" Value="False"/>
+          <KeyActions>
+            <KeyAction ClassId="0x00000160">
+              <Property Name="Description" Value=""/>
+              <Property Name="Locking" Value="Never"/>
+              <Property Name="Name" Value="Action_0"/>
+              <Property Name="Page" Value="None"/>
+              <Property Name="Target" Value="Page"/>
+            </KeyAction>
+          </KeyActions>
+        </VirtualKey>
+      </KeyMapping>
     </Layer>
   </Layers>
   <MovementOrder>

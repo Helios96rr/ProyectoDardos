@@ -15,11 +15,11 @@
       Source="Visu.VisuCtrl"
       Language="IEC">
       <InternalFile
-        Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Temp\Objects\Config1\4PPC70_0702_23B\VisuCtrl\Main.st.var" />
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Temp\Objects\Config1\4PPC70_0702_23B\VisuCtrl\Main.st.var" />
       <File
-        Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Visu\VisuCtrl\Types.typ" />
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Logical\Visu\VisuCtrl\Types.typ" />
       <File
-        Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Visu\VisuCtrl\Variables.var" />
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Logical\Visu\VisuCtrl\Variables.var" />
     </Task>
     <Task
       Name="PlayersCtr"
@@ -27,11 +27,11 @@
       Source="Source.PlayersCtrl"
       Language="IEC">
       <InternalFile
-        Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Temp\Objects\Config1\4PPC70_0702_23B\PlayersCtr\Main.st.var" />
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Temp\Objects\Config1\4PPC70_0702_23B\PlayersCtr\Main.st.var" />
       <File
-        Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\PlayersCtrl\Types.typ" />
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Logical\Source\PlayersCtrl\Types.typ" />
       <File
-        Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\PlayersCtrl\Variables.var" />
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Logical\Source\PlayersCtrl\Variables.var" />
     </Task>
     <Task
       Name="ScoreCtrl"
@@ -39,11 +39,23 @@
       Source="Source.ScoreCtrl"
       Language="IEC">
       <InternalFile
-        Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Temp\Objects\Config1\4PPC70_0702_23B\ScoreCtrl\Main.st.var" />
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Temp\Objects\Config1\4PPC70_0702_23B\ScoreCtrl\Main.st.var" />
       <File
-        Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\ScoreCtrl\Types.typ" />
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Logical\Source\ScoreCtrl\Types.typ" />
       <File
-        Path="C:\Git\CursoBR2023\ProyectosFinales\proyectoDardos\Logical\Source\ScoreCtrl\Variables.var" />
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Logical\Source\ScoreCtrl\Variables.var" />
+    </Task>
+    <Task
+      Name="VisapiCtrl"
+      Disable="false"
+      Source="Source.VisapiCtrl"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Temp\Objects\Config1\4PPC70_0702_23B\VisapiCtrl\Main.st.var" />
+      <File
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Logical\Source\VisapiCtrl\Types.typ" />
+      <File
+        Path="C:\Proyectos\ProyectosBR\proyectoDardos\Logical\Source\VisapiCtrl\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

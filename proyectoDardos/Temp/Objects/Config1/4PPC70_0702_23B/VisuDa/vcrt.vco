@@ -23,7 +23,7 @@
       <Reference Name="PageChangeDP" Type="DP">None</Reference>
       <Reference Name="PageCurrentDP" Type="DP">None</Reference>
       <Reference Name="ScreensaverPage" Type="PAGE">Source[local].Page[P100_screenSaver]</Reference>
-      <UInt32 Name="ScreensaverTimeout">10</UInt32>
+      <UInt32 Name="ScreensaverTimeout">30</UInt32>
       <Reference Name="ScreensaverDP" Type="DP">None</Reference>
       <Reference Name="ScreenSaverTimeDatapoint" Type="DP">None</Reference>
       <Byte Name="Backlight">0</Byte>

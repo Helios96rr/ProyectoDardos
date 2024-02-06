@@ -46,14 +46,14 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">109760</UInt32>
-                <UInt32 Name="TextOffset">42</UInt32>
+                <UInt32 Name="TextOffset">44</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">"German"</String>
+              <String Name="Text" Encoding="Unicode">"Spanish"</String>
               <String Name="Text" Encoding="Unicode">"English"</String>
             </Group>
           </Object>
@@ -84,15 +84,15 @@
               </TableRow>
               <TableRow>
                 <UInt32 Name="TextIndex">109760</UInt32>
-                <UInt32 Name="TextOffset">30</UInt32>
+                <UInt32 Name="TextOffset">44</UInt32>
                 <Byte Name="SnippetCount">0</Byte>
                 <Byte Name="Reserved">0</Byte>
                 <UInt16 Name="Reserved">0</UInt16>
               </TableRow>
             </Table>
             <Group Name="Texts">
-              <String Name="Text" Encoding="Unicode">""</String>
-              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">"Español"</String>
+              <String Name="Text" Encoding="Unicode">"Inglés"</String>
             </Group>
           </Object>
         </Folder>

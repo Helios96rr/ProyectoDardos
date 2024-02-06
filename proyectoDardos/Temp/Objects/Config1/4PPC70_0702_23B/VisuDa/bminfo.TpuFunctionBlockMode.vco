@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="TpuFunctionBlockMode" ClsId="0x306" Version="1" TargetIndex="11" Type="GFX" RefString="Source[local].Bitmap[TpuFunctionBlockMode]">
+        <UInt16 Name="Width">16</UInt16>
+        <UInt16 Name="Height">16</UInt16>
+        <UInt32 Name="BitsPerPixel">8</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">1</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">AAAAAAAICAj//5EAAAAAAAAAAGZmCGZmZmb/kfcAAAAAAAhmZvr5+vo7O2b3vAAAAGZmB/k78Pv7+zs7B/f1AABmB/nwO/Hw8Pv7+TsH9QAICPrx8PA7/Pzw8Ps7O//1CGb68Pz88fr77/z5+zsHvAgH+vDw/A87kQj/CPA7O/b/B/Hw/A/5kTsPD+/8+vr3/2Y7/O8P8QcP7+/8/Dv695H/+vHvD2YP7/z8/Pr6B/cAkQf57zsH7/z8/PD6+f8AAPf3O/Fm7/z8/Pr6+weRAAAAvPc7+fo7+jv6+QeRAAAAAAD19f87+vnxB/+RAAAAAAAAAAD1vPb39/cAAAAAAA==</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

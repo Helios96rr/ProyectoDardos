@@ -34,17 +34,17 @@
     <Text ID="124259" Value=""/>
   </TextLayer>
   <TextLayer LanguageId="es-MX">
-    <Text ID="89135" Value=""/>
-    <Text ID="89136" Value=""/>
-    <Text ID="89142" Value=""/>
-    <Text ID="89302" Value=""/>
-    <Text ID="89304" Value=""/>
-    <Text ID="89523" Value=""/>
-    <Text ID="89526" Value=""/>
-    <Text ID="89527" Value=""/>
-    <Text ID="90122" Value=""/>
-    <Text ID="90123" Value=""/>
-    <Text ID="90125" Value=""/>
+    <Text ID="89135" Value="Contraste"/>
+    <Text ID="89136" Value="Calibración Touch"/>
+    <Text ID="89142" Value="Brillo"/>
+    <Text ID="89302" Value="Seleccionar Lenguaje"/>
+    <Text ID="89304" Value="Calibración Touch"/>
+    <Text ID="89523" Value="Ajustes de Red"/>
+    <Text ID="89526" Value="Dirección IP:"/>
+    <Text ID="89527" Value="Número de Nodo:"/>
+    <Text ID="90122" Value="HH:MM:SS"/>
+    <Text ID="90123" Value="yyyy/mm/dd"/>
+    <Text ID="90125" Value="Fecha y Tiempo"/>
     <Text ID="91313" Value=""/>
     <Text ID="91515" Value=""/>
     <Text ID="92553" Value=""/>

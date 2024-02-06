@@ -51,6 +51,11 @@
   <Symbol Name="\AlarmSystems\AS1\AlarmGroups\POBJ" Index="1002" Type="AG" RefString="Source[global].AlarmGroup[AS1.MpUserAlarms]" />
   <Symbol Name="\AlarmSystems\AS1\AlarmGroups\POBJ" Index="2003" Type="AG" RefString="Source[global].AlarmGroup[AS1.MpTeachPointsUIAlarms]" />
   <Symbol Name="\AlarmSystems\AS1\AlarmGroups\POBJ" Index="2004" Type="AG" RefString="Source[global].AlarmGroup[AS1.MpSpindleAlarms]" />
+  <Symbol Name="\TextGroupBase\AlarmAcknowledgeState" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState]" />
+  <Symbol Name="\TextGroupBase\AlarmBypassState" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState]" />
+  <Symbol Name="\TextGroupBase\AlarmEvent" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent]" />
+  <Symbol Name="\TextGroupBase\AlarmState" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState]" />
+  <Symbol Name="\TextGroupBase\DateTimeFormats" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats]" />
   <Symbol Name="\TextGroupBase\MpAlarmAcknowledgeState" Index="2147484800" Type="TG" RefString="Source[global].TextGroup[MpAlarmAcknowledgeState]" />
   <Symbol Name="\TextGroupBase\MpAlarmBypassState" Index="2147484801" Type="TG" RefString="Source[global].TextGroup[MpAlarmBypassState]" />
   <Symbol Name="\TextGroupBase\MpAlarmEvent" Index="2147484799" Type="TG" RefString="Source[global].TextGroup[MpAlarmEvent]" />
@@ -945,11 +950,6 @@
   <Symbol Name="\DPV\POBJ" Index="800" Type="DP" RefString="Source[global].Variable[Internal.Memory.LargestFreeBlock]" />
   <Symbol Name="\DPV\POBJ" Index="801" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalFree]" />
   <Symbol Name="\DPV\POBJ" Index="802" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalInstalled]" />
-  <Symbol Name="\TextGroupBase\AlarmAcknowledgeState" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState]" />
-  <Symbol Name="\TextGroupBase\AlarmBypassState" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState]" />
-  <Symbol Name="\TextGroupBase\AlarmEvent" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent]" />
-  <Symbol Name="\TextGroupBase\AlarmState" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState]" />
-  <Symbol Name="\TextGroupBase\DateTimeFormats" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats]" />
   <Symbol Name="Source[global].UnitGroup[Length]" Index="3221225472" Type="UG" RefString="Source[global].UnitGroup[Length]" />
   <Symbol Name="Source[global].UnitGroup[Length].Unit[$OneToOne]" Index="3221225480" Type="UNIT" RefString="Source[global].UnitGroup[Length].Unit[$OneToOne]" />
   <Symbol Name="Source[global].UnitGroup[Mass]" Index="3221225473" Type="UG" RefString="Source[global].UnitGroup[Mass]" />
@@ -1489,6 +1489,11 @@
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="3221225490" Type="TG" RefString="Source[global].TextGroup[AG.MpUserAlarms.AS1].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="3221225491" Type="TG" RefString="Source[global].TextGroup[AG.MpTeachPointsUIAlarms.AS1].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="3221225492" Type="TG" RefString="Source[global].TextGroup[AG.MpSpindleAlarms.AS1].Language[en]" />
+  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState].Language[en]" />
+  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState].Language[en]" />
+  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent].Language[en]" />
+  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState].Language[en]" />
+  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147484800" Type="TG" RefString="Source[global].TextGroup[MpAlarmAcknowledgeState].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147484801" Type="TG" RefString="Source[global].TextGroup[MpAlarmBypassState].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147484799" Type="TG" RefString="Source[global].TextGroup[MpAlarmEvent].Language[en]" />
@@ -1580,11 +1585,6 @@
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147485777" Type="TG" RefString="Source[global].TextGroup[MpRecipeAuditText].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147485778" Type="TG" RefString="Source[global].TextGroup[MpAuditSignatureEvent].Language[en]" />
   <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147485779" Type="TG" RefString="Source[global].TextGroup[MpAuditTweetEvent].Language[en]" />
-  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState].Language[en]" />
-  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState].Language[en]" />
-  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent].Language[en]" />
-  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState].Language[en]" />
-  <Symbol Name="\Language\en\TextGroups\POBJ" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats].Language[en]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225472" Type="TG" RefString="Source[global].TextGroup[Length_embedded].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225473" Type="TG" RefString="Source[global].TextGroup[Mass_embedded].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225474" Type="TG" RefString="Source[global].TextGroup[Volume_embedded].Language[es-MX]" />
@@ -1606,6 +1606,11 @@
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225490" Type="TG" RefString="Source[global].TextGroup[AG.MpUserAlarms.AS1].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225491" Type="TG" RefString="Source[global].TextGroup[AG.MpTeachPointsUIAlarms.AS1].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="3221225492" Type="TG" RefString="Source[global].TextGroup[AG.MpSpindleAlarms.AS1].Language[es-MX]" />
+  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState].Language[es-MX]" />
+  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState].Language[es-MX]" />
+  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent].Language[es-MX]" />
+  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState].Language[es-MX]" />
+  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147484800" Type="TG" RefString="Source[global].TextGroup[MpAlarmAcknowledgeState].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147484801" Type="TG" RefString="Source[global].TextGroup[MpAlarmBypassState].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147484799" Type="TG" RefString="Source[global].TextGroup[MpAlarmEvent].Language[es-MX]" />
@@ -1697,11 +1702,6 @@
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147485777" Type="TG" RefString="Source[global].TextGroup[MpRecipeAuditText].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147485778" Type="TG" RefString="Source[global].TextGroup[MpAuditSignatureEvent].Language[es-MX]" />
   <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147485779" Type="TG" RefString="Source[global].TextGroup[MpAuditTweetEvent].Language[es-MX]" />
-  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483800" Type="TG" RefString="Source[global].TextGroup[AlarmAcknowledgeState].Language[es-MX]" />
-  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483801" Type="TG" RefString="Source[global].TextGroup[AlarmBypassState].Language[es-MX]" />
-  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483799" Type="TG" RefString="Source[global].TextGroup[AlarmEvent].Language[es-MX]" />
-  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483798" Type="TG" RefString="Source[global].TextGroup[AlarmState].Language[es-MX]" />
-  <Symbol Name="\Language\es-MX\TextGroups\POBJ" Index="2147483648" Type="TG" RefString="Source[global].TextGroup[DateTimeFormats].Language[es-MX]" />
   <Symbol Name="\Projects\VisuDa" Index="1151" Type="REF" RefString="Source[local].BitmapGroup[MpAlarmAcknowledgeState]" />
   <Symbol Name="\Projects\VisuDa\Language\en\BitmapGroups\POBJ" Index="1151" Type="BMPG" RefString="Source[local].BitmapGroup[MpAlarmAcknowledgeState_en]" />
   <Symbol Name="\Projects\VisuDa\Language\es-MX\BitmapGroups\POBJ" Index="1151" Type="BMPG" RefString="Source[local].BitmapGroup[MpAlarmAcknowledgeState_es-MX]" />
@@ -2065,6 +2065,15 @@
   <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="1" Type="GFX" RefString="Source[local].Bitmap[BackgroundWVGA_NoLogo]" />
   <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="2" Type="GFX" RefString="Source[local].Bitmap[BackgroundSilverGold]" />
   <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="3" Type="GFX" RefString="Source[local].Bitmap[dcVSmarvel800x480]" />
+  <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="4" Type="GFX" RefString="Source[local].Bitmap[reparar50x50]" />
+  <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="5" Type="GFX" RefString="Source[local].Bitmap[trofeo50x50]" />
+  <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="6" Type="GFX" RefString="Source[local].Bitmap[dardos50x50]" />
+  <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="7" Type="GFX" RefString="Source[local].Bitmap[mundo50x50]" />
+  <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="8" Type="GFX" RefString="Source[local].Bitmap[casa50x50]" />
+  <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="9" Type="GFX" RefString="Source[local].Bitmap[AutomationHelp]" />
+  <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="10" Type="GFX" RefString="Source[local].Bitmap[Delete]" />
+  <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="11" Type="GFX" RefString="Source[local].Bitmap[TpuFunctionBlockMode]" />
+  <Symbol Name="\Projects\VisuDa\Bitmaps\POBJ" Index="12" Type="GFX" RefString="Source[local].Bitmap[casa40x40]" />
   <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="0" Type="BRD" RefString="Source[local].Border[Mp_AttentionOff]" />
   <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="1" Type="BRD" RefString="Source[local].Border[Mp_AttentionOn]" />
   <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="2" Type="BRD" RefString="Source[local].Border[Mp_Button_Device_Select_Left]" />
@@ -2128,6 +2137,14 @@
   <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="60" Type="BRD" RefString="Source[local].Border[Mp_Button_Safety_ACK_on]" />
   <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="61" Type="BRD" RefString="Source[local].Border[Mp_LabelBorder_Orange]" />
   <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="62" Type="BRD" RefString="Source[local].Border[BorderGold]" />
+  <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="63" Type="BRD" RefString="Source[local].Border[Border_Home]" />
+  <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="64" Type="BRD" RefString="Source[local].Border[Border_Dardos]" />
+  <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="65" Type="BRD" RefString="Source[local].Border[Border_Mundo]" />
+  <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="66" Type="BRD" RefString="Source[local].Border[Border_Equis]" />
+  <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="67" Type="BRD" RefString="Source[local].Border[Border_Trofeo]" />
+  <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="68" Type="BRD" RefString="Source[local].Border[Border_Reparar]" />
+  <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="69" Type="BRD" RefString="Source[local].Border[Border_Background]" />
+  <Symbol Name="\Projects\VisuDa\BorderManager\POBJ\BorderObjects" Index="70" Type="BRD" RefString="Source[local].Border[Border_Frame]" />
   <Symbol Name="\Projects\VisuDa\Localizer\POBJ" Index="1" Type="LOC" RefString="Source[local].Localizer[en]" />
   <Symbol Name="\Projects\VisuDa\LogFonts" Index="1104" Type="FNT" RefString="Source[local].Font[MpHtml_SDM]" />
   <Symbol Name="\Projects\VisuDa\LogFonts" Index="1103" Type="FNT" RefString="Source[local].Font[MpHeader]" />
@@ -2150,217 +2167,251 @@
   <Symbol Name="\Projects\VisuDa\TextGroupBase\MpButtons_PageTexts" Index="1109" Type="TG" RefString="Source[local].TextGroup[MpButtons_PageTexts]" />
   <Symbol Name="\Projects\VisuDa\TextGroupBase\ShiftGroup" Index="3" Type="TG" RefString="Source[local].TextGroup[ShiftGroup]" />
   <Symbol Name="\Projects\VisuDa\TextGroupBase\MpAuditEventTextSetup" Index="0" Type="TG" RefString="Source[local].TextGroup[MpAuditEventTextSetup]" />
+  <Symbol Name="\Projects\VisuDa\TextGroupBase\GameConfiguration" Index="2" Type="TG" RefString="Source[local].TextGroup[GameConfiguration]" />
   <Symbol Name="Source[local].KeySource[VNCServer]" Index="1073741824" Type="KS" RefString="Source[local].KeySource[VNCServer]" />
   <Symbol Name="Source[local].Driver[DisplaySW]" Index="1073741824" Type="DRV" RefString="Source[local].Driver[DisplaySW]" />
   <Symbol Name="Source[local].KS[default]" Index="1073741825" Type="KS" RefString="Source[local].KS[default]" />
   <Symbol Name="Source[local].Driver[ATKeyboard]" Index="1073741825" Type="DRV" RefString="Source[local].Driver[ATKeyboard]" />
   <Symbol Name="Source[local].KSTable[4PPC70.0702-23B]" Index="1073741824" Type="KSTable" RefString="Source[local].KSTable[4PPC70.0702-23B]" />
   <Symbol Name="Source[local].KSTable[PS2-Keyboard]" Index="1073741825" Type="KSTable" RefString="Source[local].KSTable[PS2-Keyboard]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtGroupControl]" Index="1073741824" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtGroupControl]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[cmdTouchCalib]" Index="1073741825" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[cmdTouchCalib]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[strNetworkAddress]" Index="1073741826" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[strNetworkAddress]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtIPAddress]" Index="1073741827" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtIPAddress]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtNodeNumber]" Index="1073741828" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtNodeNumber]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[varNodeNumber]" Index="1073741829" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[varNodeNumber]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtBrightness]" Index="1073741830" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtBrightness]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtContrast]" Index="1073741831" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtContrast]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings]" Index="1073741832" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setSecond1]" Index="1073741833" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setSecond1]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setMinute1]" Index="1073741834" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setMinute1]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setHour1]" Index="1073741835" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setHour1]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setYear1]" Index="1073741836" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setYear1]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setMonth1]" Index="1073741837" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setMonth1]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setDay1]" Index="1073741838" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setDay1]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtTimeFormat1]" Index="1073741839" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtTimeFormat1]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtDateFormat1]" Index="1073741840" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtDateFormat1]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtDateTime]" Index="1073741841" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtDateTime]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings1]" Index="1073741842" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings1]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[Line_3]" Index="1073741843" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[Line_3]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[Line_4]" Index="1073741844" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[Line_4]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[Line_5]" Index="1073741845" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[Line_5]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[sldBrightness]" Index="1073741846" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[sldBrightness]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[sldContrast]" Index="1073741847" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[sldContrast]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings2]" Index="1073741848" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings2]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[Line_6]" Index="1073741849" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[Line_6]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[cmdSetEnglish]" Index="1073741850" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[cmdSetEnglish]" />
-  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[cmdSetGerman]" Index="1073741851" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[cmdSetGerman]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[cmdTouchCalib]" Index="1073741824" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[cmdTouchCalib]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[strNetworkAddress]" Index="1073741825" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[strNetworkAddress]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtIPAddress]" Index="1073741826" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtIPAddress]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtNodeNumber]" Index="1073741827" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtNodeNumber]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[varNodeNumber]" Index="1073741828" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[varNodeNumber]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtBrightness]" Index="1073741829" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtBrightness]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtContrast]" Index="1073741830" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtContrast]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings]" Index="1073741831" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setSecond1]" Index="1073741832" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setSecond1]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setMinute1]" Index="1073741833" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setMinute1]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setHour1]" Index="1073741834" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setHour1]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setYear1]" Index="1073741835" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setYear1]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setMonth1]" Index="1073741836" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setMonth1]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[setDay1]" Index="1073741837" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[setDay1]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtTimeFormat1]" Index="1073741838" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtTimeFormat1]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtDateFormat1]" Index="1073741839" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtDateFormat1]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtDateTime]" Index="1073741840" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtDateTime]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings1]" Index="1073741841" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings1]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[Line_3]" Index="1073741842" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[Line_3]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[Line_4]" Index="1073741843" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[Line_4]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[Line_5]" Index="1073741844" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[Line_5]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[sldBrightness]" Index="1073741845" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[sldBrightness]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[sldContrast]" Index="1073741846" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[sldContrast]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings2]" Index="1073741847" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[txtNetworkSettings2]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[Line_6]" Index="1073741848" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[Line_6]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[cmdSetEnglish]" Index="1073741849" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[cmdSetEnglish]" />
+  <Symbol Name="Source[local].Page[P10_Setup].Layer[Default].Control[cmdSetGerman]" Index="1073741850" Type="CTRL" RefString="Source[local].Page[P10_Setup].Layer[Default].Control[cmdSetGerman]" />
   <Symbol Name="Source[local].VirtualKey[TouchCalibration]" Index="1073741824" Type="VKEY" RefString="Source[local].VirtualKey[TouchCalibration]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_4_1]" Index="1073741825" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_4_1]" />
   <Symbol Name="Source[local].VirtualKey[%embVirtualKey_5_0]" Index="1073741826" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_5_0]" />
   <Symbol Name="Source[local].Page[P10_Setup].Layer[Default]" Index="1073741824" Type="LAY" RefString="Source[local].Page[P10_Setup].Layer[Default]" />
-  <Symbol Name="Source[local].Page[P20_SDM].Layer[Default].Control[htmlSDM]" Index="1073741852" Type="CTRL" RefString="Source[local].Page[P20_SDM].Layer[Default].Control[htmlSDM]" />
+  <Symbol Name="Source[local].Page[P20_SDM].Layer[Default].Control[htmlSDM]" Index="1073741851" Type="CTRL" RefString="Source[local].Page[P20_SDM].Layer[Default].Control[htmlSDM]" />
+  <Symbol Name="Source[local].Page[P20_SDM].Layer[Default].Control[Button_1]" Index="1073741852" Type="CTRL" RefString="Source[local].Page[P20_SDM].Layer[Default].Control[Button_1]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_8]" Index="1073741827" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_8]" />
   <Symbol Name="Source[local].Page[P20_SDM].Layer[Default]" Index="1073741825" Type="LAY" RefString="Source[local].Page[P20_SDM].Layer[Default]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Text_1]" Index="1073741853" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Text_1]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Numeric_1]" Index="1073741854" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Numeric_1]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Shape_1]" Index="1073741855" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Shape_1]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Bitmap_2]" Index="1073741856" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Bitmap_2]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Shape_2]" Index="1073741857" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Shape_2]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Bitmap_3]" Index="1073741858" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Bitmap_3]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Numeric_2]" Index="1073741859" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Numeric_2]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Text_2]" Index="1073741860" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Text_2]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Text_3]" Index="1073741861" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Text_3]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Text_6]" Index="1073741862" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Text_6]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Numeric_3]" Index="1073741863" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Numeric_3]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Button_2]" Index="1073741864" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Button_2]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Bitmap_1]" Index="1073741865" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Bitmap_1]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Button_3]" Index="1073741866" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Button_3]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Numeric_4]" Index="1073741867" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Numeric_4]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Text_4]" Index="1073741868" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Text_4]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Text_7]" Index="1073741869" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Text_7]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Numeric_5]" Index="1073741870" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Numeric_5]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Button_4]" Index="1073741871" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Button_4]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Button_5]" Index="1073741872" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Button_5]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[Text_5]" Index="1073741873" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[Text_5]" />
+  <Symbol Name="Source[local].Page[P00_Home].Layer[Default].Control[DrawBox_1]" Index="1073741874" Type="CTRL" RefString="Source[local].Page[P00_Home].Layer[Default].Control[DrawBox_1]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_3]" Index="1073741828" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_3]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_4]" Index="1073741829" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_4]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_5]" Index="1073741830" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_5]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_6]" Index="1073741831" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_6]" />
   <Symbol Name="Source[local].Page[P00_Home].Layer[Default]" Index="1073741826" Type="LAY" RefString="Source[local].Page[P00_Home].Layer[Default]" />
-  <Symbol Name="Source[local].Page[P100_screenSaver].Layer[Default].Control[Bitmap_1]" Index="1073741853" Type="CTRL" RefString="Source[local].Page[P100_screenSaver].Layer[Default].Control[Bitmap_1]" />
+  <Symbol Name="Source[local].Page[P100_screenSaver].Layer[Default].Control[Bitmap_1]" Index="1073741875" Type="CTRL" RefString="Source[local].Page[P100_screenSaver].Layer[Default].Control[Bitmap_1]" />
   <Symbol Name="Source[local].Page[P100_screenSaver].Layer[Default]" Index="1073741827" Type="LAY" RefString="Source[local].Page[P100_screenSaver].Layer[Default]" />
-  <Symbol Name="Source[local].Layer[MpPageControl].Control[cmdSDMpage]" Index="1073741854" Type="CTRL" RefString="Source[local].Layer[MpPageControl].Control[cmdSDMpage]" />
-  <Symbol Name="Source[local].Layer[MpPageControl].Control[cmdSetupPage]" Index="1073741855" Type="CTRL" RefString="Source[local].Layer[MpPageControl].Control[cmdSetupPage]" />
-  <Symbol Name="Source[local].Layer[MpPageControl].Control[cmdHomePage]" Index="1073741856" Type="CTRL" RefString="Source[local].Layer[MpPageControl].Control[cmdHomePage]" />
-  <Symbol Name="Source[local].Layer[MpPageControl].Control[cmdAlarmPage]" Index="1073741857" Type="CTRL" RefString="Source[local].Layer[MpPageControl].Control[cmdAlarmPage]" />
+  <Symbol Name="Source[local].Layer[MpPageControl].Control[cmdSDMpage]" Index="1073741876" Type="CTRL" RefString="Source[local].Layer[MpPageControl].Control[cmdSDMpage]" />
+  <Symbol Name="Source[local].Layer[MpPageControl].Control[cmdSetupPage]" Index="1073741877" Type="CTRL" RefString="Source[local].Layer[MpPageControl].Control[cmdSetupPage]" />
+  <Symbol Name="Source[local].Layer[MpPageControl].Control[cmdHomePage]" Index="1073741878" Type="CTRL" RefString="Source[local].Layer[MpPageControl].Control[cmdHomePage]" />
+  <Symbol Name="Source[local].Layer[MpPageControl].Control[cmdAlarmPage]" Index="1073741879" Type="CTRL" RefString="Source[local].Layer[MpPageControl].Control[cmdAlarmPage]" />
   <Symbol Name="Source[local].Layer[MpPageControl]" Index="1073741828" Type="LAY" RefString="Source[local].Layer[MpPageControl]" />
-  <Symbol Name="Source[local].Layer[MpBackground].Control[bmpBackground]" Index="1073741858" Type="CTRL" RefString="Source[local].Layer[MpBackground].Control[bmpBackground]" />
+  <Symbol Name="Source[local].Layer[MpBackground].Control[bmpBackground]" Index="1073741880" Type="CTRL" RefString="Source[local].Layer[MpBackground].Control[bmpBackground]" />
   <Symbol Name="Source[local].Layer[MpBackground]" Index="1073741829" Type="LAY" RefString="Source[local].Layer[MpBackground]" />
-  <Symbol Name="Source[local].Layer[MpOeeControl].Control[cmdOeeListPage]" Index="1073741859" Type="CTRL" RefString="Source[local].Layer[MpOeeControl].Control[cmdOeeListPage]" />
-  <Symbol Name="Source[local].Layer[MpOeeControl].Control[cmdOeeTimelinePage]" Index="1073741860" Type="CTRL" RefString="Source[local].Layer[MpOeeControl].Control[cmdOeeTimelinePage]" />
-  <Symbol Name="Source[local].Layer[MpOeeControl].Control[cmdOeeTrendPage]" Index="1073741861" Type="CTRL" RefString="Source[local].Layer[MpOeeControl].Control[cmdOeeTrendPage]" />
-  <Symbol Name="Source[local].Layer[MpOeeControl].Control[cmdOeeCorePage]" Index="1073741862" Type="CTRL" RefString="Source[local].Layer[MpOeeControl].Control[cmdOeeCorePage]" />
+  <Symbol Name="Source[local].Layer[MpOeeControl].Control[cmdOeeListPage]" Index="1073741881" Type="CTRL" RefString="Source[local].Layer[MpOeeControl].Control[cmdOeeListPage]" />
+  <Symbol Name="Source[local].Layer[MpOeeControl].Control[cmdOeeTimelinePage]" Index="1073741882" Type="CTRL" RefString="Source[local].Layer[MpOeeControl].Control[cmdOeeTimelinePage]" />
+  <Symbol Name="Source[local].Layer[MpOeeControl].Control[cmdOeeTrendPage]" Index="1073741883" Type="CTRL" RefString="Source[local].Layer[MpOeeControl].Control[cmdOeeTrendPage]" />
+  <Symbol Name="Source[local].Layer[MpOeeControl].Control[cmdOeeCorePage]" Index="1073741884" Type="CTRL" RefString="Source[local].Layer[MpOeeControl].Control[cmdOeeCorePage]" />
   <Symbol Name="Source[local].Layer[MpOeeControl]" Index="1073741830" Type="LAY" RefString="Source[local].Layer[MpOeeControl]" />
-  <Symbol Name="Source[local].Layer[MpUserXSignMessageBox].Control[Background]" Index="1073741863" Type="CTRL" RefString="Source[local].Layer[MpUserXSignMessageBox].Control[Background]" />
-  <Symbol Name="Source[local].Layer[MpUserXSignMessageBox].Control[txtHeader]" Index="1073741864" Type="CTRL" RefString="Source[local].Layer[MpUserXSignMessageBox].Control[txtHeader]" />
-  <Symbol Name="Source[local].Layer[MpUserXSignMessageBox].Control[txtContent]" Index="1073741865" Type="CTRL" RefString="Source[local].Layer[MpUserXSignMessageBox].Control[txtContent]" />
-  <Symbol Name="Source[local].Layer[MpUserXSignMessageBox].Control[cmdCancel]" Index="1073741866" Type="CTRL" RefString="Source[local].Layer[MpUserXSignMessageBox].Control[cmdCancel]" />
-  <Symbol Name="Source[local].Layer[MpUserXSignMessageBox].Control[cmdOK]" Index="1073741867" Type="CTRL" RefString="Source[local].Layer[MpUserXSignMessageBox].Control[cmdOK]" />
+  <Symbol Name="Source[local].Layer[MpUserXSignMessageBox].Control[Background]" Index="1073741885" Type="CTRL" RefString="Source[local].Layer[MpUserXSignMessageBox].Control[Background]" />
+  <Symbol Name="Source[local].Layer[MpUserXSignMessageBox].Control[txtHeader]" Index="1073741886" Type="CTRL" RefString="Source[local].Layer[MpUserXSignMessageBox].Control[txtHeader]" />
+  <Symbol Name="Source[local].Layer[MpUserXSignMessageBox].Control[txtContent]" Index="1073741887" Type="CTRL" RefString="Source[local].Layer[MpUserXSignMessageBox].Control[txtContent]" />
+  <Symbol Name="Source[local].Layer[MpUserXSignMessageBox].Control[cmdCancel]" Index="1073741888" Type="CTRL" RefString="Source[local].Layer[MpUserXSignMessageBox].Control[cmdCancel]" />
+  <Symbol Name="Source[local].Layer[MpUserXSignMessageBox].Control[cmdOK]" Index="1073741889" Type="CTRL" RefString="Source[local].Layer[MpUserXSignMessageBox].Control[cmdOK]" />
   <Symbol Name="Source[local].Layer[MpUserXSignMessageBox]" Index="1073741831" Type="LAY" RefString="Source[local].Layer[MpUserXSignMessageBox]" />
-  <Symbol Name="Source[local].Layer[MpUserXSign].Control[bmpBackground]" Index="1073741868" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[bmpBackground]" />
-  <Symbol Name="Source[local].Layer[MpUserXSign].Control[txtUserSign]" Index="1073741869" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[txtUserSign]" />
-  <Symbol Name="Source[local].Layer[MpUserXSign].Control[txtPassword]" Index="1073741870" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[txtPassword]" />
-  <Symbol Name="Source[local].Layer[MpUserXSign].Control[txtUserName]" Index="1073741871" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[txtUserName]" />
-  <Symbol Name="Source[local].Layer[MpUserXSign].Control[strPassword]" Index="1073741872" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[strPassword]" />
-  <Symbol Name="Source[local].Layer[MpUserXSign].Control[cmdCancel]" Index="1073741873" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[cmdCancel]" />
-  <Symbol Name="Source[local].Layer[MpUserXSign].Control[cmdOK]" Index="1073741874" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[cmdOK]" />
-  <Symbol Name="Source[local].Layer[MpUserXSign].Control[strUsername]" Index="1073741875" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[strUsername]" />
+  <Symbol Name="Source[local].Layer[MpUserXSign].Control[bmpBackground]" Index="1073741890" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[bmpBackground]" />
+  <Symbol Name="Source[local].Layer[MpUserXSign].Control[txtUserSign]" Index="1073741891" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[txtUserSign]" />
+  <Symbol Name="Source[local].Layer[MpUserXSign].Control[txtPassword]" Index="1073741892" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[txtPassword]" />
+  <Symbol Name="Source[local].Layer[MpUserXSign].Control[txtUserName]" Index="1073741893" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[txtUserName]" />
+  <Symbol Name="Source[local].Layer[MpUserXSign].Control[strPassword]" Index="1073741894" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[strPassword]" />
+  <Symbol Name="Source[local].Layer[MpUserXSign].Control[cmdCancel]" Index="1073741895" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[cmdCancel]" />
+  <Symbol Name="Source[local].Layer[MpUserXSign].Control[cmdOK]" Index="1073741896" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[cmdOK]" />
+  <Symbol Name="Source[local].Layer[MpUserXSign].Control[strUsername]" Index="1073741897" Type="CTRL" RefString="Source[local].Layer[MpUserXSign].Control[strUsername]" />
   <Symbol Name="Source[local].Layer[MpUserXSign]" Index="1073741832" Type="LAY" RefString="Source[local].Layer[MpUserXSign]" />
-  <Symbol Name="Source[local].Layer[CommonLayer].Control[Shape_1]" Index="1073741876" Type="CTRL" RefString="Source[local].Layer[CommonLayer].Control[Shape_1]" />
-  <Symbol Name="Source[local].Layer[CommonLayer].Control[Bitmap_1]" Index="1073741877" Type="CTRL" RefString="Source[local].Layer[CommonLayer].Control[Bitmap_1]" />
-  <Symbol Name="Source[local].Layer[CommonLayer].Control[DateTime_1]" Index="1073741878" Type="CTRL" RefString="Source[local].Layer[CommonLayer].Control[DateTime_1]" />
+  <Symbol Name="Source[local].Layer[CommonLayer].Control[Shape_1]" Index="1073741898" Type="CTRL" RefString="Source[local].Layer[CommonLayer].Control[Shape_1]" />
+  <Symbol Name="Source[local].Layer[CommonLayer].Control[Bitmap_1]" Index="1073741899" Type="CTRL" RefString="Source[local].Layer[CommonLayer].Control[Bitmap_1]" />
+  <Symbol Name="Source[local].Layer[CommonLayer].Control[Button_1]" Index="1073741900" Type="CTRL" RefString="Source[local].Layer[CommonLayer].Control[Button_1]" />
+  <Symbol Name="Source[local].Layer[CommonLayer].Control[DateTime_1]" Index="1073741901" Type="CTRL" RefString="Source[local].Layer[CommonLayer].Control[DateTime_1]" />
+  <Symbol Name="Source[local].Layer[CommonLayer].Control[Button_2]" Index="1073741902" Type="CTRL" RefString="Source[local].Layer[CommonLayer].Control[Button_2]" />
+  <Symbol Name="Source[local].Layer[CommonLayer].Control[Button_3]" Index="1073741903" Type="CTRL" RefString="Source[local].Layer[CommonLayer].Control[Button_3]" />
   <Symbol Name="Source[local].Layer[CommonLayer]" Index="1073741833" Type="LAY" RefString="Source[local].Layer[CommonLayer]" />
   <Symbol Name="Source[local].StyleSheet[Color]" Index="1073741824" Type="SS" RefString="Source[local].StyleSheet[Color]" />
   <Symbol Name="Source[local].StyleSheet[mapp]" Index="1073741825" Type="SS" RefString="Source[local].StyleSheet[mapp]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_0]" Index="1073741827" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_0]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_1]" Index="1073741828" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_2]" Index="1073741829" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_2]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_3]" Index="1073741830" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_3]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_4]" Index="1073741831" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_4]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_5]" Index="1073741832" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_5]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_6]" Index="1073741833" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_6]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_7]" Index="1073741834" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_7]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_8]" Index="1073741835" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_8]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_9]" Index="1073741836" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_9]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_A]" Index="1073741837" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_A]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Apostrophy1]" Index="1073741838" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Apostrophy1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Apostrophy]" Index="1073741839" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Apostrophy]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Asterisk]" Index="1073741840" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Asterisk]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_At_sign]" Index="1073741841" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_At_sign]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_B]" Index="1073741842" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_B]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_BckSlsh]" Index="1073741843" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_BckSlsh]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Bigger]" Index="1073741844" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Bigger]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_C]" Index="1073741845" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_C]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Care]" Index="1073741846" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Care]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closebrace]" Index="1073741847" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closebrace]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closebracket]" Index="1073741848" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closebracket]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closeparen]" Index="1073741849" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closeparen]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Colon]" Index="1073741850" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Colon]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Comma]" Index="1073741851" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Comma]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_DOT]" Index="1073741852" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_DOT]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_D]" Index="1073741853" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_D]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Dollar]" Index="1073741854" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Dollar]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_E]" Index="1073741855" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_E]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Equal]" Index="1073741856" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Equal]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Euro]" Index="1073741857" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Euro]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Exclamation]" Index="1073741858" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Exclamation]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_F]" Index="1073741859" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_F]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_G]" Index="1073741860" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_G]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_H]" Index="1073741861" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_H]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Hash]" Index="1073741862" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Hash]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_I]" Index="1073741863" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_I]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_J]" Index="1073741864" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_J]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_K]" Index="1073741865" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_K]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_L]" Index="1073741866" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_L]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_M]" Index="1073741867" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_M]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_N]" Index="1073741868" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_N]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_O]" Index="1073741869" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_O]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openbrace]" Index="1073741870" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openbrace]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openbracket]" Index="1073741871" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openbracket]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openparen]" Index="1073741872" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openparen]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_P]" Index="1073741873" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_P]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Percent]" Index="1073741874" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Percent]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Plus]" Index="1073741875" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Plus]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Pound]" Index="1073741876" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Pound]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Q]" Index="1073741877" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Q]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Quest]" Index="1073741878" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Quest]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_R]" Index="1073741879" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_R]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_S]" Index="1073741880" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_S]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Semicolon]" Index="1073741881" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Semicolon]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Slash]" Index="1073741882" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Slash]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Small]" Index="1073741883" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Small]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Space]" Index="1073741884" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Space]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_T]" Index="1073741885" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_T]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Tilde]" Index="1073741886" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Tilde]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_U]" Index="1073741887" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_U]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Underscore]" Index="1073741888" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Underscore]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_VBar]" Index="1073741889" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_VBar]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_V]" Index="1073741890" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_V]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_W]" Index="1073741891" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_W]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_X]" Index="1073741892" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_X]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Y]" Index="1073741893" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Y]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Yen]" Index="1073741894" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Yen]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Z]" Index="1073741895" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Z]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sa]" Index="1073741896" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sa]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sb]" Index="1073741897" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sb]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sc]" Index="1073741898" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sc]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sd]" Index="1073741899" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sd]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_se]" Index="1073741900" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_se]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sf]" Index="1073741901" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sf]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sg]" Index="1073741902" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sg]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sh]" Index="1073741903" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sh]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_si]" Index="1073741904" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_si]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sj]" Index="1073741905" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sj]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sk]" Index="1073741906" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sk]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sl]" Index="1073741907" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sl]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sm]" Index="1073741908" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sm]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sn]" Index="1073741909" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sn]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_so]" Index="1073741910" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_so]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sp]" Index="1073741911" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sp]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sq]" Index="1073741912" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sq]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sr]" Index="1073741913" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sr]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_ss]" Index="1073741914" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_ss]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_st]" Index="1073741915" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_st]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_su]" Index="1073741916" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_su]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sv]" Index="1073741917" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sv]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sw]" Index="1073741918" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sw]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sx]" Index="1073741919" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sx]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sy]" Index="1073741920" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sy]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sz]" Index="1073741921" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sz]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Alpha_And]" Index="1073741922" Type="VKEY" RefString="Source[local].VirtualKey[TP_Alpha_And]" />
-  <Symbol Name="Source[local].VirtualKey[TP_BACKSPACE]" Index="1073741923" Type="VKEY" RefString="Source[local].VirtualKey[TP_BACKSPACE]" />
-  <Symbol Name="Source[local].VirtualKey[TP_CANCEL]" Index="1073741924" Type="VKEY" RefString="Source[local].VirtualKey[TP_CANCEL]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Cur_Left]" Index="1073741925" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Left]" />
-  <Symbol Name="Source[local].VirtualKey[TP_Cur_Right]" Index="1073741926" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Right]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ENTER]" Index="1073741927" Type="VKEY" RefString="Source[local].VirtualKey[TP_ENTER]" />
-  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent1]" Index="1073741928" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent2]" Index="1073741929" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent2]" />
-  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent3]" Index="1073741930" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent3]" />
-  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent4]" Index="1073741931" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent4]" />
-  <Symbol Name="Source[local].VirtualKey[TP_INCR_LAYER1]" Index="1073741932" Type="VKEY" RefString="Source[local].VirtualKey[TP_INCR_LAYER1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER0]" Index="1073741933" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER0]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER1]" Index="1073741934" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER1]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER2]" Index="1073741935" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER2]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER3]" Index="1073741936" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER3]" />
-  <Symbol Name="Source[local].VirtualKey[TP_SIGN_CHANGE]" Index="1073741937" Type="VKEY" RefString="Source[local].VirtualKey[TP_SIGN_CHANGE]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_23]" Index="1073741938" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_23]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_24]" Index="1073741939" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_24]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_25]" Index="1073741940" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_25]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_26]" Index="1073741941" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_26]" />
-  <Symbol Name="Source[local].VirtualKey[VirtualKey_1]" Index="1073741942" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_1]" />
-  <Symbol Name="Source[local].VirtualKey[VirtualKey_2]" Index="1073741943" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_2]" />
-  <Symbol Name="Source[local].VirtualKey[VirtualKey_3]" Index="1073741944" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_3]" />
-  <Symbol Name="Source[local].VirtualKey[VirtualKey_4]" Index="1073741945" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_4]" />
-  <Symbol Name="Source[local].VirtualKey[VirtualKey_5]" Index="1073741946" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_5]" />
-  <Symbol Name="Source[local].VirtualKey[VirtualKey_6]" Index="1073741947" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_6]" />
-  <Symbol Name="Source[local].VirtualKey[VirtualKey_7]" Index="1073741948" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_7]" />
-  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Dash]" Index="1073741949" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Dash]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_182]" Index="1073741950" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_182]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_183]" Index="1073741951" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_183]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_184]" Index="1073741952" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_184]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_185]" Index="1073741953" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_185]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_172]" Index="1073741954" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_172]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_173]" Index="1073741955" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_173]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_174]" Index="1073741956" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_174]" />
-  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_175]" Index="1073741957" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_175]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_0]" Index="1073741832" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_0]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_1]" Index="1073741833" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_2]" Index="1073741834" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_2]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_3]" Index="1073741835" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_3]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_4]" Index="1073741836" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_4]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_5]" Index="1073741837" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_5]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_6]" Index="1073741838" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_6]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_7]" Index="1073741839" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_7]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_8]" Index="1073741840" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_8]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_9]" Index="1073741841" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_9]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_A]" Index="1073741842" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_A]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Apostrophy1]" Index="1073741843" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Apostrophy1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Apostrophy]" Index="1073741844" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Apostrophy]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Asterisk]" Index="1073741845" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Asterisk]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_At_sign]" Index="1073741846" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_At_sign]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_B]" Index="1073741847" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_B]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_BckSlsh]" Index="1073741848" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_BckSlsh]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Bigger]" Index="1073741849" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Bigger]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_C]" Index="1073741850" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_C]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Care]" Index="1073741851" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Care]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closebrace]" Index="1073741852" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closebrace]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closebracket]" Index="1073741853" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closebracket]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Closeparen]" Index="1073741854" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Closeparen]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Colon]" Index="1073741855" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Colon]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Comma]" Index="1073741856" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Comma]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_DOT]" Index="1073741857" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_DOT]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_D]" Index="1073741858" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_D]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Dollar]" Index="1073741859" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Dollar]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_E]" Index="1073741860" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_E]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Equal]" Index="1073741861" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Equal]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Euro]" Index="1073741862" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Euro]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Exclamation]" Index="1073741863" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Exclamation]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_F]" Index="1073741864" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_F]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_G]" Index="1073741865" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_G]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_H]" Index="1073741866" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_H]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Hash]" Index="1073741867" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Hash]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_I]" Index="1073741868" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_I]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_J]" Index="1073741869" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_J]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_K]" Index="1073741870" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_K]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_L]" Index="1073741871" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_L]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_M]" Index="1073741872" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_M]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_N]" Index="1073741873" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_N]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_O]" Index="1073741874" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_O]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openbrace]" Index="1073741875" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openbrace]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openbracket]" Index="1073741876" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openbracket]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Openparen]" Index="1073741877" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Openparen]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_P]" Index="1073741878" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_P]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Percent]" Index="1073741879" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Percent]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Plus]" Index="1073741880" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Plus]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Pound]" Index="1073741881" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Pound]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Q]" Index="1073741882" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Q]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Quest]" Index="1073741883" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Quest]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_R]" Index="1073741884" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_R]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_S]" Index="1073741885" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_S]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Semicolon]" Index="1073741886" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Semicolon]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Slash]" Index="1073741887" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Slash]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Small]" Index="1073741888" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Small]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Space]" Index="1073741889" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Space]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_T]" Index="1073741890" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_T]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Tilde]" Index="1073741891" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Tilde]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_U]" Index="1073741892" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_U]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Underscore]" Index="1073741893" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Underscore]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_VBar]" Index="1073741894" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_VBar]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_V]" Index="1073741895" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_V]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_W]" Index="1073741896" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_W]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_X]" Index="1073741897" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_X]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Y]" Index="1073741898" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Y]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Yen]" Index="1073741899" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Yen]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Z]" Index="1073741900" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Z]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sa]" Index="1073741901" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sa]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sb]" Index="1073741902" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sb]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sc]" Index="1073741903" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sc]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sd]" Index="1073741904" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sd]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_se]" Index="1073741905" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_se]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sf]" Index="1073741906" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sf]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sg]" Index="1073741907" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sg]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sh]" Index="1073741908" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sh]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_si]" Index="1073741909" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_si]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sj]" Index="1073741910" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sj]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sk]" Index="1073741911" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sk]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sl]" Index="1073741912" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sl]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sm]" Index="1073741913" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sm]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sn]" Index="1073741914" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sn]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_so]" Index="1073741915" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_so]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sp]" Index="1073741916" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sp]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sq]" Index="1073741917" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sq]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sr]" Index="1073741918" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sr]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_ss]" Index="1073741919" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_ss]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_st]" Index="1073741920" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_st]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_su]" Index="1073741921" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_su]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sv]" Index="1073741922" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sv]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sw]" Index="1073741923" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sw]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sx]" Index="1073741924" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sx]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sy]" Index="1073741925" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sy]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_sz]" Index="1073741926" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_sz]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Alpha_And]" Index="1073741927" Type="VKEY" RefString="Source[local].VirtualKey[TP_Alpha_And]" />
+  <Symbol Name="Source[local].VirtualKey[TP_BACKSPACE]" Index="1073741928" Type="VKEY" RefString="Source[local].VirtualKey[TP_BACKSPACE]" />
+  <Symbol Name="Source[local].VirtualKey[TP_CANCEL]" Index="1073741929" Type="VKEY" RefString="Source[local].VirtualKey[TP_CANCEL]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Cur_Left]" Index="1073741930" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Left]" />
+  <Symbol Name="Source[local].VirtualKey[TP_Cur_Right]" Index="1073741931" Type="VKEY" RefString="Source[local].VirtualKey[TP_Cur_Right]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ENTER]" Index="1073741932" Type="VKEY" RefString="Source[local].VirtualKey[TP_ENTER]" />
+  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent1]" Index="1073741933" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent2]" Index="1073741934" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent2]" />
+  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent3]" Index="1073741935" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent3]" />
+  <Symbol Name="Source[local].VirtualKey[TP_FocusDependent4]" Index="1073741936" Type="VKEY" RefString="Source[local].VirtualKey[TP_FocusDependent4]" />
+  <Symbol Name="Source[local].VirtualKey[TP_INCR_LAYER1]" Index="1073741937" Type="VKEY" RefString="Source[local].VirtualKey[TP_INCR_LAYER1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER0]" Index="1073741938" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER0]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER1]" Index="1073741939" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER1]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER2]" Index="1073741940" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER2]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SET_LAYER3]" Index="1073741941" Type="VKEY" RefString="Source[local].VirtualKey[TP_SET_LAYER3]" />
+  <Symbol Name="Source[local].VirtualKey[TP_SIGN_CHANGE]" Index="1073741942" Type="VKEY" RefString="Source[local].VirtualKey[TP_SIGN_CHANGE]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_23]" Index="1073741943" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_23]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_24]" Index="1073741944" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_24]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_25]" Index="1073741945" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_25]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_26]" Index="1073741946" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_26]" />
+  <Symbol Name="Source[local].VirtualKey[VirtualKey_1]" Index="1073741947" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_1]" />
+  <Symbol Name="Source[local].VirtualKey[VirtualKey_2]" Index="1073741948" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_2]" />
+  <Symbol Name="Source[local].VirtualKey[VirtualKey_3]" Index="1073741949" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_3]" />
+  <Symbol Name="Source[local].VirtualKey[VirtualKey_4]" Index="1073741950" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_4]" />
+  <Symbol Name="Source[local].VirtualKey[VirtualKey_5]" Index="1073741951" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_5]" />
+  <Symbol Name="Source[local].VirtualKey[VirtualKey_6]" Index="1073741952" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_6]" />
+  <Symbol Name="Source[local].VirtualKey[VirtualKey_7]" Index="1073741953" Type="VKEY" RefString="Source[local].VirtualKey[VirtualKey_7]" />
+  <Symbol Name="Source[local].VirtualKey[TP_ALPHA_Dash]" Index="1073741954" Type="VKEY" RefString="Source[local].VirtualKey[TP_ALPHA_Dash]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_182]" Index="1073741955" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_182]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_183]" Index="1073741956" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_183]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_184]" Index="1073741957" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_184]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_185]" Index="1073741958" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_185]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_172]" Index="1073741959" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_172]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_173]" Index="1073741960" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_173]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_174]" Index="1073741961" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_174]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_175]" Index="1073741962" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_175]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_1]" Index="1073741963" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_1]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_2]" Index="1073741964" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_2]" />
+  <Symbol Name="Source[local].VirtualKey[%embVirtualKey_7]" Index="1073741965" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_7]" />
   <Symbol Name="Source[local].TouchPad[MpNavigationPad_ver]" Index="1073741824" Type="OVL" RefString="Source[local].TouchPad[MpNavigationPad_ver]" />
-  <Symbol Name="Source[local].TouchPad[MpNumPad].Control[TouchPadEdit_1]" Index="1073741879" Type="CTRL" RefString="Source[local].TouchPad[MpNumPad].Control[TouchPadEdit_1]" />
+  <Symbol Name="Source[local].TouchPad[MpNumPad].Control[TouchPadEdit_1]" Index="1073741904" Type="CTRL" RefString="Source[local].TouchPad[MpNumPad].Control[TouchPadEdit_1]" />
   <Symbol Name="Source[local].TouchPad[MpNumPad]" Index="1073741825" Type="OVL" RefString="Source[local].TouchPad[MpNumPad]" />
-  <Symbol Name="Source[local].TouchPad[MpAlphaPad].Control[TouchPadEdit_1]" Index="1073741880" Type="CTRL" RefString="Source[local].TouchPad[MpAlphaPad].Control[TouchPadEdit_1]" />
+  <Symbol Name="Source[local].TouchPad[MpAlphaPad].Control[TouchPadEdit_1]" Index="1073741905" Type="CTRL" RefString="Source[local].TouchPad[MpAlphaPad].Control[TouchPadEdit_1]" />
   <Symbol Name="Source[local].TouchPad[MpAlphaPad]" Index="1073741826" Type="OVL" RefString="Source[local].TouchPad[MpAlphaPad]" />
   <Symbol Name="Source[local].Layer[CommonLayer].TextGroup[Embedded]" Index="1073741825" Type="TG" RefString="Source[local].Layer[CommonLayer].TextGroup[Embedded]" />
   <Symbol Name="Source[local].Runtime[VisuDa]" Index="1073741824" Type="RTM" RefString="Source[local].Runtime[VisuDa]" />
@@ -2370,18 +2421,19 @@
   <Symbol Name="Source[local].TrendData[MpOeeTrendUI_Performance]" Index="1073741826" Type="TRD" RefString="Source[local].TrendData[MpOeeTrendUI_Performance]" />
   <Symbol Name="Source[local].TrendData[MpOeeTrendUI_Quality]" Index="1073741827" Type="TRD" RefString="Source[local].TrendData[MpOeeTrendUI_Quality]" />
   <Symbol Name="Source[local].Trend[MpOeeTrendUI]" Index="1073741824" Type="TRE" RefString="Source[local].Trend[MpOeeTrendUI]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIGrid]" Index="1073741881" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIGrid]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIXScale]" Index="1073741882" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIXScale]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIYScale]" Index="1073741883" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIYScale]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIOEE]" Index="1073741884" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIOEE]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIAvalability]" Index="1073741885" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIAvalability]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIPerformance]" Index="1073741886" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIPerformance]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIQuality]" Index="1073741887" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIQuality]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIValueScale]" Index="1073741888" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIValueScale]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIOEEGraph]" Index="1073741889" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIOEEGraph]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIAvailabilityGraph]" Index="1073741890" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIAvailabilityGraph]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIPerformanceGraph]" Index="1073741891" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIPerformanceGraph]" />
-  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIQualityGraph]" Index="1073741892" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIQualityGraph]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIGrid]" Index="1073741906" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIGrid]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIXScale]" Index="1073741907" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIXScale]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIYScale]" Index="1073741908" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIYScale]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIOEE]" Index="1073741909" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIOEE]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIAvalability]" Index="1073741910" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIAvalability]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIPerformance]" Index="1073741911" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIPerformance]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIQuality]" Index="1073741912" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIQuality]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIValueScale]" Index="1073741913" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIValueScale]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIOEEGraph]" Index="1073741914" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIOEEGraph]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIAvailabilityGraph]" Index="1073741915" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIAvailabilityGraph]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIPerformanceGraph]" Index="1073741916" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIPerformanceGraph]" />
+  <Symbol Name="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIQualityGraph]" Index="1073741917" Type="CTRL" RefString="Source[local].Trend[MpOeeTrendUI].Control[MpOeeTrendUIQualityGraph]" />
+  <Symbol Name="Source[local].Process[Process_1]" Index="1073741824" Type="PRC" RefString="Source[local].Process[Process_1]" />
   <Symbol Name="Source[local].StyleGroup[0x00000400].StyleClass[MpDefault]" Index="1073741825" Type="REF" RefString="Source[local].StyleGroup[0x00000400].StyleClass[MpDefault]" />
   <Symbol Name="Source[local].StyleGroup[0x00000400].StyleClass[Default]" Index="1073741826" Type="REF" RefString="Source[local].StyleGroup[0x00000400].StyleClass[Default]" />
   <Symbol Name="Source[local].StyleGroup[0x00001001].StyleClass[MpDefault]" Index="1073741827" Type="REF" RefString="Source[local].StyleGroup[0x00001001].StyleClass[MpDefault]" />
@@ -2484,18 +2536,21 @@
   <Symbol Name="Source[local].StyleGroup[0x0000101F].StyleClass[Default]" Index="1073741926" Type="REF" RefString="Source[local].StyleGroup[0x0000101F].StyleClass[Default]" />
   <Symbol Name="Source[local].StyleGroup[0x00001020].StyleClass[MpDefault]" Index="1073741927" Type="REF" RefString="Source[local].StyleGroup[0x00001020].StyleClass[MpDefault]" />
   <Symbol Name="Source[local].StyleGroup[0x00001020].StyleClass[StyleClass_1]" Index="1073741928" Type="REF" RefString="Source[local].StyleGroup[0x00001020].StyleClass[StyleClass_1]" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" Index="1073741938" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_23]#\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" Index="1073741939" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_24]#\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" Index="1073741940" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_25]#\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" Index="1073741941" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_26]#\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" Index="1073741950" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_182]#\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" Index="1073741951" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_183]#\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" Index="1073741952" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_184]#\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" Index="1073741953" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_185]#\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpUserXSignMessageBox\VKeys\Common" Index="1073741956" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_174]#\Projects\VisuDa\Layers\MpUserXSignMessageBox\VKeys\Common" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpUserXSignMessageBox\VKeys\Common" Index="1073741957" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_175]#\Projects\VisuDa\Layers\MpUserXSignMessageBox\VKeys\Common" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpUserXSign\VKeys\Common" Index="1073741954" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_172]#\Projects\VisuDa\Layers\MpUserXSign\VKeys\Common" />
-  <Symbol Name="\Projects\VisuDa\Layers\MpUserXSign\VKeys\Common" Index="1073741955" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_173]#\Projects\VisuDa\Layers\MpUserXSign\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" Index="1073741943" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_23]#\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" Index="1073741944" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_24]#\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" Index="1073741945" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_25]#\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" Index="1073741946" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_26]#\Projects\VisuDa\Layers\MpPageControl\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" Index="1073741955" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_182]#\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" Index="1073741956" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_183]#\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" Index="1073741957" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_184]#\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" Index="1073741958" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_185]#\Projects\VisuDa\Layers\MpOeeControl\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpUserXSignMessageBox\VKeys\Common" Index="1073741961" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_174]#\Projects\VisuDa\Layers\MpUserXSignMessageBox\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpUserXSignMessageBox\VKeys\Common" Index="1073741962" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_175]#\Projects\VisuDa\Layers\MpUserXSignMessageBox\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpUserXSign\VKeys\Common" Index="1073741959" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_172]#\Projects\VisuDa\Layers\MpUserXSign\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\MpUserXSign\VKeys\Common" Index="1073741960" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_173]#\Projects\VisuDa\Layers\MpUserXSign\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\CommonLayer\VKeys\Common" Index="1073741963" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_1]#\Projects\VisuDa\Layers\CommonLayer\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\CommonLayer\VKeys\Common" Index="1073741964" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_2]#\Projects\VisuDa\Layers\CommonLayer\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\Layers\CommonLayer\VKeys\Common" Index="1073741965" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_7]#\Projects\VisuDa\Layers\CommonLayer\VKeys\Common" />
   <Symbol Name="\Projects\VisuDa\StyleSheets\Color\0x00000400" Index="1073741825" Type="SC" RefString="Source[local].StyleGroup[0x00000400].StyleClass[Color.MpDefault]" />
   <Symbol Name="\Projects\VisuDa\StyleSheets\Color\0x00000400" Index="1073741826" Type="SC" RefString="Source[local].StyleGroup[0x00000400].StyleClass[Color.Default]" />
   <Symbol Name="\Projects\VisuDa\StyleSheets\Color\0x00001001" Index="1073741827" Type="SC" RefString="Source[local].StyleGroup[0x00001001].StyleClass[Color.MpDefault]" />
@@ -2703,12 +2758,19 @@
   <Symbol Name="\Projects\VisuDa\VKeys\Common" Index="1073741824" Type="VKEY" RefString="Source[local].VirtualKey[TouchCalibration]#\Projects\VisuDa\VKeys\Common" />
   <Symbol Name="\Projects\VisuDa\VKeys\Common" Index="1073741825" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_4_1]#\Projects\VisuDa\VKeys\Common" />
   <Symbol Name="\Projects\VisuDa\VKeys\Common" Index="1073741826" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_5_0]#\Projects\VisuDa\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\VKeys\Common" Index="1073741828" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_3]#\Projects\VisuDa\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\VKeys\Common" Index="1073741829" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_4]#\Projects\VisuDa\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\VKeys\Common" Index="1073741830" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_5]#\Projects\VisuDa\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\VKeys\Common" Index="1073741831" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_6]#\Projects\VisuDa\VKeys\Common" />
+  <Symbol Name="\Projects\VisuDa\VKeys\Common" Index="1073741827" Type="VKEY" RefString="Source[local].VirtualKey[%embVirtualKey_8]#\Projects\VisuDa\VKeys\Common" />
   <Symbol Name="\Projects\VisuDa\Language\en\TextGroups\POBJ" Index="1109" Type="TG" RefString="Source[local].TextGroup[MpButtons_PageTexts].Language[en]" />
   <Symbol Name="\Projects\VisuDa\Language\en\TextGroups\POBJ" Index="3" Type="TG" RefString="Source[local].TextGroup[ShiftGroup].Language[en]" />
   <Symbol Name="\Projects\VisuDa\Language\en\TextGroups\POBJ" Index="0" Type="TG" RefString="Source[local].TextGroup[MpAuditEventTextSetup].Language[en]" />
+  <Symbol Name="\Projects\VisuDa\Language\en\TextGroups\POBJ" Index="2" Type="TG" RefString="Source[local].TextGroup[GameConfiguration].Language[en]" />
   <Symbol Name="\Projects\VisuDa\Language\en\TextGroups\POBJ" Index="1073741825" Type="TG" RefString="Source[local].Layer[CommonLayer].TextGroup[Embedded].Language[en]" />
   <Symbol Name="\Projects\VisuDa\Language\es-MX\TextGroups\POBJ" Index="1109" Type="TG" RefString="Source[local].TextGroup[MpButtons_PageTexts].Language[es-MX]" />
   <Symbol Name="\Projects\VisuDa\Language\es-MX\TextGroups\POBJ" Index="3" Type="TG" RefString="Source[local].TextGroup[ShiftGroup].Language[es-MX]" />
   <Symbol Name="\Projects\VisuDa\Language\es-MX\TextGroups\POBJ" Index="0" Type="TG" RefString="Source[local].TextGroup[MpAuditEventTextSetup].Language[es-MX]" />
+  <Symbol Name="\Projects\VisuDa\Language\es-MX\TextGroups\POBJ" Index="2" Type="TG" RefString="Source[local].TextGroup[GameConfiguration].Language[es-MX]" />
   <Symbol Name="\Projects\VisuDa\Language\es-MX\TextGroups\POBJ" Index="1073741825" Type="TG" RefString="Source[local].Layer[CommonLayer].TextGroup[Embedded].Language[es-MX]" />
 </SymbolTable>

@@ -7,9 +7,25 @@
   <BitmapLayer LanguageId="neutral">
     <BitmapRef ID="3951" Value="Source[local].Bitmap[frame_header]"/>
     <BitmapRef ID="3952" Value="Source[local].Bitmap[BackgroundSilverGold]"/>
+    <BitmapRef ID="3953" Value="Source[local].Bitmap[mundo50x50]"/>
+    <BitmapRef ID="3954" Value="Source[local].Bitmap[dardos50x50]"/>
+    <BitmapRef ID="3955" Value="Source[local].Bitmap[reparar50x50]"/>
+    <BitmapRef ID="3956" Value="Source[local].Bitmap[trofeo50x50]"/>
+    <BitmapRef ID="3959" Value="Source[local].Bitmap[casa40x40]"/>
+    <BitmapRef ID="3960" Value="Source[local].Bitmap[AutomationHelp]"/>
+    <BitmapRef ID="3961" Value="Source[local].Bitmap[Delete]"/>
+    <BitmapRef ID="3962" Value="Source[local].Bitmap[TpuFunctionBlockMode]"/>
   </BitmapLayer>
   <IndexMap>
     <Index ID="3951" Value="0"/>
     <Index ID="3952" Value="1"/>
+    <Index ID="3953" Value="2"/>
+    <Index ID="3954" Value="3"/>
+    <Index ID="3955" Value="4"/>
+    <Index ID="3956" Value="5"/>
+    <Index ID="3959" Value="6"/>
+    <Index ID="3960" Value="7"/>
+    <Index ID="3961" Value="8"/>
+    <Index ID="3962" Value="9"/>
   </IndexMap>
 </BitmapGroup>

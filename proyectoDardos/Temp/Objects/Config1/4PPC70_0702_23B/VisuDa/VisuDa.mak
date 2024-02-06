@@ -57,7 +57,7 @@ LIB_LOCAL_OBJ_VisuDa=$(TEMP_PATH_VisuDa)/localobj.vca
 # Hardware sources
 PANEL_HW_OBJECT_VisuDa=$(TEMP_PATH_ROOT_VisuDa)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/VisuDa/dis.Hardware.vco
 PANEL_HW_VCI_VisuDa=$(TEMP_PATH_ROOT_VisuDa)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/VisuDa/dis.Hardware.vci
-PANEL_HW_SOURCE_VisuDa=C:/Git/CursoBR2023/ProyectosFinales/proyectoDardos/Physical/Config1/Hardware.hw 
+PANEL_HW_SOURCE_VisuDa=C:/Proyectos/ProyectosBR/proyectoDardos/Physical/Config1/Hardware.hw 
 DIS_OBJECTS_VisuDa=$(PANEL_HW_OBJECT_VisuDa) $(KEYMAP_OBJECTS_VisuDa)
 
 # KeyMapping flags
@@ -72,7 +72,8 @@ KEYMAP_OBJECTS_VisuDa=$(TEMP_PATH_VisuDa)/dis.PS2-Keyboard.vco
 TXTGRP_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TextGroups/MpButtons_PageTexts.txtgrp \
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TextGroups/ShiftGroup.txtgrp \
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TextGroups/MpAuditEventTextSetup.txtgrp \
-	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TextGroups/MpAuditUserDefinedEvent.txtgrp 
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TextGroups/MpAuditUserDefinedEvent.txtgrp \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TextGroups/GameConfiguration.txtgrp 
 
 FNINFO_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Fonts/MpButton.fninfo \
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Fonts/MpDefault.fninfo \
@@ -390,7 +391,16 @@ BMINFO_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/MpAlarm
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/frame_header.bminfo \
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/BackgroundWVGA_NoLogo.bminfo \
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/BackgroundSilverGold.bminfo \
-	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/dcVSmarvel800x480.bminfo 
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/dcVSmarvel800x480.bminfo \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/reparar50x50.bminfo \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/trofeo50x50.bminfo \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/dardos50x50.bminfo \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/mundo50x50.bminfo \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/casa50x50.bminfo \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/AutomationHelp.bminfo \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/Delete.bminfo \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/TpuFunctionBlockMode.bminfo \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/casa40x40.bminfo 
 
 BMGRP_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/BitmapGroups/MpAlarmAcknowledgeState.bmgrp \
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/BitmapGroups/MpAuditEventsID.bmgrp \
@@ -489,7 +499,15 @@ BDR_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Attenti
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Safety_ACK_off.bdr \
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Safety_ACK_on.bdr \
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_LabelBorder_Orange.bdr \
-	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/BorderGold.bdr 
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/BorderGold.bdr \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Home.bdr \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Dardos.bdr \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Mundo.bdr \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Equis.bdr \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Trofeo.bdr \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Reparar.bdr \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Background.bdr \
+	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Frame.bdr 
 
 TPR_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TouchPads/MpNavigationPad_ver.tpr \
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TouchPads/MpNumPad.tpr \
@@ -506,6 +524,8 @@ TRE_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Trends/MpOeeTrendU
 
 CLM_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/ColorMaps/MpPMLStateColors.clm \
 	$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/ColorMaps/MpEnergyChartData.clm 
+
+PRC_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Processes/Process_1.prc 
 
 VCVK_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/VirtualKeys.vcvk 
 
@@ -613,15 +633,15 @@ $(VCVK_OBJECTS_VisuDa): $(VC_LANGUAGES_VisuDa)
 TPR_OBJECTS_VisuDa = $(addprefix $(TEMP_PATH_VisuDa)/tpr., $(notdir $(TPR_SOURCES_VisuDa:.tpr=.vco)))
 
 $(TEMP_PATH_VisuDa)/tpr.MpNavigationPad_ver.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TouchPads/MpNavigationPad_ver.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa) -prj 'C:/Git/CursoBR2023/ProyectosFinales/proyectoDardos/Logical/Visu/VisuDardos' -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa) -prj 'C:/Proyectos/ProyectosBR/proyectoDardos/Logical/Visu/VisuDardos' -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
 
 
 $(TEMP_PATH_VisuDa)/tpr.MpNumPad.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TouchPads/MpNumPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa) -prj 'C:/Git/CursoBR2023/ProyectosFinales/proyectoDardos/Logical/Visu/VisuDardos' -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa) -prj 'C:/Proyectos/ProyectosBR/proyectoDardos/Logical/Visu/VisuDardos' -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
 
 
 $(TEMP_PATH_VisuDa)/tpr.MpAlphaPad.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TouchPads/MpAlphaPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa) -prj 'C:/Git/CursoBR2023/ProyectosFinales/proyectoDardos/Logical/Visu/VisuDardos' -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa) -prj 'C:/Proyectos/ProyectosBR/proyectoDardos/Logical/Visu/VisuDardos' -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
 
 
 #Touch Pads END
@@ -645,6 +665,10 @@ $(TEMP_PATH_VisuDa)/txtgrp.MpAuditEventTextSetup.vco: $(AS_PROJECT_PATH)/Logical
 
 
 $(TEMP_PATH_VisuDa)/txtgrp.MpAuditUserDefinedEvent.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TextGroups/MpAuditUserDefinedEvent.txtgrp $(VC_LANGUAGES_VisuDa)
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(TEMP_PATH_VisuDa)/txtgrp.GameConfiguration.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/TextGroups/GameConfiguration.txtgrp $(VC_LANGUAGES_VisuDa)
 	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
 
 
@@ -1964,6 +1988,42 @@ $(TEMP_PATH_VisuDa)/bminfo.dcVSmarvel800x480.vco: $(AS_PROJECT_PATH)/Logical/Vis
 	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
 
 
+$(TEMP_PATH_VisuDa)/bminfo.reparar50x50.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/reparar50x50.bminfo $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/reparar50x50.png
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(TEMP_PATH_VisuDa)/bminfo.trofeo50x50.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/trofeo50x50.bminfo $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/trofeo50x50.png
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(TEMP_PATH_VisuDa)/bminfo.dardos50x50.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/dardos50x50.bminfo $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/dardos50x50.png
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(TEMP_PATH_VisuDa)/bminfo.mundo50x50.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/mundo50x50.bminfo $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/mundo50x50.png
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(TEMP_PATH_VisuDa)/bminfo.casa50x50.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/casa50x50.bminfo $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/casa50x50.png
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(TEMP_PATH_VisuDa)/bminfo.AutomationHelp.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/AutomationHelp.bminfo $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/AutomationHelp.ico
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(TEMP_PATH_VisuDa)/bminfo.Delete.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/Delete.bminfo $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/Delete.ico
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(TEMP_PATH_VisuDa)/bminfo.TpuFunctionBlockMode.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/TpuFunctionBlockMode.bminfo $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/TpuFunctionBlockMode.ico
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+$(TEMP_PATH_VisuDa)/bminfo.casa40x40.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/casa40x40.bminfo $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Bitmaps/casa40x40.png
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
 #Bitmaps END
 
 
@@ -2031,10 +2091,22 @@ $(TEMP_PATH_VisuDa)/clm.MpEnergyChartData.vco: $(AS_PROJECT_PATH)/Logical/Visu/V
 #ColorMap Table END
 
 
+
+
+# Process
+PRC_OBJECTS_VisuDa = $(addprefix $(TEMP_PATH_VisuDa)/prc., $(notdir $(PRC_SOURCES_VisuDa:.prc=.vco)))
+
+$(TEMP_PATH_VisuDa)/prc.Process_1.vco: $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Processes/Process_1.prc
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_VisuDa)' $(VCCFLAGS_VisuDa)  -p VisuDa -so $(VC_STATIC_OPTIONS_VisuDa) -vcr 4725 -sfas
+
+
+#Process END
+
+
 #
 # Borders
 #
-BDR_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_AttentionOff.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_AttentionOn.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Device_Select_Left.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Device_Unselect_Left.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Flat_grey.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_FrameInvisible.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_LabelBorderDown.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_MoveOff.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_MoveOn.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TabActive.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Control.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Control_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_KeyRingOff.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_KeyRingOn.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Multi_Scroll_Down.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Multi_Scroll_Dwn_press.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Multi_Scroll_Up.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Multi_Scroll_Up_press.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Down.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Down_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_CheckBox_checked.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_GroupControl.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_InputBorderInactive.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_InputBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_LabelBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_OutputBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_SunkenNG.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scoll_Up.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scoll_Up_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_SunkenNGgray.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Left.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Left_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Right.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Right_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_SliderBorder09.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_PackML_States.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Left_Multi.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Left_Multi_pres.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Right_Multi.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Right_Multi_pr.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TeachPointUnselectedEven.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TeachPointUnselectedOdd.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_ListBoxCenter.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_ListBoxLeft.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_ListBoxRight.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TeachPointSelected.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_BitmapFrame.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_LabelBorderSlim.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_RangeBar.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TabSelect.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TabUnSelect.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataDevBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataMaxBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataMeanBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataMinBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataRangeBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataNameFrame.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Safety_ACK_off.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Safety_ACK_on.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_LabelBorder_Orange.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/BorderGold.bdr 
+BDR_SOURCES_VisuDa=$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_AttentionOff.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_AttentionOn.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Device_Select_Left.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Device_Unselect_Left.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Flat_grey.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_FrameInvisible.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_LabelBorderDown.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_MoveOff.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_MoveOn.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TabActive.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Control.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Control_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_KeyRingOff.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_KeyRingOn.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Multi_Scroll_Down.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Multi_Scroll_Dwn_press.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Multi_Scroll_Up.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Multi_Scroll_Up_press.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Down.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Down_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_CheckBox_checked.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_GroupControl.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_InputBorderInactive.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_InputBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_LabelBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_OutputBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_SunkenNG.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scoll_Up.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scoll_Up_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_SunkenNGgray.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Left.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Left_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Right.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Right_pressed.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_SliderBorder09.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_PackML_States.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Left_Multi.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Left_Multi_pres.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Right_Multi.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Scroll_Right_Multi_pr.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TeachPointUnselectedEven.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TeachPointUnselectedOdd.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_ListBoxCenter.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_ListBoxLeft.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_ListBoxRight.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TeachPointSelected.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_BitmapFrame.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_LabelBorderSlim.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_RangeBar.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TabSelect.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_TabUnSelect.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataDevBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataMaxBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataMeanBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataMinBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataRangeBorder.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_DataNameFrame.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Safety_ACK_off.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_Button_Safety_ACK_on.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Mp_LabelBorder_Orange.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/BorderGold.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Home.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Dardos.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Mundo.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Equis.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Trofeo.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Reparar.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Background.bdr $(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Borders/Border_Frame.bdr 
 BDR_OBJECTS_VisuDa=$(TEMP_PATH_VisuDa)/bdr.Bordermanager.vco
 $(TEMP_PATH_VisuDa)/bdr.Bordermanager.vco: $(BDR_SOURCES_VisuDa)
 	$(VCC) -f '$<' -o '$@' -pkg '$(SRC_PATH_VisuDa)' $(BDRFLAGS_VisuDa) $(VCCFLAGS_VisuDa) -p VisuDa$(SRC_PATH_VisuDa)
@@ -2110,6 +2182,7 @@ $(TEMP_PATH_VisuDa)/VisuDa01.ccf: $(LIB_SHARED) $(SHARED_CCF) $(LIB_BMP_RES_Visu
 	@$(VCFLGEN) '$@.lfl' -mask .tdc -vcp '$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Package.vcp' -temp '$(TEMP_PATH_VisuDa)' -prj '$(PRJ_PATH_VisuDa)' -sfas
 	@$(VCFLGEN) '$@.lfl' -mask .trd -vcp '$(AS_PROJECT_PATH)/Logical/Visu/VisuDardos/Package.vcp' -temp '$(TEMP_PATH_VisuDa)' -prj '$(PRJ_PATH_VisuDa)' -sfas
 	@$(VCFLGEN) '$@.lfl' '$(TEMP_PATH_VisuDa)/tre.MpOeeTrendUI.vco' -temp '$(TEMP_PATH_VisuDa)' -prj '$(PRJ_PATH_VisuDa)' -sfas
+	@$(VCFLGEN) '$@.lfl' '$(TEMP_PATH_VisuDa)/prc.Process_1.vco' -temp '$(TEMP_PATH_VisuDa)' -prj '$(PRJ_PATH_VisuDa)' -sfas
 	@$(VCFLGEN) '$@.lfl' '$(SCR_OBJECTS_VisuDa:.vco=.vco|)' -temp '$(TEMP_PATH_VisuDa)' -prj '$(PRJ_PATH_VisuDa)' -sfas
 	$(LINK) '$@.lfl' -o '$@' -p VisuDa -lib '$(LIB_LOCAL_OBJ_VisuDa)' -P '$(AS_PROJECT_PATH)' -m 'local objects' -profile 'False' -warningLevel2 -vcr 4725 -sfas
 # 01 Module END
@@ -2138,11 +2211,3 @@ $(TEMP_PATH_VisuDa)/VisuDa03.ccf: $(LIB_SHARED) $(SHARED_CCF) $(BMGRP_OBJECTS_Vi
 	$(LINK) '$@.lfl' -o '$@' -p VisuDa -lib '$(LIB_BMP_RES_VisuDa)' -P '$(AS_PROJECT_PATH)' -m 'bitmap resources' -profile 'False' -warningLevel2 -vcr 4725 -sfas
 # 03 Module END
 
-# Post Build Steps
-
-.PHONY : vcPostBuild_VisuDa
-
-vcPostBuild_VisuDa :
-	$(VCC) -pb -vcm '$(TEMP_PATH_VisuDa)/MODULEFILES.vcm' -fw '$(VCFIRMWAREPATH)' $(VCCFLAGS_VisuDa) -p VisuDa -vcr 4725 -sfas
-
-# Post Build Steps END
