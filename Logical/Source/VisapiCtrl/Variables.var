@@ -1,8 +1,6 @@
-
 VAR
-
-END_VAR
-
-VAR CONSTANT
-
+	enable : BOOL;
+	interpreter : STRING[80] := 'VisuDa';
+	status : UINT;
+	VCHandle : VCHANDLE;
 END_VAR
