@@ -1,6 +1,4 @@
 VAR
-	enable : BOOL;
-	interpreter : STRING[80] := 'VisuDa';
-	status : UINT;
-	VCHandle : VCHANDLE;
+	setupX : VA_SetupX_0;
+	saccess : VA_Saccess_0;
 END_VAR
