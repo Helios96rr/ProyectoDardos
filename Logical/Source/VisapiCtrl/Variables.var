@@ -1,4 +1,31 @@
 VAR
-	setupX : VA_SetupX_0;
-	saccess : VA_Saccess_0;
+	ready : UINT;
+	VC_HANDLE : UDINT;
+	x : UINT;
+	y : UINT;
+	fill : UINT;
+END_VAR
+VAR RETAIN
+	color : UINT;
+END_VAR
+VAR
+	width : UINT;
+END_VAR
+VAR RETAIN
+	height : UINT;
+END_VAR
+VAR
+	interpreter : STRING[80] := 'VisuDa';
+	oldHeight : UINT;
+	actualPage : UINT;
+	x2 : UINT;
+	y2 : UINT;
+	width2 : UINT;
+	height2 : UINT;
+	fill2 : UINT;
+	color2 : UINT;
+	on : BOOL;
+	on1 : BOOL;
+	on3 : BOOL;
+	on4 : BOOL;
 END_VAR

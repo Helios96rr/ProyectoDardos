@@ -16,9 +16,7 @@ TYPE
 	END_STRUCT;
 	visapiCtrl_state_type : 
 		(
-		DISABLE := 0,
-		WAIT := 10,
-		DRAWING := 20,
-		ERROR := 100
+		WAIT := 0,
+		DRAWING := 10
 		);
 END_TYPE
