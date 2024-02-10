@@ -9,9 +9,9 @@ VAR
 	xRect : ARRAY[1..MAX_RECT] OF UINT := [28,0,231]; (*coordenada X del rectangulo*)
 	yRect : ARRAY[1..MAX_RECT] OF UINT := [60,235,0]; (*coordenada Y del rectangulo*)
 	widthRect : ARRAY[1..MAX_RECT] OF UINT := [406,0,4]; (*ancho del rectangulo*)
-	heigthRect : ARRAY[1..MAX_RECT] OF UINT := [354,4,0]; (*altura del rectangulo*)
-	fillRect : ARRAY[1..MAX_RECT] OF UINT := [254,2(45)]; (*relleno del rectangulo*)
-	colorRect : ARRAY[1..MAX_RECT] OF UINT := [35,2(3)]; (*contorno del rectanculo*)
+	heigthRect : ARRAY[1..MAX_RECT] OF UINT := [353,4,0]; (*altura del rectangulo*)
+	fillRect : ARRAY[1..MAX_RECT] OF UINT := [255,2(45)]; (*relleno del rectangulo*)
+	colorRect : ARRAY[1..MAX_RECT] OF UINT := [255,2(45)]; (*contorno del rectanculo*)
 END_VAR
 (*VA_Ellipse*)
 VAR CONSTANT
@@ -29,13 +29,13 @@ VAR RETAIN
 	colorEllipse : ARRAY[1..MAX_RADIUS] OF UINT := [0,16,45,16,45,16]; (*contorno de la elipse*)
 END_VAR
 VAR CONSTANT
-	xTarget : USINT := 231;
-	yTarget : USINT := 237;
+	xTarget : USINT := 231; (*coordenada X del target*)
+	yTarget : USINT := 237; (*coordenada Y del target*)
 END_VAR
 VAR
 	heigthTarget : USINT;
 	widthTarget : USINT;
-	fillTarget : USINT := 214;
+	fillTarget : USINT := 205;
 	colorTarget : USINT := 45;
 END_VAR
 (*AUX *)
@@ -52,5 +52,21 @@ END_VAR
 VAR CONSTANT
 	MAX_RECT : INT := 3;
 	leftOffset : UINT := 28;
+	MAX_X_COORDINATE : UDINT := 434;
+	MAX_Y_COORDINATE : UDINT := 413;
+	MIN_X_COORDINATE : UDINT := 28;
+	MIN_Y_COORDINATE : UDINT := 60;
 	topOffset : UINT := 60;
+END_VAR
+(*Insert your comment here.*)
+VAR
+	xTouchPosition : UDINT;
+	yTouchPosition : UDINT;
+	statusTouch : UDINT;
+	Touch : TouchAction;
+	New_Variable4 : USINT;
+	New_Variable3 : USINT;
+	New_Variable2 : USINT;
+	New_Variable1 : USINT;
+	New_Variable : USINT;
 END_VAR

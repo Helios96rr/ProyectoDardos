@@ -1,8 +1,5 @@
-
 VAR
-
-END_VAR
-
-VAR CONSTANT
-
+	getTouch : BOOL;
+	homeXCoordenate : UDINT;
+	pointValue : UINT;
 END_VAR

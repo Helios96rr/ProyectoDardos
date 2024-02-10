@@ -5,8 +5,19 @@ PROGRAM _INIT
 END_PROGRAM
 
 PROGRAM _CYCLIC
-	(* Insert code here *)
-	 
+	homeXCoordenate := gMainCtrl.visapiCtrl.status.homeXCoordenate;
+	homeXCoordenate	:= gMainCtrl.visapiCtrl.status.homeYCoordenate;
+	
+	IF gMainCtrl.visapiCtrl.status.valitTouch THEN
+	
+		
+		
+		
+		
+	END_IF;
+	
+	
+	
 END_PROGRAM
 
 PROGRAM _EXIT
