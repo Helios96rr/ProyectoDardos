@@ -24,7 +24,7 @@
     <Layer Name="Default">
       <Property Name="BackColor" Value="9"/>
       <Property Name="Description" Value=""/>
-      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="EditingMode" Value="Lock Position"/>
       <Property Name="Height" Value="480"/>
       <Property Name="Left" Value="0"/>
       <Property Name="OutlineColor" Value="0"/>
@@ -208,6 +208,15 @@
           <Property Name="Font" Value="Source[local].Font[MpPads]"/>
           <Property Name="ForeColor" Value="6"/>
           <Property Name="Height" Value="31"/>
+          <Property Name="Input" Value="True"/>
+          <Property Name="InputCancel" Value="Lost Focus"/>
+          <Property Name="InputComma" Value="Explicit"/>
+          <Property Name="InputConfirm" Value="Enter"/>
+          <Property Name="InputMinus" Value="Normal"/>
+          <Property Name="InputNext" Value="Enter"/>
+          <Property Name="InputStart" Value="Any Key"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
+          <Property Name="InputUpDown" Value="Disabled"/>
           <Property Name="Left" Value="458"/>
           <Property Name="MaxDatapoint" Value="None"/>
           <Property Name="MaxValue" Value="None"/>
@@ -410,7 +419,7 @@
           <Property Name="Height" Value="353"/>
           <Property Name="Left" Value="28"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
-          <Property Name="Top" Value="61"/>
+          <Property Name="Top" Value="60"/>
           <Property Name="Width" Value="406"/>
         </Control>
       </Controls>
@@ -478,7 +487,14 @@
       </KeyMapping>
     </Layer>
   </Layers>
-  <MovementOrder/>
+  <MovementOrder>
+    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_3]">
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+    </MovementEntry>
+  </MovementOrder>
   <TabSequence>
     <TabSeqItem Index="0" Value="Source[embedded].Layer[Default].Control[Numeric_1]"/>
     <TabSeqItem Index="1" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>

@@ -1,59 +1,77 @@
 
 PROGRAM _INIT	
-	//(1)VA_Setup o VA_Setup son utilizadas para CONEXIÓN DE VISAPI CON LA VISUALIZACIÓN. 
-	//(2)VA_Saccess es utilizada para REALIZAR FUNCIONES DE VISAPI.
-	//(3) VA_Line, VA_Rect, VA_Redraw, funciones de dibujo	
-	x:= 200;
-	y:= 200;
-	x2:= 250;
-	y2:= 250;
-	height := 80;
+	//Inicialización de circunferencias
+	heigthEllipse[1] := 330;
+	heigthEllipse[2] := 280;
+	heigthEllipse[3] := 230;
+	heigthEllipse[4] := 180;
+	heigthEllipse[5] := 130;
+	heigthEllipse[6] := 80;
+	heigthTarget	 := 50;
+	
+	gMainCtrl.visapiCtrl.state := WAIT;
+	
 END_PROGRAM
 
 PROGRAM _CYCLIC
-	fill := color;
-	width := height;
-	width2 := height2;
+	
+	
+	xRect[2]:= ((widthRect[1]/2)-(widthEllipse[1]/2))+ leftOffset;
+	yRect[3]:=((heigthRect[1]/2)-(widthEllipse[1]/2))+ topOffset;
+	widthRect[2] := widthEllipse[1];
+	heigthRect[3] := heigthEllipse[1]; 
+	widthTarget	:= heigthTarget;
+					
+	
+	IF defaultRadiusValues THEN
+		heigthEllipse[1] := 330;
+		heigthEllipse[2] := 280;
+		heigthEllipse[3] := 230;
+		heigthEllipse[4] := 180;
+		heigthEllipse[5] := 130;
+		heigthEllipse[6] := 80;
 
+	END_IF;
 	
 	
 	
+
 	CASE gMainCtrl.visapiCtrl.state OF
-		
-			
-		
+
 		WAIT: 
 			IF ready <> 1 THEN
 				VC_HANDLE := VA_Setup(1,interpreter);
 				ready := 1;	
 			END_IF;	
-			IF  oldHeight <> height AND ready = 1 THEN
-				ready := 1;
+			IF  (*oldHeight <> height AND*) ready = 1 THEN
 				gMainCtrl.visapiCtrl.state := DRAWING;
 			END_IF;
 			
-	
 
-		
 		DRAWING: 
 		
 			IF ready = 1 AND actualPage = 0 THEN
-				
 				IF VA_Saccess(1, VC_HANDLE) = 0 THEN
-					//VA_Rect(1,VC_HANDLE,x2,y2,width2,height2,fill2,color2);
-					VA_Ellipse(1,VC_HANDLE,x,y,height,width,fill,color);
-					VA_Srelease(1, VC_HANDLE);	
-					oldHeight := height;
 					
-				END_IF;
-		
-			END_IF;
-		
-			IF oldHeight = height THEN
-				gMainCtrl.visapiCtrl.state := WAIT;
-				ready := 2;
 				
+					VA_Rect(1,VC_HANDLE,xRect[1],yRect[1],widthRect[1],heigthRect[1],fillRect[1],colorRect[1]);
+					FOR j:= 1 TO (MAX_RADIUS) DO
+						fillEllipse[j+1]	:= colorEllipse[j+1];
+						widthEllipse[j] 	:= heigthEllipse[j];
+						VA_Ellipse(1,VC_HANDLE,xEllipse ,yEllipse,heigthEllipse[j] ,widthEllipse[j],fillEllipse[j],colorEllipse[j]);
+					END_FOR;
+					
+					VA_Rect(1,VC_HANDLE,xRect[2],yRect[2],widthRect[2],heigthRect[2],fillRect[2],colorRect[2]); //RECTANGULO HORIZONTAL
+					VA_Rect(1,VC_HANDLE,xRect[3],yRect[3],widthRect[3],heigthRect[3],fillRect[3],colorRect[3]); //RECTANGULO VERTICAL
+					VA_Ellipse(1,VC_HANDLE,xTarget,yTarget,heigthTarget,widthTarget,fillTarget,colorTarget); //TARGET
+					
+					VA_Srelease(1, VC_HANDLE);
+					
+				END_IF;	
 			END_IF;
+		
+		
+		
 	END_CASE;
 	
 END_PROGRAM

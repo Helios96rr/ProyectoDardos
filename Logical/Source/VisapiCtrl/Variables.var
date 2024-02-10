@@ -1,31 +1,56 @@
+(*VISAPI*)
 VAR
 	ready : UINT;
 	VC_HANDLE : UDINT;
-	x : UINT;
-	y : UINT;
-	fill : UINT;
-END_VAR
-VAR RETAIN
-	color : UINT;
-END_VAR
-VAR
-	width : UINT;
-END_VAR
-VAR RETAIN
-	height : UINT;
-END_VAR
-VAR
 	interpreter : STRING[80] := 'VisuDa';
-	oldHeight : UINT;
-	actualPage : UINT;
-	x2 : UINT;
-	y2 : UINT;
-	width2 : UINT;
-	height2 : UINT;
-	fill2 : UINT;
-	color2 : UINT;
-	on : BOOL;
-	on1 : BOOL;
-	on3 : BOOL;
-	on4 : BOOL;
+END_VAR
+(*VA_Rect*)
+VAR
+	xRect : ARRAY[1..MAX_RECT] OF UINT := [28,0,231]; (*coordenada X del rectangulo*)
+	yRect : ARRAY[1..MAX_RECT] OF UINT := [60,235,0]; (*coordenada Y del rectangulo*)
+	widthRect : ARRAY[1..MAX_RECT] OF UINT := [406,0,4]; (*ancho del rectangulo*)
+	heigthRect : ARRAY[1..MAX_RECT] OF UINT := [354,4,0]; (*altura del rectangulo*)
+	fillRect : ARRAY[1..MAX_RECT] OF UINT := [254,2(45)]; (*relleno del rectangulo*)
+	colorRect : ARRAY[1..MAX_RECT] OF UINT := [35,2(3)]; (*contorno del rectanculo*)
+END_VAR
+(*VA_Ellipse*)
+VAR CONSTANT
+	xEllipse : UINT := 231; (*coordenada X de la elipse*)
+	yEllipse : UINT := 237; (*coordenadas Y de la elipse*)
+END_VAR
+VAR RETAIN
+	heigthEllipse : ARRAY[1..MAX_RADIUS] OF UINT; (*altura de la elipse*)
+END_VAR
+VAR
+	widthEllipse : ARRAY[1..MAX_RADIUS] OF UINT; (*ancho de la elipse*)
+	fillEllipse : ARRAY[1..MAX_RADIUS] OF UINT := [45,16,45,16,45,16]; (*relleno de la elipse*)
+END_VAR
+VAR RETAIN
+	colorEllipse : ARRAY[1..MAX_RADIUS] OF UINT := [0,16,45,16,45,16]; (*contorno de la elipse*)
+END_VAR
+VAR CONSTANT
+	xTarget : USINT := 231;
+	yTarget : USINT := 237;
+END_VAR
+VAR
+	heigthTarget : USINT;
+	widthTarget : USINT;
+	fillTarget : USINT := 214;
+	colorTarget : USINT := 45;
+END_VAR
+(*AUX *)
+VAR
+	actualPage : UINT; (*pagina actual*)
+	j : INT;
+END_VAR
+VAR CONSTANT
+	MAX_RADIUS : INT := 6;
+END_VAR
+VAR
+	defaultRadiusValues : BOOL;
+END_VAR
+VAR CONSTANT
+	MAX_RECT : INT := 3;
+	leftOffset : UINT := 28;
+	topOffset : UINT := 60;
 END_VAR
