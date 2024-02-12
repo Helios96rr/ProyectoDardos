@@ -1,5 +1,28 @@
 VAR
 	getTouch : BOOL;
-	homeXCoordenate : UDINT;
+	homeXCoordenate : REAL;
 	pointValue : UINT;
+	ratio : REAL;
+	homeYCoordenate : REAL;
+	firstProduct : REAL;
+	secondProduct : REAL;
+END_VAR
+VAR CONSTANT
+	EXPONENT : INT := 2;
+END_VAR
+VAR
+	intRatio : INT;
+	countPointValue : INT;
+	valitPoint : BOOL;
+	oldPointValue : UINT;
+	newTouch : BOOL;
+	addPointsReady : BOOL;
+	remainingShots : USINT;
+END_VAR
+VAR RETAIN
+	maxShots : USINT;
+END_VAR
+VAR
+	maxCountPointValue : INT;
+	validCoordenate : BOOL;
 END_VAR

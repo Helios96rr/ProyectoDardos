@@ -19,8 +19,8 @@ PROGRAM _CYCLIC
 	
 	
 	//CORDENADAS, ALTO Y ANCHO DE LOS RECTANGULOS QUE DIVIDEN EL TABLERO
-	xRect[2]:= ((widthRect[1]/2)-(widthEllipse[1]/2))+ leftOffset;
-	yRect[3]:=((heigthRect[1]/2)-(widthEllipse[1]/2))+ topOffset;
+	xRect[2]:= ((widthRect[1]/2)-(widthEllipse[1]/2))+ LEFT_OFFSET;
+	yRect[3]:=((heigthRect[1]/2)-(widthEllipse[1]/2))+ TOP_OFFSET;
 	widthRect[2] := widthEllipse[1];
 	heigthRect[3] := widthEllipse[1]; 
 	widthTarget	:= heigthTarget;
@@ -34,9 +34,12 @@ PROGRAM _CYCLIC
 		heigthEllipse[6] := 80;
 	END_IF;
 
-
+	IF Touch.status = 1 THEN
+		newTouch 	:= TRUE;
+	ELSE 
+		newTouch	:= FALSE;
+	END_IF;
 	
-
 	CASE gMainCtrl.visapiCtrl.state OF
 
 		WAIT: 
@@ -95,12 +98,14 @@ PROGRAM _CYCLIC
 	END_FOR;	
 		
 	//CONEXION DE VARIABLES LOCALES A GLOBALES	
-	gMainCtrl.visapiCtrl.status.widthTarget := widthTarget;
-	gMainCtrl.visapiCtrl.status.heigthTarget:= heigthTarget;
-	gMainCtrl.visapiCtrl.status.homeXCoordenate := xTarget;
-	gMainCtrl.visapiCtrl.status.homeYCoordenate	:= yTarget;
-	gMainCtrl.visapiCtrl.status.touchCoordinateX := Touch.x;
-	gMainCtrl.visapiCtrl.status.touchCoordinateY := Touch.y;
+	gMainCtrl.visapiCtrl.status.widthRect				:= widthRect[1];
+	gMainCtrl.visapiCtrl.status.widthTarget 			:= widthTarget;
+	gMainCtrl.visapiCtrl.status.heigthTarget			:= heigthTarget;
+	gMainCtrl.visapiCtrl.status.homeXCoordenate 		:= UDINT_TO_REAL (xTarget);
+	gMainCtrl.visapiCtrl.status.homeYCoordenate			:= UDINT_TO_REAL (yTarget);
+	gMainCtrl.visapiCtrl.status.touchCoordinateX 		:= UDINT_TO_REAL (Touch.x);
+	gMainCtrl.visapiCtrl.status.touchCoordinateY 		:= UDINT_TO_REAL (Touch.y);
+	gMainCtrl.visapiCtrl.status.touchCoordinateStatus	:= newTouch;
 END_PROGRAM
 
 PROGRAM _EXIT

@@ -10,6 +10,7 @@
     <Text ID="211536" Value="SEGMENT"/>
     <Text ID="211537" Value="VALUE"/>
     <Text ID="211538" Value="SCORE POINT"/>
+    <Text ID="215936" Value="SHOTS"/>
   </TextLayer>
   <TextLayer LanguageId="es-MX">
     <Text ID="211534" Value="CONFIGURACIÓN DE RADIOS"/>
@@ -17,6 +18,7 @@
     <Text ID="211536" Value="SEGMENTO"/>
     <Text ID="211537" Value="VALOR"/>
     <Text ID="211538" Value="PUNTUACIÓN"/>
+    <Text ID="215936" Value="TIROS"/>
   </TextLayer>
   <IndexMap>
     <Index ID="211534" Value="0"/>
@@ -24,5 +26,6 @@
     <Index ID="211536" Value="2"/>
     <Index ID="211537" Value="3"/>
     <Index ID="211538" Value="4"/>
+    <Index ID="215936" Value="5"/>
   </IndexMap>
 </TextGroup>
