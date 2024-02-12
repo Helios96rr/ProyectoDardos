@@ -13,6 +13,7 @@
       <Parameter ID="ActivateSnmp" Value="2" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="proyectoDardos_Config1" />
+    <Parameter ID="Simulation" Value="1" />
     <Parameter ID="Cyclic5Duration" Value="250000" />
     <Parameter ID="Cyclic5Tolerance" Value="250000" />
     <Group ID="FileDevice1" />

@@ -23,9 +23,7 @@ PROGRAM _CYCLIC
 		validCoordenate := FALSE;
 	END_IF; 
 	
-	
-	
-	
+
 	CASE gMainCtrl.scoreCtrl.state OF
 		
 	
@@ -47,25 +45,25 @@ PROGRAM _CYCLIC
 			IF remainingShots <= (maxShots-1) AND addPointsReady AND (countPointValue < maxCountPointValue) AND validCoordenate THEN
 				IF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[1]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[2]/2)  THEN 
 					addPointsReady := FALSE;
-					pointValue := 10;
+					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[1];
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[2]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[3]/2)  THEN 
 					addPointsReady := FALSE;
-					pointValue := 20;
+					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[2];
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[3]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[4]/2)  THEN 
 					addPointsReady := FALSE;
-					pointValue := 30;
+					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[3];
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[4]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[5]/2)  THEN 
 					addPointsReady := FALSE;
-					pointValue := 40;
+					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[4];
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[5]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[6]/2)  THEN 
 					addPointsReady := FALSE;
-					pointValue := 50;
+					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[5];
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[6]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthTarget/2)  THEN 
 					addPointsReady := FALSE;
-					pointValue := 50;
+					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[6];
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthTarget/2)  THEN 
 					addPointsReady := FALSE;
-					pointValue := 70;
+					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[7];
 				ELSIF (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[1]/2) AND (addPointsReady) AND (remainingShots <= (maxShots-1)) THEN
 					addPointsReady 	:= FALSE;
 					pointValue 		:= 0;

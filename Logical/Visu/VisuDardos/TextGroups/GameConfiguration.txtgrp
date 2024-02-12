@@ -11,6 +11,8 @@
     <Text ID="211537" Value="VALUE"/>
     <Text ID="211538" Value="SCORE POINT"/>
     <Text ID="215936" Value="SHOTS"/>
+    <Text ID="215937" Value=""/>
+    <Text ID="215938" Value="SCORE TO WIN"/>
   </TextLayer>
   <TextLayer LanguageId="es-MX">
     <Text ID="211534" Value="CONFIGURACIÓN DE RADIOS"/>
@@ -19,13 +21,17 @@
     <Text ID="211537" Value="VALOR"/>
     <Text ID="211538" Value="PUNTUACIÓN"/>
     <Text ID="215936" Value="TIROS"/>
+    <Text ID="215937" Value=""/>
+    <Text ID="215938" Value="PUNTAJE PARA GANAR"/>
   </TextLayer>
   <IndexMap>
     <Index ID="211534" Value="0"/>
     <Index ID="211535" Value="1"/>
     <Index ID="211536" Value="2"/>
     <Index ID="211537" Value="3"/>
-    <Index ID="211538" Value="4"/>
+    <Index ID="211538" Value="7"/>
     <Index ID="215936" Value="5"/>
+    <Index ID="215937" Value="4"/>
+    <Index ID="215938" Value="6"/>
   </IndexMap>
 </TextGroup>

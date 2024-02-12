@@ -53,6 +53,7 @@ TYPE
 	END_STRUCT;
 	scoreCtrl_status_type : 	STRUCT 
 		validTouch : BOOL;
+		additivePoint : ARRAY[1..MAX_RADIUS_WITH_TARGET]OF UINT;
 	END_STRUCT;
 	scoreCtrl_state_type : 
 		(
@@ -62,5 +63,20 @@ TYPE
 		);
 	gMachinePar_type : 	STRUCT 
 		New_Member : USINT;
+	END_STRUCT;
+END_TYPE
+
+(*gVisuCtrl_type*)
+
+TYPE
+	gVisuCtrl_type : 	STRUCT 
+		numInput : numInput_type;
+		runtime : runtime_type;
+	END_STRUCT;
+	numInput_type : 	STRUCT 
+		radiusWidth : ARRAY[1..MAX_RADIUS_WITH_TARGET]OF UINT;
+		selectedRadiusWidth : ARRAY[1..MAX_RADIUS_WITH_TARGET]OF UINT;
+	END_STRUCT;
+	runtime_type : 	STRUCT 
 	END_STRUCT;
 END_TYPE

@@ -1,8 +1,7 @@
-
 VAR
-
-END_VAR
-
-VAR CONSTANT
-
+	i : INT;
+	actualRadius : ARRAY[1..2] OF INT;
+	actualValueRadus : INT;
+	nextRadius : BOOL;
+	previusRadius : BOOL;
 END_VAR

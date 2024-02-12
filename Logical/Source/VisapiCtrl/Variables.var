@@ -42,11 +42,6 @@ END_VAR
 VAR
 	actualPage : UINT; (*pagina actual*)
 	j : INT;
-END_VAR
-VAR CONSTANT
-	MAX_RADIUS : INT := 6;
-END_VAR
-VAR
 	defaultRadiusValues : BOOL;
 END_VAR
 VAR CONSTANT
