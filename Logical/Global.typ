@@ -25,8 +25,8 @@ TYPE
 		valitTouch : BOOL;
 		homeYCoordenate : REAL;
 		homeXCoordenate : REAL;
-		widthEllipse : ARRAY[1..6]OF UDINT;
-		heigthEllipse : ARRAY[1..6]OF UDINT;
+		widthEllipse : ARRAY[1..6]OF UINT;
+		heigthEllipse : ARRAY[1..6]OF UINT;
 		widthTarget : UDINT;
 		heigthTarget : UDINT;
 		touchCoordinateStatus : BOOL;
@@ -61,6 +61,11 @@ TYPE
 		GET_SCORE := 10,
 		ERROR_SCORE := 100
 		);
+END_TYPE
+
+(*gMachinePar*)
+
+TYPE
 	gMachinePar_type : 	STRUCT 
 		New_Member : USINT;
 	END_STRUCT;

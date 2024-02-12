@@ -6,7 +6,7 @@ VAR
 END_VAR
 (*VA_Rect*)
 VAR
-	xRect : ARRAY[1..MAX_RECT] OF UINT := [28,0,231]; (*coordenada X del rectangulo*)
+	xRect : ARRAY[1..MAX_RECT] OF UINT := [28,0,229]; (*coordenada X del rectangulo*)
 	yRect : ARRAY[1..MAX_RECT] OF UINT := [60,235,0]; (*coordenada Y del rectangulo*)
 	widthRect : ARRAY[1..MAX_RECT] OF UINT := [406,0,4]; (*ancho del rectangulo*)
 	heigthRect : ARRAY[1..MAX_RECT] OF UINT := [353,4,0]; (*altura del rectangulo*)
@@ -29,14 +29,15 @@ VAR RETAIN
 	colorEllipse : ARRAY[1..MAX_RADIUS] OF UINT := [0,16,45,16,45,16]; (*contorno de la elipse*)
 END_VAR
 VAR CONSTANT
-	xTarget : USINT := 231; (*coordenada X del target*)
-	yTarget : USINT := 237; (*coordenada Y del target*)
+	xTarget : UINT := 231; (*coordenada X del target*)
+	yTarget : UINT := 237; (*coordenada Y del target*)
 END_VAR
 VAR
-	heigthTarget : USINT;
-	widthTarget : USINT;
+	heigthTarget : UINT;
+	widthTarget : UINT;
 	fillTarget : USINT := 205;
 	colorTarget : USINT := 45;
+	updateRadio : UINT;
 END_VAR
 (*AUX *)
 VAR
@@ -59,4 +60,9 @@ VAR
 	New_Variable1 : USINT;
 	New_Variable : USINT;
 	newTouch : BOOL;
+	changeRatioValue : BOOL;
+	actualRadius : INT;
+	nextRadius : BOOL;
+	previusRadius : BOOL;
+	confirmValueRadius : BOOL;
 END_VAR

@@ -71,7 +71,6 @@
           <Property Name="FillStyle" Value="Opaque"/>
           <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="ForeColor" Value="16"/>
-          <Property Name="GroupID" Value="3"/>
           <Property Name="Height" Value="30"/>
           <Property Name="Left" Value="439"/>
           <Property Name="SimulationIndex" Value="0"/>
@@ -90,7 +89,6 @@
           <Property Name="Description" Value=""/>
           <Property Name="Font" Value="Source[local].Font[MpPads]"/>
           <Property Name="ForeColor" Value="8"/>
-          <Property Name="GroupID" Value="3"/>
           <Property Name="Height" Value="30"/>
           <Property Name="Left" Value="570"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -159,6 +157,8 @@
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_2">
           <Property Name="Border" Value="Source[local].Border[BorderGold]"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.Visu.VisuCtrl.confirmValueRadius]"/>
+          <Property Name="CompletionValue" Value="1"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Font" Value="Source[local].Font[MpPads]"/>
@@ -171,7 +171,7 @@
           <Property Name="InputMinus" Value="Normal"/>
           <Property Name="InputNext" Value="Enter"/>
           <Property Name="InputStart" Value="Any Key"/>
-          <Property Name="InputTouchpad" Value="None"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
           <Property Name="InputUpDown" Value="Disabled"/>
           <Property Name="Left" Value="627"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -181,8 +181,8 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="219"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="Top" Value="357"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.ScoreCtrl.addivePoint]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="147"/>
         </Control>
@@ -244,15 +244,6 @@
           <Property Name="Font" Value="Source[local].Font[MpPads]"/>
           <Property Name="ForeColor" Value="0"/>
           <Property Name="Height" Value="32"/>
-          <Property Name="Input" Value="True"/>
-          <Property Name="InputCancel" Value="Lost Focus"/>
-          <Property Name="InputComma" Value="Explicit"/>
-          <Property Name="InputConfirm" Value="Enter"/>
-          <Property Name="InputMinus" Value="Normal"/>
-          <Property Name="InputNext" Value="Enter"/>
-          <Property Name="InputStart" Value="Any Key"/>
-          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
-          <Property Name="InputUpDown" Value="Disabled"/>
           <Property Name="Left" Value="541"/>
           <Property Name="MaxDatapoint" Value="None"/>
           <Property Name="MaxValue" Value="None"/>
@@ -261,8 +252,8 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="219"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="Top" Value="357"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.ScoreCtrl.actualRadius]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="54"/>
         </Control>
@@ -277,12 +268,13 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="496"/>
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
           <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpButtonUp]"/>
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="None"/>
-          <Property Name="Top" Value="216"/>
+          <Property Name="Top" Value="354"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_3]"/>
           <Property Name="Width" Value="39"/>
         </Control>
@@ -297,17 +289,20 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="453"/>
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
           <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpButtonUp]"/>
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="None"/>
-          <Property Name="Top" Value="216"/>
+          <Property Name="Top" Value="354"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_4]"/>
           <Property Name="Width" Value="39"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_4">
           <Property Name="Border" Value="Source[local].Border[BorderGold]"/>
+          <Property Name="CompletionDatapoint" Value="Source[global].Variable[DataSource.Source.VisapiCtrl.confirmValueRadius]"/>
+          <Property Name="CompletionValue" Value="1"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Font" Value="Source[local].Font[MpPads]"/>
@@ -320,7 +315,7 @@
           <Property Name="InputMinus" Value="Normal"/>
           <Property Name="InputNext" Value="Enter"/>
           <Property Name="InputStart" Value="Any Key"/>
-          <Property Name="InputTouchpad" Value="None"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
           <Property Name="InputUpDown" Value="Disabled"/>
           <Property Name="Left" Value="627"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -330,8 +325,8 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="353"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="Top" Value="222"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.VisapiCtrl.updateRadio]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="147"/>
         </Control>
@@ -384,8 +379,8 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="353"/>
-          <Property Name="ValueDatapoint" Value="None"/>
+          <Property Name="Top" Value="222"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.VisapiCtrl.actualRadius]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="54"/>
         </Control>
@@ -401,12 +396,13 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="496"/>
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
           <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpButtonUp]"/>
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="None"/>
-          <Property Name="Top" Value="350"/>
+          <Property Name="Top" Value="219"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_5]"/>
           <Property Name="Width" Value="39"/>
         </Control>
@@ -421,12 +417,13 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="453"/>
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
           <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpButtonUp]"/>
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="None"/>
-          <Property Name="Top" Value="350"/>
+          <Property Name="Top" Value="219"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_6]"/>
           <Property Name="Width" Value="39"/>
         </Control>
@@ -464,7 +461,6 @@
           <Property Name="Description" Value=""/>
           <Property Name="Font" Value="Source[local].Font[MpPads]"/>
           <Property Name="ForeColor" Value="8"/>
-          <Property Name="GroupID" Value="3"/>
           <Property Name="Height" Value="30"/>
           <Property Name="Left" Value="570"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -485,7 +481,6 @@
           <Property Name="Border" Value="Source[local].Border[Border_Trofeo]"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="GroupID" Value="2"/>
           <Property Name="Height" Value="50"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="696"/>
@@ -501,7 +496,6 @@
           <Property Name="Description" Value=""/>
           <Property Name="Font" Value="Source[local].Font[MpPads]"/>
           <Property Name="ForeColor" Value="8"/>
-          <Property Name="GroupID" Value="2"/>
           <Property Name="Height" Value="24"/>
           <Property Name="Left" Value="661"/>
           <Property Name="MaxDatapoint" Value="None"/>
@@ -512,7 +506,7 @@
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpDefault]"/>
           <Property Name="TeachDatapoint" Value="None"/>
           <Property Name="Top" Value="116"/>
-          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.ScoreCtrl.countPointValue]"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.ScoreCtrl.maxCountPointValue]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="120"/>
         </Control>
@@ -525,7 +519,6 @@
           <Property Name="FillStyle" Value="Opaque"/>
           <Property Name="Font" Value="Source[local].Font[MpButton]"/>
           <Property Name="ForeColor" Value="16"/>
-          <Property Name="GroupID" Value="3"/>
           <Property Name="Height" Value="30"/>
           <Property Name="HighlightingForeColor" Value="237"/>
           <Property Name="Left" Value="439"/>
@@ -598,14 +591,15 @@
           <Property Name="Description" Value=""/>
           <Property Name="VirtualKey_LED" Value="False"/>
           <KeyActions>
-            <KeyAction ClassId="0x00000161">
+            <KeyAction ClassId="0x0000016B">
               <Property Name="CompletionDatapoint" Value="None"/>
               <Property Name="CompletionValue" Value="0"/>
               <Property Name="Description" Value=""/>
               <Property Name="Locking" Value="Never"/>
               <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="None"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.ScoreCtrl.nextRadius]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -613,14 +607,15 @@
           <Property Name="Description" Value=""/>
           <Property Name="VirtualKey_LED" Value="False"/>
           <KeyActions>
-            <KeyAction ClassId="0x00000161">
+            <KeyAction ClassId="0x0000016B">
               <Property Name="CompletionDatapoint" Value="None"/>
               <Property Name="CompletionValue" Value="0"/>
               <Property Name="Description" Value=""/>
               <Property Name="Locking" Value="Never"/>
               <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="None"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.ScoreCtrl.previusRadius]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -628,14 +623,15 @@
           <Property Name="Description" Value=""/>
           <Property Name="VirtualKey_LED" Value="False"/>
           <KeyActions>
-            <KeyAction ClassId="0x00000161">
+            <KeyAction ClassId="0x0000016B">
               <Property Name="CompletionDatapoint" Value="None"/>
               <Property Name="CompletionValue" Value="0"/>
               <Property Name="Description" Value=""/>
               <Property Name="Locking" Value="Never"/>
               <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="None"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.VisapiCtrl.nextRadius]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -643,14 +639,15 @@
           <Property Name="Description" Value=""/>
           <Property Name="VirtualKey_LED" Value="False"/>
           <KeyActions>
-            <KeyAction ClassId="0x00000161">
+            <KeyAction ClassId="0x0000016B">
               <Property Name="CompletionDatapoint" Value="None"/>
               <Property Name="CompletionValue" Value="0"/>
               <Property Name="Description" Value=""/>
               <Property Name="Locking" Value="Never"/>
               <Property Name="Name" Value="Action_0"/>
+              <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="None"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.VisapiCtrl.previusRadius]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -682,7 +679,7 @@
               <Property Name="Name" Value="Action_0"/>
               <Property Name="ResetValue" Value="0"/>
               <Property Name="SetValue" Value="1"/>
-              <Property Name="ValueDatapoint" Value="None"/>
+              <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.Source.ScoreCtrl.restorePointValues]"/>
             </KeyAction>
           </KeyActions>
         </VirtualKey>
@@ -692,20 +689,14 @@
   <MovementOrder>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_2]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
-      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
-      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
-    </MovementEntry>
-    <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_3]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
-      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
-      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_4]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
-      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
-      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
     </MovementEntry>
   </MovementOrder>

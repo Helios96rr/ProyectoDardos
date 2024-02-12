@@ -33,7 +33,7 @@
   <Property Name="ScreenSaver" Value="Source[local].Page[P100_screenSaver]"/>
   <Property Name="ScreenSaverDatapoint" Value="None"/>
   <Property Name="ScreenSaverTimeDatapoint" Value="None"/>
-  <Property Name="ScreenSaverTimeout" Value="20"/>
+  <Property Name="ScreenSaverTimeout" Value="3600"/>
   <Property Name="ScreenSaver_Activate" Value="True"/>
   <Property Name="TargetResourceRoot" Value=""/>
   <Property Name="TextLengthOverrunBackColor" Value="None"/>

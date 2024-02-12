@@ -12,17 +12,26 @@ VAR CONSTANT
 END_VAR
 VAR
 	intRatio : INT;
-	countPointValue : INT;
+	countPointValue : UINT;
 	valitPoint : BOOL;
-	oldPointValue : UINT;
 	newTouch : BOOL;
 	addPointsReady : BOOL;
 	remainingShots : USINT;
 END_VAR
 VAR RETAIN
 	maxShots : USINT;
+	maxCountPointValue : INT;
 END_VAR
 VAR
-	maxCountPointValue : INT;
 	validCoordenate : BOOL;
+	restorePointValues : BOOL;
+	confirmValueRadius : BOOL;
+END_VAR
+(*AJUSTE DE PUNTAJES*)
+VAR
+	i : INT;
+	actualRadius : INT;
+	nextRadius : BOOL;
+	previusRadius : BOOL;
+	addivePoint : UINT;
 END_VAR

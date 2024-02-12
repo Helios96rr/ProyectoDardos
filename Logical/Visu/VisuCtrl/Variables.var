@@ -4,4 +4,12 @@ VAR
 	actualValueRadus : INT;
 	nextRadius : BOOL;
 	previusRadius : BOOL;
+	oldAdditivePoint : UINT;
+	addivePoint : UINT;
+	restoreRadioValues : BOOL;
+	restorePointValues : BOOL;
+	oldActualRadius : INT;
+	changeRadius : BOOL;
+	changePointValue : BOOL;
+	confirmValueRadius : BOOL;
 END_VAR
