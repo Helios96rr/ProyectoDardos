@@ -123,11 +123,16 @@ PROGRAM _CYCLIC
 					VA_GetTouchAction(1,VC_HANDLE,0,ADR(Touch)); //COORDENADAS DEL TOUCH
 					
 				
-					VA_DrawBitmap(1,VC_HANDLE,1418,COORDENATE_X_BITMAP,COORDENATE_Y_BITMAP);
-					IF EDGEPOS(gMainCtrl.scoreCtrl.status.incorrectScore) THEN
-						VA_DrawBitmap(1,VC_HANDLE,1421,COORDENATE_X_BITMAP,COORDENATE_Y_BITMAP);
-					ELSIF EDGEPOS(gMainCtrl.scoreCtrl.status.correctScore) THEN
-						VA_DrawBitmap(1,VC_HANDLE,1420,COORDENATE_X_BITMAP,COORDENATE_Y_BITMAP);
+					
+					IF gMainCtrl.scoreCtrl.status.cumulateShots < MAX_SHOTS THEN
+						IF EDGEPOS(gMainCtrl.scoreCtrl.status.incorrectScore) AND (gMainCtrl.visapiCtrl.status.valitTouch) THEN
+							gMainCtrl.visapiCtrl.status.valitTouch := FALSE;
+							VA_DrawBitmap(1,VC_HANDLE,1421,COORDENATE_X_BITMAP,COORDENATE_Y_BITMAP);
+							
+						ELSIF EDGEPOS(gMainCtrl.scoreCtrl.status.correctScore) AND (gMainCtrl.visapiCtrl.status.valitTouch) THEN
+							gMainCtrl.visapiCtrl.status.valitTouch := FALSE;
+							VA_DrawBitmap(1,VC_HANDLE,1420,COORDENATE_X_BITMAP,COORDENATE_Y_BITMAP);
+						END_IF;
 					END_IF
 				
 					

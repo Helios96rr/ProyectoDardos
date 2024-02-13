@@ -1,15 +1,4 @@
-VAR
-	i : INT;
-	actualRadius : ARRAY[1..2] OF INT;
-	actualValueRadus : INT;
-	nextRadius : BOOL;
-	previusRadius : BOOL;
-	oldAdditivePoint : UINT;
-	addivePoint : UINT;
-	restoreRadioValues : BOOL;
-	restorePointValues : BOOL;
-	oldActualRadius : INT;
-	changeRadius : BOOL;
-	changePointValue : BOOL;
-	confirmValueRadius : BOOL;
+VAR CONSTANT
+	SHOW : USINT := 0;
+	HIDE : USINT := 1;
 END_VAR

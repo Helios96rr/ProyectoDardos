@@ -33,7 +33,7 @@
   <Property Name="ScreenSaver" Value="Source[local].Page[P100_screenSaver]"/>
   <Property Name="ScreenSaverDatapoint" Value="None"/>
   <Property Name="ScreenSaverTimeDatapoint" Value="None"/>
-  <Property Name="ScreenSaverTimeout" Value="3600"/>
+  <Property Name="ScreenSaverTimeout" Value="10"/>
   <Property Name="ScreenSaver_Activate" Value="True"/>
   <Property Name="TargetResourceRoot" Value=""/>
   <Property Name="TextLengthOverrunBackColor" Value="None"/>
@@ -49,6 +49,7 @@
     <Source File="TextGroups\MpAuditEventTextSetup.txtgrp"/>
     <Source File="TextGroups\MpAuditUserDefinedEvent.txtgrp"/>
     <Source File="TextGroups\GameConfiguration.txtgrp"/>
+    <Source File="TextGroups\GameStatus.txtgrp"/>
     <Source File="Fonts\MpButton.fninfo"/>
     <Source File="Fonts\MpDefault.fninfo"/>
     <Source File="Fonts\MpHeader2.fninfo"/>

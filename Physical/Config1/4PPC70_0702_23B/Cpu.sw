@@ -6,7 +6,6 @@
   <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4">
     <Task Name="VisuCtrl" Source="Visu.VisuCtrl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="PlayersCtr" Source="Source.PlayersCtrl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="ScoreCtrl" Source="Source.ScoreCtrl.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#5">

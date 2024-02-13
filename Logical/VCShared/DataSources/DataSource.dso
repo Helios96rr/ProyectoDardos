@@ -6227,33 +6227,6 @@
       <Folder Name="ScoreCtrl">
         <Property Name="Description" Value=""/>
         <Property Name="FolderType" Value="Program"/>
-        <DataPoint Name="remainingShots">
-          <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="Visu\VisuDardos"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="PLCType" Value="USINT"/>
-          <Property Name="UpdateTime" Value="Default"/>
-          <Property Name="UserID" Value="None"/>
-          <Property Name="VCType" Value="INTEGER"/>
-        </DataPoint>
-        <DataPoint Name="countPointValue">
-          <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="Visu\VisuDardos"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="PLCType" Value="UINT"/>
-          <Property Name="UpdateTime" Value="Default"/>
-          <Property Name="UserID" Value="None"/>
-          <Property Name="VCType" Value="INTEGER"/>
-        </DataPoint>
-        <DataPoint Name="maxCountPointValue">
-          <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="Visu\VisuDardos"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="PLCType" Value="INT"/>
-          <Property Name="UpdateTime" Value="Default"/>
-          <Property Name="UserID" Value="None"/>
-          <Property Name="VCType" Value="INTEGER"/>
-        </DataPoint>
         <DataPoint Name="addivePoint">
           <Property Name="ConnectedBySharedResource" Value="False"/>
           <Property Name="ConnectingVisus" Value="Visu\VisuDardos"/>
@@ -6315,6 +6288,75 @@
           <Property Name="UpdateTime" Value="Default"/>
           <Property Name="UserID" Value="None"/>
           <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+      </Folder>
+    </Folder>
+    <Folder Name="gMainCtrl">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <Folder Name="scoreCtrl">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <Folder Name="status">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="cumulateScore">
+            <Property Name="ConnectedBySharedResource" Value="False"/>
+            <Property Name="ConnectingVisus" Value="Visu\VisuDardos"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCType" Value="UINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+            <Property Name="VCType" Value="INTEGER"/>
+          </DataPoint>
+          <DataPoint Name="cumulateShots">
+            <Property Name="ConnectedBySharedResource" Value="False"/>
+            <Property Name="ConnectingVisus" Value="Visu\VisuDardos"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCType" Value="UINT"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+            <Property Name="VCType" Value="INTEGER"/>
+          </DataPoint>
+        </Folder>
+      </Folder>
+    </Folder>
+    <DataPoint Name="MAX_SCORE">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Visu\VisuDardos"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="INT"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="INTEGER"/>
+    </DataPoint>
+    <Folder Name="gVisuCtrl">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <Folder Name="button">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="startNewGame">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Visu\VisuDardos"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+      </Folder>
+      <Folder Name="textOutput">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="statusGame">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Visu\VisuDardos"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="USINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="INTEGER"/>
         </DataPoint>
       </Folder>
     </Folder>

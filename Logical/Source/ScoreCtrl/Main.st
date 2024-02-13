@@ -1,9 +1,6 @@
 
 PROGRAM _INIT
-	actualRadius := 1;
-	maxCountPointValue 	:= 1000;
-	maxShots 			:= 10;
-	
+	actualRadius := 1;	
 	gMainCtrl.scoreCtrl.status.additivePoint[1] := 100;
 	gMainCtrl.scoreCtrl.status.additivePoint[2] := 80;
 	gMainCtrl.scoreCtrl.status.additivePoint[3] := 60;
@@ -23,6 +20,7 @@ PROGRAM _CYCLIC
 	secondProduct	:= ABS(homeYCoordenate - gMainCtrl.visapiCtrl.status.touchCoordinateY);
 	ratio := SQRT(EXPT(firstProduct,EXPONENT)+(EXPT(secondProduct,EXPONENT)));
 	intRatio := REAL_TO_INT(ratio);
+	
 		
 	IF restorePointValues THEN
 		gMainCtrl.scoreCtrl.status.additivePoint[1] := 10;
@@ -72,8 +70,6 @@ PROGRAM _CYCLIC
 	END_IF;
 
 	
-//	IF gMainCtrl.visapiCtrl.status.touchCoordinateX >= MIN_X_COORDINATE AND (gMainCtrl.visapiCtrl.status.touchCoordinateX <= MAX_X_COORDINATE)
-//		AND (gMainCtrl.visapiCtrl.status.touchCoordinateY >= MIN_Y_COORDINATE) AND (gMainCtrl.visapiCtrl.status.touchCoordinateY <= MAX_Y_COORDINATE) THEN
 	IF	gMainCtrl.visapiCtrl.status.valitTouch THEN
 		validCoordenate := TRUE;
 	ELSE
@@ -88,50 +84,46 @@ PROGRAM _CYCLIC
 
 			IF EDGEPOS(newTouch) THEN
 				IF (intRatio < gMainCtrl.visapiCtrl.status.widthRect) THEN
-			(*	IF (intRatio < gMainCtrl.visapiCtrl.status.widthRect/2) THEN*)
-					addPointsReady	:= TRUE;
+					gMainCtrl.scoreCtrl.cmd.addPointScore := TRUE;
 					gMainCtrl.scoreCtrl.state	 := GET_SCORE;
 				END_IF;
 			END_IF;
 			
 		GET_SCORE:
-	
-			IF remainingShots <= (maxShots-1) AND addPointsReady AND (countPointValue < maxCountPointValue) AND validCoordenate THEN
+				
+			IF gMainCtrl.scoreCtrl.status.cumulateShots <= (MAX_SHOTS-1) AND gMainCtrl.scoreCtrl.cmd.addPointScore AND (gMainCtrl.scoreCtrl.status.cumulateScore < MAX_SCORE) AND validCoordenate THEN
 				IF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[1]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[2]/2)  THEN 
-					addPointsReady := FALSE;
-					countPointValue := countPointValue + gMainCtrl.scoreCtrl.status.additivePoint[7];
+					gMainCtrl.scoreCtrl.cmd.addPointScore := FALSE;
+					gMainCtrl.scoreCtrl.status.cumulateScore := gMainCtrl.scoreCtrl.status.cumulateScore  + gMainCtrl.scoreCtrl.status.additivePoint[7];
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[2]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[3]/2)  THEN 
-					addPointsReady := FALSE;
-					countPointValue := countPointValue + gMainCtrl.scoreCtrl.status.additivePoint[6];
-//					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[6];
-//					countPointValue := countPointValue + pointValue;
+					gMainCtrl.scoreCtrl.cmd.addPointScore := FALSE;
+					gMainCtrl.scoreCtrl.status.cumulateScore := gMainCtrl.scoreCtrl.status.cumulateScore + gMainCtrl.scoreCtrl.status.additivePoint[6];
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[3]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[4]/2)  THEN 
-					addPointsReady := FALSE;
+					gMainCtrl.scoreCtrl.cmd.addPointScore := FALSE;
 					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[5];
-					countPointValue := countPointValue + pointValue;
+					gMainCtrl.scoreCtrl.status.cumulateScore := gMainCtrl.scoreCtrl.status.cumulateScore + pointValue;
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[4]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[5]/2)  THEN 
-					addPointsReady := FALSE;
+					gMainCtrl.scoreCtrl.cmd.addPointScore := FALSE;
 					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[4];
-					countPointValue := countPointValue + pointValue;
+					gMainCtrl.scoreCtrl.status.cumulateScore := gMainCtrl.scoreCtrl.status.cumulateScore + pointValue;
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[5]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[6]/2)  THEN 
-					addPointsReady := FALSE;
+					gMainCtrl.scoreCtrl.cmd.addPointScore := FALSE;
 					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[3];
-					countPointValue := countPointValue + pointValue;
+					gMainCtrl.scoreCtrl.status.cumulateScore := gMainCtrl.scoreCtrl.status.cumulateScore + pointValue;
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[6]/2) AND (intRatio > gMainCtrl.visapiCtrl.status.heigthTarget/2)  THEN 
-					addPointsReady := FALSE;
+					gMainCtrl.scoreCtrl.cmd.addPointScore := FALSE;
 					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[2];
-					countPointValue := countPointValue + pointValue;
+					gMainCtrl.scoreCtrl.status.cumulateScore := gMainCtrl.scoreCtrl.status.cumulateScore + pointValue;
 				ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthTarget/2)  THEN 
-					addPointsReady := FALSE;
+					gMainCtrl.scoreCtrl.cmd.addPointScore := FALSE;
 					pointValue := gMainCtrl.scoreCtrl.status.additivePoint[1];
-					countPointValue := countPointValue + pointValue;
-				ELSIF (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[1]/2) AND (addPointsReady) AND (remainingShots <= (maxShots-1)) THEN
-					addPointsReady 	:= FALSE;
-//					pointValue 		:= 0;
-//					countPointValue := countPointValue + pointValue;
+					gMainCtrl.scoreCtrl.status.cumulateScore := gMainCtrl.scoreCtrl.status.cumulateScore + pointValue;
+				ELSIF (intRatio > gMainCtrl.visapiCtrl.status.heigthEllipse[1]/2) AND (gMainCtrl.scoreCtrl.cmd.addPointScore )(* AND (gMainCtrl.scoreCtrl.status.cumulateShots <= (MAX_SHOTS-1))*) THEN
+					gMainCtrl.scoreCtrl.cmd.addPointScore := FALSE;
 				END_IF;
 				
-				remainingShots := remainingShots + 1;
+				gMainCtrl.scoreCtrl.status.cumulateShots := gMainCtrl.scoreCtrl.status.cumulateShots + 1;
+				
 				
 			END_IF;
 			

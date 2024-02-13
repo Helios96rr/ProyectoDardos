@@ -59,42 +59,8 @@
           <Property Name="Top" Value="67"/>
           <Property Name="Width" Value="628"/>
         </Control>
-        <Control ClassId="0x00001002" Name="Button_1">
-          <Property Name="BitmapIndexDatapoint" Value="None"/>
-          <Property Name="BitmapSource" Value="None"/>
-          <Property Name="Border" Value="Source[local].Border[Mp_Button_Control]"/>
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="EmbVirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_8]"/>
-          <Property Name="Height" Value="33"/>
-          <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="20"/>
-          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[MpButtonUp]"/>
-          <Property Name="TextIndexDatapoint" Value="None"/>
-          <Property Name="TextSimulationValue" Value="0"/>
-          <Property Name="TextSource" Value="None"/>
-          <Property Name="Top" Value="360"/>
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[%embVirtualKey_8]"/>
-          <Property Name="Width" Value="52"/>
-        </Control>
       </Controls>
-      <KeyMapping>
-        <VirtualKey Name="%embVirtualKey_8">
-          <Property Name="Description" Value=""/>
-          <Property Name="VirtualKey_LED" Value="False"/>
-          <KeyActions>
-            <KeyAction ClassId="0x00000160">
-              <Property Name="Description" Value=""/>
-              <Property Name="Locking" Value="Never"/>
-              <Property Name="Name" Value="Action_0"/>
-              <Property Name="Page" Value="None"/>
-              <Property Name="Target" Value="Page"/>
-            </KeyAction>
-          </KeyActions>
-        </VirtualKey>
-      </KeyMapping>
+      <KeyMapping/>
     </Layer>
   </Layers>
   <MovementOrder>

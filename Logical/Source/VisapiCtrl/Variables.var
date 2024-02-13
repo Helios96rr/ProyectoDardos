@@ -52,19 +52,11 @@ END_VAR
 VAR
 	xTouchPosition : UDINT;
 	yTouchPosition : UDINT;
-	statusTouch : UDINT;
 	Touch : TouchAction;
-	New_Variable4 : USINT;
-	New_Variable3 : USINT;
-	New_Variable2 : USINT;
-	New_Variable1 : USINT;
-	New_Variable : USINT;
 	newTouch : BOOL;
 	changeRatioValue : BOOL;
 	actualRadius : INT;
 	nextRadius : BOOL;
 	previusRadius : BOOL;
 	confirmValueRadius : BOOL;
-	coordenateXBitmap : UINT;
-	coordenateYBitmap : UINT;
 END_VAR

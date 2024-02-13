@@ -49,13 +49,15 @@ TYPE
 		state : scoreCtrl_state_type;
 	END_STRUCT;
 	scoreCtrl_cmd_type : 	STRUCT 
-		New_Member : USINT;
+		addPointScore : BOOL;
 	END_STRUCT;
 	scoreCtrl_status_type : 	STRUCT 
 		validTouch : BOOL;
 		additivePoint : ARRAY[1..MAX_RADIUS_WITH_TARGET]OF UINT;
 		incorrectScore : BOOL;
 		correctScore : BOOL;
+		cumulateScore : UINT;
+		cumulateShots : UINT;
 	END_STRUCT;
 	scoreCtrl_state_type : 
 		(
@@ -77,13 +79,22 @@ END_TYPE
 
 TYPE
 	gVisuCtrl_type : 	STRUCT 
-		numInput : numInput_type;
-		runtime : runtime_type;
+		numInput : gVIsu_numInput_type;
+		runtime : gVisu_runtime_type;
+		button : gVisu_button_type;
+		textOutput : gVisu_textOutput_type;
 	END_STRUCT;
-	numInput_type : 	STRUCT 
+	gVIsu_numInput_type : 	STRUCT 
 		radiusWidth : ARRAY[1..MAX_RADIUS_WITH_TARGET]OF UINT;
 		selectedRadiusWidth : ARRAY[1..MAX_RADIUS_WITH_TARGET]OF UINT;
 	END_STRUCT;
-	runtime_type : 	STRUCT 
+	gVisu_runtime_type : 	STRUCT 
+		showButtonStartNewGame : USINT;
+	END_STRUCT;
+	gVisu_button_type : 	STRUCT 
+		startNewGame : BOOL;
+	END_STRUCT;
+	gVisu_textOutput_type : 	STRUCT 
+		statusGame : USINT;
 	END_STRUCT;
 END_TYPE
