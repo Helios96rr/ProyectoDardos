@@ -371,9 +371,11 @@
     <Source File="Bitmaps\mundo50x50.bminfo"/>
     <Source File="Bitmaps\casa50x50.bminfo"/>
     <Source File="Bitmaps\AutomationHelp.bminfo"/>
-    <Source File="Bitmaps\Delete.bminfo"/>
+    <Source File="Bitmaps\score.bminfo"/>
     <Source File="Bitmaps\TpuFunctionBlockMode.bminfo"/>
     <Source File="Bitmaps\casa40x40.bminfo"/>
+    <Source File="Bitmaps\Key_NumPadLimitsIN.bminfo"/>
+    <Source File="Bitmaps\Key_NumPadLimitsOut.bminfo"/>
     <Source File="BitmapGroups\MpAlarmAcknowledgeState.bmgrp"/>
     <Source File="BitmapGroups\MpAuditEventsID.bmgrp"/>
     <Source File="BitmapGroups\MpFileIcons.bmgrp"/>
@@ -393,6 +395,7 @@
     <Source File="BitmapGroups\MpDataLimitViolation.bmgrp"/>
     <Source File="BitmapGroups\MpBorders.bmgrp"/>
     <Source File="BitmapGroups\CommonLayer.bmgrp"/>
+    <Source File="BitmapGroups\Pads.bmgrp"/>
     <Source File="Pages\P10_Setup.page"/>
     <Source File="Pages\P20_SDM.page"/>
     <Source File="Pages\P00_Home.page"/>
@@ -479,6 +482,7 @@
     <Source File="TouchPads\MpNavigationPad_ver.tpr"/>
     <Source File="TouchPads\MpNumPad.tpr"/>
     <Source File="TouchPads\MpAlphaPad.tpr"/>
+    <Source File="TouchPads\MpNumPad1.tpr"/>
     <Source File="Trends\TrendData.tdc"/>
     <Source File="Trends\MpOeeTrendUI_Availability.trd"/>
     <Source File="Trends\MpOeeTrendUI_OEE.trd"/>

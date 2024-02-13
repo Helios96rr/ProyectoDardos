@@ -54,6 +54,8 @@ TYPE
 	scoreCtrl_status_type : 	STRUCT 
 		validTouch : BOOL;
 		additivePoint : ARRAY[1..MAX_RADIUS_WITH_TARGET]OF UINT;
+		incorrectScore : BOOL;
+		correctScore : BOOL;
 	END_STRUCT;
 	scoreCtrl_state_type : 
 		(

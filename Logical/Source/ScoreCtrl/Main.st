@@ -72,8 +72,9 @@ PROGRAM _CYCLIC
 	END_IF;
 
 	
-	IF gMainCtrl.visapiCtrl.status.touchCoordinateX >= MIN_X_COORDINATE AND (gMainCtrl.visapiCtrl.status.touchCoordinateX <= MAX_X_COORDINATE)
-		AND (gMainCtrl.visapiCtrl.status.touchCoordinateY >= MIN_Y_COORDINATE) AND (gMainCtrl.visapiCtrl.status.touchCoordinateY <= MAX_Y_COORDINATE) THEN
+//	IF gMainCtrl.visapiCtrl.status.touchCoordinateX >= MIN_X_COORDINATE AND (gMainCtrl.visapiCtrl.status.touchCoordinateX <= MAX_X_COORDINATE)
+//		AND (gMainCtrl.visapiCtrl.status.touchCoordinateY >= MIN_Y_COORDINATE) AND (gMainCtrl.visapiCtrl.status.touchCoordinateY <= MAX_Y_COORDINATE) THEN
+	IF	gMainCtrl.visapiCtrl.status.valitTouch THEN
 		validCoordenate := TRUE;
 	ELSE
 		validCoordenate := FALSE;
@@ -130,11 +131,18 @@ PROGRAM _CYCLIC
 //					countPointValue := countPointValue + pointValue;
 				END_IF;
 				
-				(*countPointValue := countPointValue + pointValue;*)
 				remainingShots := remainingShots + 1;
 				
 			END_IF;
-		
+			
+			IF 	intRatio > (gMainCtrl.visapiCtrl.status.heigthEllipse[1]/2) THEN
+				gMainCtrl.scoreCtrl.status.incorrectScore := TRUE;
+				gMainCtrl.scoreCtrl.status.correctScore := FALSE;
+			ELSIF (intRatio <= gMainCtrl.visapiCtrl.status.heigthEllipse[1]/2) THEN
+				gMainCtrl.scoreCtrl.status.correctScore := TRUE;
+				gMainCtrl.scoreCtrl.status.incorrectScore := FALSE;
+			END_IF
+			
 		
 			IF EDGENEG(newTouch) THEN
 				gMainCtrl.scoreCtrl.state	 := WAIT_SCORE;	

@@ -13,7 +13,7 @@
     <BitmapRef ID="3956" Value="Source[local].Bitmap[trofeo50x50]"/>
     <BitmapRef ID="3959" Value="Source[local].Bitmap[casa40x40]"/>
     <BitmapRef ID="3960" Value="Source[local].Bitmap[AutomationHelp]"/>
-    <BitmapRef ID="3961" Value="Source[local].Bitmap[Delete]"/>
+    <BitmapRef ID="3961" Value="Source[local].Bitmap[score]"/>
     <BitmapRef ID="3962" Value="Source[local].Bitmap[TpuFunctionBlockMode]"/>
   </BitmapLayer>
   <IndexMap>

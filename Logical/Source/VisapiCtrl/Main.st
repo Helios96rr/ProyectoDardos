@@ -103,6 +103,11 @@ PROGRAM _CYCLIC
 		
 			IF ready = 1 AND actualPage = 0 THEN
 				IF VA_Saccess(1, VC_HANDLE) = 0 THEN
+					
+					IF changeRatioValue THEN
+						changeRatioValue	:= FALSE;
+						VA_Redraw(1,VC_HANDLE);
+					END_IF;	
 
 					VA_Rect(1,VC_HANDLE,xRect[1],yRect[1],widthRect[1],heigthRect[1],fillRect[1],colorRect[1]);
 
@@ -115,12 +120,17 @@ PROGRAM _CYCLIC
 					VA_Rect(1,VC_HANDLE,xRect[2],yRect[2],widthRect[2],heigthRect[2],fillRect[2],colorRect[2]); //RECTANGULO HORIZONTAL
 					VA_Rect(1,VC_HANDLE,xRect[3],yRect[3],widthRect[3],heigthRect[3],fillRect[3],colorRect[3]); //RECTANGULO VERTICAL
 					VA_Ellipse(1,VC_HANDLE,xTarget,yTarget,heigthTarget,widthTarget,fillTarget,colorTarget); //TARGET
+					VA_GetTouchAction(1,VC_HANDLE,0,ADR(Touch)); //COORDENADAS DEL TOUCH
 					
-					IF changeRatioValue THEN
-						changeRatioValue	:= FALSE;
-						VA_Redraw(1,VC_HANDLE);
-					END_IF;	
-					VA_GetTouchAction(1,VC_HANDLE,0,ADR(Touch));
+				
+					VA_DrawBitmap(1,VC_HANDLE,1418,COORDENATE_X_BITMAP,COORDENATE_Y_BITMAP);
+					IF EDGEPOS(gMainCtrl.scoreCtrl.status.incorrectScore) THEN
+						VA_DrawBitmap(1,VC_HANDLE,1421,COORDENATE_X_BITMAP,COORDENATE_Y_BITMAP);
+					ELSIF EDGEPOS(gMainCtrl.scoreCtrl.status.correctScore) THEN
+						VA_DrawBitmap(1,VC_HANDLE,1420,COORDENATE_X_BITMAP,COORDENATE_Y_BITMAP);
+					END_IF
+				
+					
 					VA_Srelease(1, VC_HANDLE);	
 				END_IF;	
 			END_IF;
@@ -136,7 +146,8 @@ PROGRAM _CYCLIC
 	END_CASE;
 	
 	//SENTENCIA PARA CONSIDERAR UN TOQUE EN EL AREA DE JUEGO	
-	IF Touch.x <= MAX_X_COORDINATE AND (Touch.x >= MIN_X_COORDINATE) AND(Touch.y <= MAX_Y_COORDINATE) AND(Touch.y >= MIN_Y_COORDINATE) THEN
+	IF Touch.x <= MAX_X_COORDINATE AND (Touch.x >= MIN_X_COORDINATE) AND(Touch.y <= MAX_Y_COORDINATE) AND(Touch.y >= MIN_Y_COORDINATE)
+		AND (Touch.status = 1) THEN
 		gMainCtrl.visapiCtrl.status.valitTouch := TRUE;
 	ELSE
 		gMainCtrl.visapiCtrl.status.valitTouch := FALSE;

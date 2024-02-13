@@ -65,4 +65,6 @@ VAR
 	nextRadius : BOOL;
 	previusRadius : BOOL;
 	confirmValueRadius : BOOL;
+	coordenateXBitmap : UINT;
+	coordenateYBitmap : UINT;
 END_VAR

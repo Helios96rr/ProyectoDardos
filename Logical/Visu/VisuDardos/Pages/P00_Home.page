@@ -24,7 +24,7 @@
     <Layer Name="Default">
       <Property Name="BackColor" Value="9"/>
       <Property Name="Description" Value=""/>
-      <Property Name="EditingMode" Value="Lock Position"/>
+      <Property Name="EditingMode" Value="Normal"/>
       <Property Name="Height" Value="480"/>
       <Property Name="Left" Value="0"/>
       <Property Name="OutlineColor" Value="0"/>
@@ -315,9 +315,9 @@
           <Property Name="InputMinus" Value="Normal"/>
           <Property Name="InputNext" Value="Enter"/>
           <Property Name="InputStart" Value="Any Key"/>
-          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad]"/>
+          <Property Name="InputTouchpad" Value="Source[local].TouchPad[MpNumPad1]"/>
           <Property Name="InputUpDown" Value="Disabled"/>
-          <Property Name="Left" Value="627"/>
+          <Property Name="Left" Value="626"/>
           <Property Name="MaxDatapoint" Value="None"/>
           <Property Name="MaxValue" Value="None"/>
           <Property Name="MinDatapoint" Value="None"/>

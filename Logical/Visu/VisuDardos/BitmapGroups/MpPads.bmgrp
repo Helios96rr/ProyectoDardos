@@ -28,6 +28,10 @@
     <BitmapRef ID="989" Value="Source[local].Bitmap[MpKey_EditPad_upperPressed]"/>
     <BitmapRef ID="990" Value="Source[local].Bitmap[MpKey_EditPad_numericPressed]"/>
     <BitmapRef ID="991" Value="Source[local].Bitmap[MpKey_EditPad_numeric2Pressed]"/>
+    <BitmapRef ID="3963" Value="None"/>
+    <BitmapRef ID="3964" Value="Source[local].Bitmap[Key_NumPadLimitsIN]"/>
+    <BitmapRef ID="3965" Value="Source[local].Bitmap[Key_NumPadLimitsOut]"/>
+    <BitmapRef ID="3966" Value="None"/>
   </BitmapLayer>
   <IndexMap>
     <Index ID="3" Value="0"/>
@@ -53,5 +57,9 @@
     <Index ID="989" Value="20"/>
     <Index ID="990" Value="21"/>
     <Index ID="991" Value="22"/>
+    <Index ID="3963" Value="23"/>
+    <Index ID="3964" Value="24"/>
+    <Index ID="3965" Value="25"/>
+    <Index ID="3966" Value="26"/>
   </IndexMap>
 </BitmapGroup>
